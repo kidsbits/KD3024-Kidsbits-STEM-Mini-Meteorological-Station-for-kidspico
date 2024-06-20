@@ -12,9 +12,9 @@ For convenience, <span style="color: rgb(2550, 10, 50);">we move the codes into:
 
 ## 2. Development Environment Configuration
 
-2.1 KidsBlock Download
+### 2.1 KidsBlock Download
 
-![图片不存在](media/5cfd05b93a224faf3652714ae17784aa.png)
+![2101](media/2101.png)
 
 1. [KidsBlock Download](https://wiki.kidsbits.cc/projects/KidsBlock/en/latest/download/)
 2. Installation
@@ -24,39 +24,39 @@ For convenience, <span style="color: rgb(2550, 10, 50);">we move the codes into:
 
 ---
 
-2.2 KidsBlock Tutorial
+### 2.2 KidsBlock Tutorial
 
 1. Make sure the board is connected to computer. Open KidsBlock and choose a device.
 
-![图片不存在](media/c934c531b2f1f69ecdc2d084f5e14cea.png)
+![2201](media/2201.png)
 
 Choose **kidsIOT**.
 
-![图片不存在](media/ba8de9fbcb3572797426044fbda43e02.png)
+![2202](media/2202.png)
 
 Click **Connect**.
 
-![图片不存在](media/ff6465c11c4c56413682bba3e36a664b.png)
+![2203](media/2203.png)
 
 **Go to Editor** .
 
-![图片不存在](media/8a23256872a42c4d8575090d44c3ab10.png)
+![2204](media/2204.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 2. Build code blocks and upload.
 
 **Method ①**: Directly drag blocks to the editing area.
 
-![图片不存在](media/361d116b99bcc4244d3a9378531ee824.png)
+![2207](media/2207.png)
 
 After building your blocks, save it to your computer: **File --> Save to your computer**
 
-![图片不存在](media/54396aad15348b1a7f79b674913ca9e0.png)
+![2209](media/2209.png)
 
-Click ![图片不存在](media/251c1ea677e15869efc8ec5862a2204b.png) to upload the code.
+Click ![2210](media/2210.png) to upload the code.
 
-![图片不存在](media/5ec63b60c74ec72ce8ed8604616cc20f.png)
+![line4](media/line4.png)
 
 **Method ②**: Load code from your computer.
 
@@ -64,23 +64,23 @@ Download code in **1. Code** to your computer. For convenience, here we save it 
 
 **File --> Load from your computer** and choose code to open.
 
-![图片不存在](media/c4127cdd3544af3909ff3ece65b794ef.png)
+![2208](media/2208.png)
 
 After loading code, connect to the corresponding port.
 
-![图片不存在](media/6d32e50990cca36f5ae933274724d380.png)
+![2211](media/2211.png)
 
-![图片不存在](media/549d47958e8e061cfe0149b27e885e75.png)
+![2212](media/2212.png)
 
-After that, click ![图片不存在](media/251c1ea677e15869efc8ec5862a2204b.png) to upload code.
+After that, click ![2210](media/2210.png) to upload code.
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Main Interface**
 
-![图片不存在](media/08d4c88c4264146b355c4d1c257f6840.png)
+![2205](media/2205.png)
 
-![图片不存在](media/c1db7a06b7803a9ecde0de2b19944193.png)
+![2206](media/2206.png)
 
 ---
 
@@ -88,17 +88,17 @@ After that, click ![图片不存在](media/251c1ea677e15869efc8ec5862a2204b.png)
 
 <span style="color: rgb(2550, 10, 50);">Please move the codes to a convenient path as your needs, for instance, path: **D:\Code\2.Code_kidsIOT**.</span>
 
-KidsIOT Ports View
+### KidsIOT Ports View
 
 During experiments, <span style="color: rgb(2550, 10, 50);">modules can only be connected to ports in the same color.</span>
 
-![图片不存在](media/83bc264033e2a7f14d32f04f48518738.png)
+![KD2076](media/KD2076.png)
 
-3.1 White LED Module
+### 3.1 White LED Module
 
-![图片不存在](media/0f796489e3fccd806ac608826e78772c.png)
+![1top](media/1top.png)
 
-![图片不存在](media/a22119f910ee2e8172fdba2106151e8e.png)
+![KD2078](media/KD2078.png)
 
 **LED (Light-Emitting Diode)**
 
@@ -113,11 +113,11 @@ It generally includes gallium(Ga), arsenic(As), phosphorus(P), nitrogen(N) and s
 |  silicon carbide diode  |        yellow         |
 |  gallium nitride diode  |         blue          |
 
-![图片不存在](media/574fafd11b0076d3a77d6b35961bec45.png)
+![1bottom](media/1bottom.png)
 
-Parameters
+#### Parameters
 
-![图片不存在](media/bb22aeac8f0bbe54abccb1cb3e9a155a.png)
+![2top](media/2top.png)
 
 Operating voltage: DC 3.3 ~ 5 V
 
@@ -133,53 +133,53 @@ Positioning holes: diameter of 4.8 mm
 
 Interface: telephone socket
 
-![图片不存在](media/ff61b588417e98ef8df9e4d9834f8c52.png)
+![2bottom](media/2bottom.png)
 
-Principle
+#### Principle
 
-![图片不存在](media/dda544dbaa39b4e95f3be6d8b44aa584.png)
+![3top](media/3top.png)
 
 Modules with blue housing are digital ones, so we should connect to digital io pins of the mainboard (ports with blue).
 
-![图片不存在](media/f47ae2da97f91635b42cddfd0e649370.png)
+![IOT-blue](media/IOT-blue.png)
 
 In this experiment, we connect the white LED module to port 1. According to the board ports view, the digital io pin at port 1 is io13.
 
 When we set the pin to high(1), the LED lights up in white; if we set to low(0), it will be off.
 
-![图片不存在](media/803824b697ed82d1ec302855f39ec922.png)
+![3bottom](media/3bottom.png)
 
-Wiring Diagram
+#### Wiring Diagram
 
-![图片不存在](media/d9b5171d4d56a19b70c2b17996c2467e.png)
+![3101](media/3101.png)
 
-Test Code
+#### Test Code
 
 Open KidsBlock and connect the board to your computer. Click **File --> Load from your computer**.
 
-![图片不存在](media/769cddbf76a3c1810a85f38a006ca505.png)
+![3111](media/3111.png)
 
 Choose D:\Code\2.Code_kidsIOT to open **3.1Light_on.sb3** file.
 
-![图片不存在](media/5225c19b5da8575ef869073ed8a50017.png)
+![3102](media/3102.png)
 
-Click ![图片不存在](media/Unconnected.png) to connect to port and then ![图片不存在](media/251c1ea677e15869efc8ec5862a2204b.png).
+Click ![Unconnected](media/Unconnected.png) to connect to port and then ![2210](media/2210.png).
 
-Explanations
+#### Explanations
 
-![图片不存在](media/8b7f0ae11532396b3d55b3d9e58143ad.png)
+![5top](media/5top.png)
 
 **Code Blocks**
 
 |            Blocks             |          Code block           |
 | :---------------------------: | :---------------------------: |
-|  ![图片不存在](media/b235f1924c2c2c6201df43967b104116.png)  |   ![图片不存在](media/7b373bcabc1aed5fc0b05092679a22fa.png)   |
-|       ![图片不存在](media/P.png)       | ![图片不存在](media/setmode.png) |
-|       ![图片不存在](media/P.png)       |  ![图片不存在](media/setout.png)  |
-| ![图片不存在](media/2d9bb68a76d6f85e82282e3b4833b446.png) | ![图片不存在](media/27ff2f64a99f85b0f74de875ad5572ec.png) |
-| ![图片不存在](media/2d9bb68a76d6f85e82282e3b4833b446.png) |    ![图片不存在](media/wait.png)    |
+|  ![Events](media/Events.png)  |   ![begin](media/begin.png)   |
+|       ![P](media/P.png)       | ![setmode](media/setmode.png) |
+|       ![P](media/P.png)       |  ![setout](media/setout.png)  |
+| ![Control](media/Control.png) | ![forever](media/forever.png) |
+| ![Control](media/Control.png) |    ![wait](media/wait.png)    |
 
-![图片不存在](media/58b75ba1ba6bfa524479ef35a58fcf13.png)
+![line5](media/line5.png)
 
 **Conceive:**
 
@@ -187,17 +187,17 @@ Explanations
 
    Set pins and modes.
 
-   ![图片不存在](media/7559585c4d3c61c6fb43bc150c963a97.png)
+   ![3103](media/3103.png)
 
    <br>
 
    **Build blocks:**
 
-   ① Add ![图片不存在](media/7b373bcabc1aed5fc0b05092679a22fa.png) and ![图片不存在](media/setmode.png) .
+   ① Add ![begin](media/begin.png) and ![setmode](media/setmode.png) .
 
    ② Choose pin 13.
 
-   ![图片不存在](media/d7d0847c5bebefad35d0ec4115d36ec9.png)
+   ![3105](media/3105.png)
 
    ③ set mode to output.
 
@@ -207,29 +207,29 @@ Explanations
    - output
    - input-pullup
 
-   ![图片不存在](media/2f5f4d9ef54812ea08960cca8a8806e8.png)
+   ![6top](media/6top.png)
    
    Q ：Why "output"?
 
    A ：<span style="color: rgb(10, 10, 200);">The code is written for the mainboard.</span> For the board, pin io13 is outputting power levels (high or low) to the connected module.
 
-   ![图片不存在](media/bcc144c573b815d3bad3fed954f006c2.png)
+   ![6bottom](media/6bottom.png)
 
-![图片不存在](media/1479e66a96050e577af87d5a69edab5f.png)
+![line3](media/line3.png)
 
 2. **Main Code**
 
    Loop: LED turns on for 1s and off for 1s.
 
-   ![图片不存在](media/68d0e46845fb2964c9269279bf9edf6c.png)
+   ![3104](media/3104.png)
 
    <br>
 
    **Build blocks:**
 
-   ① ![图片不存在](media/27ff2f64a99f85b0f74de875ad5572ec.png). Code blocks in it will run in a loop.
+   ① ![forever](media/forever.png). Code blocks in it will run in a loop.
 
-   ② Add ![图片不存在](media/setout.png) into "forever". 
+   ② Add ![setout](media/setout.png) into "forever". 
 
    This block set output power level:
 
@@ -238,53 +238,53 @@ Explanations
    
    Set pin 13 to output high.
 
-   ③ Add a delay ![图片不存在](media/wait.png).
+   ③ Add a delay ![wait](media/wait.png).
 
-   ![图片不存在](media/2f5f4d9ef54812ea08960cca8a8806e8.png)
+   ![6top](media/6top.png)
 
    Q ：Why delay?
 
    A ：If you output a high level to LED, it will be always on. Yet, we add a delay of 1s, so it lights up for only 1s. Delay time is the ON/OFF time of LED.
 
-   ![图片不存在](media/bcc144c573b815d3bad3fed954f006c2.png)
+   ![6bottom](media/6bottom.png)
 
    Set pin io13 to output high for 1s:
 
-   ![图片不存在](media/dde8656c089f076850c58a20678d37ed.png)
+   ![3106](media/3106.png)
 
    ④ Duplicate the blocks.
 
-   ![图片不存在](media/5d40ee84d914ff390202f2032b43d705.png)
+   ![3107](media/3107.png)
 
    As follows:
 
-   ![图片不存在](media/cb90a80b14357dda649dcb7042cb55f5.png)
+   ![3108](media/3108.png)
 
    Modify to low. Pin io13 outputs low for 1s.
 
-   ![图片不存在](media/0d017e694a936018c72f77abff71cdb0.png)
+   ![3109](media/3109.png)
 
    The LED will circularly be on for 1s and off for 1s.
 
-![图片不存在](media/6efbaf3d2a2c7016395af93b825dea6b.png)
+![5bottom](media/5bottom.png)
 
-Test Result
+#### Test Result
 
-![图片不存在](media/7d7e42a04d79642c6d9f614a5e61a878.png)
+![4top](media/4top.png)
 
 After uploading code, the LED module will flash with an interval of 1s (on for 1s and off for 1s).
 
-![图片不存在](media/d60aa95d6e9040d62f3c15db68fb6d66.gif)
+![3102](media/3102.gif)
 
-![图片不存在](media/ffabdd3c49f62391b087a8d7f7339a8c.png)
+![4bottom](media/4bottom.png)
 
 ---
 
-3.2 Hall Magnetic Sensor
+### 3.2 Hall Magnetic Sensor
 
-![图片不存在](media/0f796489e3fccd806ac608826e78772c.png)
+![1top](media/1top.png)
 
-![图片不存在](media/3ca2db2df249fd47e6d58bad1b06d0a9.png)
+![KD2101](media/KD2101.png)
 
 This Hall sensor module is mainly composed of A3144 linear Hall components. 
 
@@ -292,11 +292,11 @@ Based on Hall Effect, its magnetic sensitive circuit adopts semiconductor integr
 
 Its input is the magnetic induction intensity and its output is a digital voltage signal.
 
-![图片不存在](media/574fafd11b0076d3a77d6b35961bec45.png)
+![1bottom](media/1bottom.png)
 
-Parameters
+#### Parameters
 
-![图片不存在](media/bb22aeac8f0bbe54abccb1cb3e9a155a.png)
+![2top](media/2top.png)
 
 Voltage: DC 3.3 ~ 5V 
 
@@ -312,61 +312,61 @@ Positioning hole: diameter of 4.8mm
 
 Interface: Telephone socket
 
-![图片不存在](media/ff61b588417e98ef8df9e4d9834f8c52.png)
+![2bottom](media/2bottom.png)
 
-Principle
+#### Principle
 
-![图片不存在](media/dda544dbaa39b4e95f3be6d8b44aa584.png)
+![3top](media/3top.png)
 
 This Hall sensor is able to distinguish magnetic field north and south. The front of the magnetic induction element (with numbers) senses the South Pole, while its back detects the North Pole.
 
-![图片不存在](media/6aee28639f5ba48880bea0cc37ffd40b.png)
+![3219](media/3219.png)
 
 Modules with blue housing are digital ones, so we should connect to digital io pins of the mainboard (ports with blue).
 
-![图片不存在](media/f47ae2da97f91635b42cddfd0e649370.png)
+![IOT-blue](media/IOT-blue.png)
 
 In this experiment, we connect the Hall sensor module to port 2. According to the board ports view, the digital io pin at port 2 is io2.
 
 When a magnetic field is detected, Hall sensor outputs low; When no magnetic field is detected, the sensor outputs high.
 
-![图片不存在](media/803824b697ed82d1ec302855f39ec922.png)
+![3bottom](media/3bottom.png)
 
-Wiring Diagram
+#### Wiring Diagram
 
-![图片不存在](media/12d95211e423722a7f67638fcc672e1b.png)
+![3201](media/3201.png)
 
-Test Code
+#### Test Code
 
 Open KidsBlock and connect the board to your computer. Click **File --> Load from your computer**.
 
-![图片不存在](media/769cddbf76a3c1810a85f38a006ca505.png)
+![3111](media/3111.png)
 
 Choose D:\Code\2.Code_kidsIOT to open **3.2Hall sensor.sb3** file.
 
-![图片不存在](media/978f92abd34b70041d3b79a7180b30e7.png)
+![3202](media/3202.png)
 
-Click![图片不存在](media/Unconnected.png) to connect to port and then ![图片不存在](media/251c1ea677e15869efc8ec5862a2204b.png).
+Click![Unconnected](media/Unconnected.png) to connect to port and then ![2210](media/2210.png).
 
-Explanations
+#### Explanations
 
-![图片不存在](media/8b7f0ae11532396b3d55b3d9e58143ad.png)
+![5top](media/5top.png)
 
 **Code Blocks**
 
 |              Blocks               |              Code block               |
 | :-------------------------------: | :-----------------------------------: |
-|    ![图片不存在](media/b235f1924c2c2c6201df43967b104116.png)    |       ![图片不存在](media/7b373bcabc1aed5fc0b05092679a22fa.png)       |
-|         ![图片不存在](media/P.png)         |     ![图片不存在](media/setmode.png)     |
-|         ![图片不存在](media/P.png)         | ![图片不存在](media/readdigital.png) |
-|    ![图片不存在](media/Serial.png)    | ![图片不存在](media/serialbegin.png) |
-|    ![图片不存在](media/Serial.png)    | ![图片不存在](media/serialprint.png) |
-| ![图片不存在](media/Operators.png) |           ![图片不存在](media/=.png)           |
-|   ![图片不存在](media/2d9bb68a76d6f85e82282e3b4833b446.png)   |     ![图片不存在](media/27ff2f64a99f85b0f74de875ad5572ec.png)     |
-|   ![图片不存在](media/2d9bb68a76d6f85e82282e3b4833b446.png)   |      ![图片不存在](media/b2c84d5fb7db813965d4c1f256305faf.png)      |
-|   ![图片不存在](media/2d9bb68a76d6f85e82282e3b4833b446.png)   |        ![图片不存在](media/wait.png)        |
+|    ![Events](media/Events.png)    |       ![begin](media/begin.png)       |
+|         ![P](media/P.png)         |     ![setmode](media/setmode.png)     |
+|         ![P](media/P.png)         | ![readdigital](media/readdigital.png) |
+|    ![Serial](media/Serial.png)    | ![serialbegin](media/serialbegin.png) |
+|    ![Serial](media/Serial.png)    | ![serialprint](media/serialprint.png) |
+| ![Operators](media/Operators.png) |           ![=](media/=.png)           |
+|   ![Control](media/Control.png)   |     ![forever](media/forever.png)     |
+|   ![Control](media/Control.png)   |      ![ifelse](media/ifelse.png)      |
+|   ![Control](media/Control.png)   |        ![wait](media/wait.png)        |
 
-![图片不存在](media/58b75ba1ba6bfa524479ef35a58fcf13.png)
+![line5](media/line5.png)
 
 **Conceive:**
 
@@ -374,7 +374,7 @@ Explanations
 
    Set pins and modes, initialize serial port.
 
-   ![图片不存在](media/f916e9d749d8aebfbe87644bb9ea2b4b.png)
+   ![3203](media/3203.png)
 
    <br>
 
@@ -382,31 +382,31 @@ Explanations
 
       ① Drag blocks and build as follows:
 
-   ![图片不存在](media/7f8858078b4e232909f02cc61e54cb93.png)
+   ![3204](media/3204.png)
 
-   ![图片不存在](media/35ed2fcd5aea903247f69dc65eeeafdc.png)
+   ![9top](media/9top.png)
 
-      ![图片不存在](media/serialbegin.png) : initialize serial port. Set baud rate (9600 by default). This block is indeed if you need to display messages on serial monitor. Otherwise, it fails to output.
+      ![serialbegin](media/serialbegin.png) : initialize serial port. Set baud rate (9600 by default). This block is indeed if you need to display messages on serial monitor. Otherwise, it fails to output.
 
-   ![图片不存在](media/44ec79a7b20118c7414b12461405431d.png)
+   ![9bottom](media/9bottom.png)
 
    Connect Hall sensor to pin io2 on the board, and set it to input.
 
-   ![图片不存在](media/2f5f4d9ef54812ea08960cca8a8806e8.png)
+   ![6top](media/6top.png)
 
    Q ：Why "input"?
 
    A ：<span style="color: rgb(10, 10, 200);">The code is written for the mainboard.</span> For the Hall sensor, it is outputting power levels to the pin io2 on the board, so the board is receiving(inputting) levels.
 
-   ![图片不存在](media/bcc144c573b815d3bad3fed954f006c2.png)
+   ![6bottom](media/6bottom.png)
 
-![图片不存在](media/1479e66a96050e577af87d5a69edab5f.png)
+![line3](media/line3.png)
 
 2. **Main Code**
 
    Loop: If a magnetic field is detected, serial monitor prints *A magnetic field*. If not, it displays *There is no magnetic field*.
 
-   ![图片不存在](media/e95801a7c6fb3c4b41985ffd50956f57.png)
+   ![3205](media/3205.png)
 
    <br>
 
@@ -414,21 +414,21 @@ Explanations
 
    ① Drag blocks and build as follows:
 
-   ![图片不存在](media/5c2b18f0860641985026d1987472409b.png)
+   ![3206](media/3206.png)
 
-   ![图片不存在](media/35ed2fcd5aea903247f69dc65eeeafdc.png)
+   ![9top](media/9top.png)
 
-   ![图片不存在](media/readdigital.png) reads digital power levels and outputs 1(high) or 0(low).
+   ![readdigital](media/readdigital.png) reads digital power levels and outputs 1(high) or 0(low).
 
-   ![图片不存在](media/serialprint.png) will prints the messages in it on the serial monitor. Or you can put some variables in the printing box to display their values. Three modes are available: wrap, no wrap, HEX.
+   ![serialprint](media/serialprint.png) will prints the messages in it on the serial monitor. Or you can put some variables in the printing box to display their values. Three modes are available: wrap, no wrap, HEX.
 
-   ![图片不存在](media/44ec79a7b20118c7414b12461405431d.png)
+   ![9bottom](media/9bottom.png)
 
    Set pin to IO2 and print the value without wrapping.
 
-   ![图片不存在](media/4ef44e178d376e812e2ead6eb13f9ae3.png)
+   ![3207](media/3207.png)
 
-   ![图片不存在](media/2f5f4d9ef54812ea08960cca8a8806e8.png)
+   ![6top](media/6top.png)
 
       Q ：Why no-wrap?
 
@@ -436,37 +436,37 @@ Explanations
 
       Wrap: 
 
-      ![图片不存在](media/6ed5905a989d615100a966af9e621960.png)
+      ![3208](media/3208.png)
 
       No-wrap:
 
-     ![图片不存在](media/6fb6b64cdcb0d8a224e43a6d5a8675f6.png)
+     ![3209](media/3209.png)
 
       A ：No-wrap is more convenient for us to check the results.
 
-   ![图片不存在](media/bcc144c573b815d3bad3fed954f006c2.png)
+   ![6bottom](media/6bottom.png)
 
    ② Drag blocks and build as follows:
 
-   ![图片不存在](media/bb0471447b59bc2b90621ba3a746639e.png)
+   ![3210](media/3210.png)
 
-   ![图片不存在](media/35ed2fcd5aea903247f69dc65eeeafdc.png)
+   ![9top](media/9top.png)
 
-   ![图片不存在](media/=.png): check whether the two values equal each other. If yes, outputs true.
+   ![=](media/=.png): check whether the two values equal each other. If yes, outputs true.
 
-   ![图片不存在](media/b2c84d5fb7db813965d4c1f256305faf.png): if else. It determines the condition is true or false. 
+   ![ifelse](media/ifelse.png): if else. It determines the condition is true or false. 
 
    True: execute codes in "if":
 
-   ![图片不存在](media/2f76c55ac91ea5fbbdf7a0c93a08d094.png)
+   ![3211](media/3211.png)
 
    False: execute codes in "else":
 
-   ![图片不存在](media/dfb37008280a9ba4068bc97223e6ba14.png)
+   ![3212](media/3212.png)
 
-   ![图片不存在](media/44ec79a7b20118c7414b12461405431d.png)
+   ![9bottom](media/9bottom.png)
 
-   ![图片不存在](media/e90d5871da9547a01c72933a6684ffbd.png) determines whether the value read by pin io2 equals 0.
+   ![3213](media/3213.png) determines whether the value read by pin io2 equals 0.
 
    Put it in "if else" block to set it to the condition.
 
@@ -474,7 +474,7 @@ Explanations
 
    value of pin io2 ≠ 0: the condition is false, execute codes in "else", and print two Space + *There is no magnetic field* .
 
-   ![图片不存在](media/2f5f4d9ef54812ea08960cca8a8806e8.png)
+   ![6top](media/6top.png)
 
       Q ：Why Space?
 
@@ -482,19 +482,19 @@ Explanations
 
    Without space:
 
-      ![图片不存在](media/2a0efd4258a3e51962bf6bae154f2032.png)
+      ![3214](media/3214.png)
 
       With space:
 
-      ![图片不存在](media/85b49a5db293b1b8b94aafeaed369510.png)
+      ![3215](media/3215.png)
 
      A ：We add a space to separate the value and contents.
 
-   ![图片不存在](media/bcc144c573b815d3bad3fed954f006c2.png)
+   ![6bottom](media/6bottom.png)
 
-   ③ Add a delay ![图片不存在](media/wait.png) and set time to 0.1s.
+   ③ Add a delay ![wait](media/wait.png) and set time to 0.1s.
 
-   ![图片不存在](media/2f5f4d9ef54812ea08960cca8a8806e8.png)
+   ![6top](media/6top.png)
 
    Q ：Why delay?
 
@@ -502,48 +502,48 @@ Explanations
 
    A ：Limit the printing speed.
 
-   ![图片不存在](media/bcc144c573b815d3bad3fed954f006c2.png)
+   ![6bottom](media/6bottom.png)
 
 
-![图片不存在](media/6efbaf3d2a2c7016395af93b825dea6b.png)
+![5bottom](media/5bottom.png)
 
-Test Result
+#### Test Result
 
-![图片不存在](media/7d7e42a04d79642c6d9f614a5e61a878.png)
+![4top](media/4top.png)
 
 <span style="color: rgb(2550, 10, 50);">Set baud rate before uploading code to avoid garbled words.</span>
 
-Click ![图片不存在](media/81687183903f3a617cf2f7088b089c33.png) to set Buadrate to 115200.
+Click ![Baud1](media/Baud1.png) to set Buadrate to 115200.
 
-![图片不存在](media/223b70a8d8b6e7fec01a3801b432fdc8.png)
+![Baud2](media/Baud2.png)
 
 After uploading the code, when the **South Pole** of the magnet approaches to the front of the magnetic induction element, the red LED lights up and Shell prints *0  A magnetic field*; 
 
-![图片不存在](media/c0741f51c46a8a5e6f438d87bc5de92b.png)
+![3216](media/3216.png)
 
 When the **South Pole** of the magnet approaches to its back or is away from the sensor, the red LED goes off, and Shell prints *1  There is no magnetic field* .
 
-![图片不存在](media/4afb5ba7145d0fdc2462f3e86d6c4928.png)
+![3217](media/3217.png)
 
 Put the **North Pole** of the magnet to the back of the element, the red LED lights up and Shell prints *0  A magnetic field*; 
 
-![图片不存在](media/2cfffb7160fc70c2f1243b59c1dc6ccf.png)
+![3220](media/3220.png)
 
 When the **North Pole** of the magnet approaches to the front of the sensor or is away from it, the red LED goes off, and Shell prints *1  There is no magnetic field*.
 
-![图片不存在](media/9d826c2ebf795347d3d574cc08af4b5e.png)
+![3221](media/3221.png)
 
-![图片不存在](media/4f3488d96ba192e7994227c4504971a2.gif)
+![3218](media/3218.gif)
 
-![图片不存在](media/ffabdd3c49f62391b087a8d7f7339a8c.png)
+![4bottom](media/4bottom.png)
 
 ---
 
-3.3 Passive Buzzer
+### 3.3 Passive Buzzer
 
-![图片不存在](media/0f796489e3fccd806ac608826e78772c.png)
+![1top](media/1top.png)
 
-![图片不存在](media/ff3d76372cb787a611199a128dc13303.png)
+![KD2121](media/KD2121.png)
 
 Buzzer is an integrated structure of electronic sound device, which is powered by DC voltage. In application, it is widely used in computers, printers, copiers, alarms, electronic toys, automotive electronic equipment, telephones and timers. 
 
@@ -555,11 +555,11 @@ Passive ones, however, do not include oscillating sources. If we directly power 
 
 **To sum up, The active buzzer contains a vibration source, and its sound frequency is fixed. Yet there is no vibration source inside the passive one, so it must be driven by square waves whose frequency can be changed to control sounds.**
 
-![图片不存在](media/574fafd11b0076d3a77d6b35961bec45.png)
+![1bottom](media/1bottom.png)
 
-Parameters
+#### Parameters
 
-![图片不存在](media/bb22aeac8f0bbe54abccb1cb3e9a155a.png)
+![2top](media/2top.png)
 
 Operating voltage: DC 3.3 ~ 5V 
 
@@ -573,17 +573,17 @@ Positioning hole: diameter of 4.8mm
 
 Interface: Telephone socket
 
-![图片不存在](media/ff61b588417e98ef8df9e4d9834f8c52.png)
+![2bottom](media/2bottom.png)
 
-Principle
+#### Principle
 
-![图片不存在](media/dda544dbaa39b4e95f3be6d8b44aa584.png)
+![3top](media/3top.png)
 
 Music is an invisible art. It is a language that narrates emotions and thoughts. 
 
 The foundation of music, as we all know, is note. We can compose a variety of melodies and rhythms with different notes. Of all the notes, the most basic are seven:
 
-![图片不存在](media/66e6823bf861f8cad52bc0611ca9d997.png)
+![3301](media/3301.png)
 
 We can compose a variety of melodies and rhythms with these notes.
 
@@ -595,9 +595,9 @@ And the tones vary from different frequency of PWM.
 
 - The higher the frequency is, the higher the tone will be.
 
-![图片不存在](media/peg.png)
+![peg](media/peg.png)
 
-![图片不存在](media/1479e66a96050e577af87d5a69edab5f.png)
+![line3](media/line3.png)
 
 **What is PWM?**
 
@@ -605,7 +605,7 @@ PWM (Pulse width modulation) simulates the change of analog signal through digit
 
 Pulse width is the high level in a complete square wave cycle. So, pulse width modulation is to adjust the high level(of course, in other words, low level is also adjusted).
 
-![图片不存在](media/5b8b29a16e235513a47e4519cd8e8a86.png)
+![3302](media/3302.png)
 
 - **PWM frequency**: the number of times the signal going from high level to low level and back to high level in 1 second (one cycle), that is, how many cycles there are in a second.
 
@@ -625,7 +625,7 @@ Pulse width is the high level in a complete square wave cycle. So, pulse width m
 	- Cycle: The time of a pulse signal. The number of cycles in 1s equals the frequency.
 	- Pulse width time: high level time.
 
-![图片不存在](media/89e6481176c78795322869df5feff457.gif)
+![3303](media/3303.gif)
 
 <center>The relationship between duty cycle and LED brightness<center>
 
@@ -635,69 +635,69 @@ The longer the high level time is, the greater the duty cycle will be, and the b
 
 **The PWM frequency corresponding to notes**:
 
-![图片不存在](media/bd6f281865cd802b82db6bc86bbe502f.png)
+![3304](media/3304.png)
 
-![图片不存在](media/1479e66a96050e577af87d5a69edab5f.png)
+![line3](media/line3.png)
 
 Modules with blue housing are digital ones, so we should connect to digital io pins of the mainboard (ports with blue).
 
-![图片不存在](media/f47ae2da97f91635b42cddfd0e649370.png)
+![IOT-blue](media/IOT-blue.png)
 
 In this experiment, we connect the passive buzzer to port 3. According to the board ports view, the digital io pin at port 3 is io26.
 
-![图片不存在](media/803824b697ed82d1ec302855f39ec922.png)
+![3bottom](media/3bottom.png)
 
-Wiring Diagram
+#### Wiring Diagram
 
-![图片不存在](media/3cce15fef79fb7ad7712082fdaa51c9c.png)
+![3305](media/3305.png)
 
-Test Code
+#### Test Code
 
 Open KidsBlock and connect the board to your computer. Click **File --> Load from your computer**.
 
-![图片不存在](media/769cddbf76a3c1810a85f38a006ca505.png)
+![3111](media/3111.png)
 
 Choose D:\Code\2.Code_kidsIOT to open **3.3Passive buzzer.sb3** file.
 
-![图片不存在](media/68457ab9296e0e80e4e0fcdc321323fc.png)
+![3306](media/3306.png)
 
-Click![图片不存在](media/Unconnected.png) to connect to port and then ![图片不存在](media/251c1ea677e15869efc8ec5862a2204b.png).
+Click![Unconnected](media/Unconnected.png) to connect to port and then ![2210](media/2210.png).
 
-Explanations
+#### Explanations
 
-![图片不存在](media/8b7f0ae11532396b3d55b3d9e58143ad.png)
+![5top](media/5top.png)
 
 **Code Blocks**
 
 |            Blocks             |              Code block               |
 | :---------------------------: | :-----------------------------------: |
-|  ![图片不存在](media/b235f1924c2c2c6201df43967b104116.png)  |       ![图片不存在](media/7b373bcabc1aed5fc0b05092679a22fa.png)       |
-|  ![图片不存在](media/d6ade73335a9a1f00973f76ab40b40d4.png)  | ![图片不存在](media/198cb4c452776b9f827f089e31af0c17.png) |
-| ![图片不存在](media/2d9bb68a76d6f85e82282e3b4833b446.png) |     ![图片不存在](media/27ff2f64a99f85b0f74de875ad5572ec.png)     |
-| ![图片不存在](media/2d9bb68a76d6f85e82282e3b4833b446.png) |        ![图片不存在](media/wait.png)        |
+|  ![Events](media/Events.png)  |       ![begin](media/begin.png)       |
+|  ![Buzzer](media/Buzzer.png)  | ![Buzzer_freq](media/Buzzer_freq.png) |
+| ![Control](media/Control.png) |     ![forever](media/forever.png)     |
+| ![Control](media/Control.png) |        ![wait](media/wait.png)        |
 
-![图片不存在](media/58b75ba1ba6bfa524479ef35a58fcf13.png)
+![line5](media/line5.png)
 
 **Conceive:**
 
-Add library first. Click ![图片不存在](media/62c05ffc94b8065d1e8be8dbf5956696.png) and find **esp32 Passive buzzer** to add in extension.
+Add library first. Click ![add](media/add.png) and find **esp32 Passive buzzer** to add in extension.
 
-![图片不存在](media/aee3f9aa8349aea7809a0b3939143b71.png)
+![3313](media/3313.png)
 
 Click **Back**
 
-![图片不存在](media/940a9be72141e3126f25de028bc0c500.png)
+![3314](media/3314.png)
 
 Successfully load.
 
-![图片不存在](media/410bfd5bd76bce35dda7e49a8c69c497.png)
+![3315](media/3315.png)
 
 
 1. **Main Code**
 
    Loop: play tones of C, D, E, F, G, A, B, each tone plays 200ms.
 
-   ![图片不存在](media/2e02977173cdc77907d7159ac9720f61.png)
+   ![3307](media/3307.png)
 
    <br>
 
@@ -705,88 +705,88 @@ Successfully load.
 
    ① Build blocks as follows:
 
-   ![图片不存在](media/4d48e1e06c49477dd586b092692c2e3f.png)
+   ![3308](media/3308.png)
 
-   ![图片不存在](media/35ed2fcd5aea903247f69dc65eeeafdc.png)
+   ![9top](media/9top.png)
 
-   ![图片不存在](media/198cb4c452776b9f827f089e31af0c17.png) sets the passive buzzer to play tones. We can set its frequency.
+   ![Buzzer_freq](media/Buzzer_freq.png) sets the passive buzzer to play tones. We can set its frequency.
 
-   ![图片不存在](media/1470babbfedd9210184bd19afef4c0a2.png)
+   ![3319](media/3319.png)
    
    You can set beats by modifying the duration.
    
-   ![图片不存在](media/2f5f4d9ef54812ea08960cca8a8806e8.png)
+   ![6top](media/6top.png)
    
    Q ：What is beats?
    
    A ：A beat is the basic unit of time in music. you can regard it as the duration.
    
-   ![图片不存在](media/bcc144c573b815d3bad3fed954f006c2.png)
+   ![6bottom](media/6bottom.png)
    
-   ![图片不存在](media/44ec79a7b20118c7414b12461405431d.png)
+   ![9bottom](media/9bottom.png)
    
    Set pin to IO26 and frequency to NOTE_C5, set duration to 200ms.
    
-   ![图片不存在](media/13a1021abc37fb184d9ef28217186ad8.png)
+   ![3309](media/3309.png)
    
    ② Duplicate the blocks.
    
-   ![图片不存在](media/905417b14a3cd0cb92aa3d79105983ae.png)
+   ![3310](media/3310.png)
    
    As follows:
    
-   ![图片不存在](media/68e8dc38573a66dcf448e09ce23a17af.png)
+   ![3311](media/3311.png)
    
    Duplicate six times, as follows:
    
-   ![图片不存在](media/3bfddff0529655f3eb8b077e0021bde9.png)
+   ![3312](media/3312.png)
 
-![图片不存在](media/6efbaf3d2a2c7016395af93b825dea6b.png)
+![5bottom](media/5bottom.png)
 
-Test Result
+#### Test Result
 
-![图片不存在](media/7d7e42a04d79642c6d9f614a5e61a878.png)
+![4top](media/4top.png)
 
 After uploading the code, the buzzer will circularly play tones(C, D ,E, F, G, A, B).
 
-![图片不存在](media/ffabdd3c49f62391b087a8d7f7339a8c.png)
+![4bottom](media/4bottom.png)
 
-Extension
+#### Extension
 
-![图片不存在](media/20165af751e3a46de15eb7992240aeba.png)
+![7top](media/7top.png)
 
 Congratulations! You have played these basic notes successfully! Now let's try to compose a beautiful music and play with this passive buzzer!
 
 Open **3.3Music.sb3** file.
 
-![图片不存在](media/3f5999d82034874dd44b3979bdc1ea1d.png)
+![3316](media/3316.png)
 
 Choose a music you like.
 
-![图片不存在](media/d02451e81b12239ad2ce15719e6f6f15.png)
+![3317](media/3317.png)
 
-Click![图片不存在](media/Unconnected.png) to connect to port and then ![图片不存在](media/251c1ea677e15869efc8ec5862a2204b.png).
+Click![Unconnected](media/Unconnected.png) to connect to port and then ![2210](media/2210.png).
 
 Upload! And you will hear the music!
 
-![图片不存在](media/adb2dc68eebff18cfe59251042f7d5a1.png)
+![7bottom](media/7bottom.png)
 
 
 ---
 
-3.4 XHT11 Temperature and Humidity Sensor
+### 3.4 XHT11 Temperature and Humidity Sensor
 
-![图片不存在](media/0f796489e3fccd806ac608826e78772c.png)
+![1top](media/1top.png)
 
-![图片不存在](media/fd4eb242f6a61beabfe6482e45638c92.png)
+![KD2095 ](media/KD2095.png)
 
 XHT11 sensor is a low-cost and entry-level temperature and humidity sensor, which consists of a resistive humidity sensor and an NTC temperature sensor. It is designed 4-pin single-row pin and adopts single-wire serial interface, so we just add the appropriate pull-up resistance to read values. Moreover, its signal transmission distance can reach more than 20 meters.
 
-![图片不存在](media/574fafd11b0076d3a77d6b35961bec45.png)
+![1bottom](media/1bottom.png)
 
-Parameters
+#### Parameters
 
-![图片不存在](media/bb22aeac8f0bbe54abccb1cb3e9a155a.png)
+![2top](media/2top.png)
 
 Operating voltage ：DC 3.3 ~ 5V 
 
@@ -808,74 +808,74 @@ Positioning hole: diameter of 4.8mm
 
 Interface: Telephone socket
 
-![图片不存在](media/ff61b588417e98ef8df9e4d9834f8c52.png)
+![2bottom](media/2bottom.png)
 
-Principle
+#### Principle
 
-![图片不存在](media/dda544dbaa39b4e95f3be6d8b44aa584.png)
+![3top](media/3top.png)
 
 Modules with blue housing are digital ones, so we should connect to digital io pins of the mainboard (ports with blue).
 
-![图片不存在](media/f47ae2da97f91635b42cddfd0e649370.png)
+![IOT-blue](media/IOT-blue.png)
 
 In this experiment, we connect the passive buzzer to port 4. According to the board ports view, the digital io pin at port 4is io27.
 
-![图片不存在](media/803824b697ed82d1ec302855f39ec922.png)
+![3bottom](media/3bottom.png)
 
-Wiring Diagram
+#### Wiring Diagram
 
-![图片不存在](media/d1f2fe15154f0cc9ea4960d3dc30ee66.png)
+![3401](media/3401.png)
 
-Test Code
+#### Test Code
 
 Open KidsBlock and connect the board to your computer. Click **File --> Load from your computer**.
 
-![图片不存在](media/769cddbf76a3c1810a85f38a006ca505.png)
+![3111](media/3111.png)
 
 Choose D:\Code\2.Code_kidsIOT to open **3.4Humiture.sb3** file.
 
-![图片不存在](media/e69500dc4dbb4260c0c13b26dc801504.png)
+![3402](media/3402.png)
 
-Click![图片不存在](media/Unconnected.png) to connect to port and then ![图片不存在](media/251c1ea677e15869efc8ec5862a2204b.png).
+Click![Unconnected](media/Unconnected.png) to connect to port and then ![2210](media/2210.png).
 
-Explanations
+#### Explanations
 
-![图片不存在](media/8b7f0ae11532396b3d55b3d9e58143ad.png)
+![5top](media/5top.png)
 
 **Code Blocks**
 
 |            Blocks             |              Code block               |
 | :---------------------------: | :-----------------------------------: |
-|  ![图片不存在](media/b235f1924c2c2c6201df43967b104116.png)  |       ![图片不存在](media/7b373bcabc1aed5fc0b05092679a22fa.png)       |
-|  ![图片不存在](media/Serial.png)  | ![图片不存在](media/serialbegin.png) |
-|  ![图片不存在](media/Serial.png)  | ![图片不存在](media/serialprint.png) |
-|     ![图片不存在](media/7bfdcb87abb53fe8fd1fee04d85d57fc.png)     |     ![图片不存在](media/979fa1498c7819703f405fd9fe342ea5.png)     |
-|     ![图片不存在](media/7bfdcb87abb53fe8fd1fee04d85d57fc.png)     |       ![图片不存在](media/64f308bf7de58042197c71d21008df31.png)       |
-| ![图片不存在](media/2d9bb68a76d6f85e82282e3b4833b446.png) |     ![图片不存在](media/27ff2f64a99f85b0f74de875ad5572ec.png)     |
-| ![图片不存在](media/2d9bb68a76d6f85e82282e3b4833b446.png) |        ![图片不存在](media/wait.png)        |
+|  ![Events](media/Events.png)  |       ![begin](media/begin.png)       |
+|  ![Serial](media/Serial.png)  | ![serialbegin](media/serialbegin.png) |
+|  ![Serial](media/Serial.png)  | ![serialprint](media/serialprint.png) |
+|     ![DHT](media/DHT.png)     |     ![dht-pin](media/dht-pin.png)     |
+|     ![DHT](media/DHT.png)     |       ![dht-t](media/dht-t.png)       |
+| ![Control](media/Control.png) |     ![forever](media/forever.png)     |
+| ![Control](media/Control.png) |        ![wait](media/wait.png)        |
 
-![图片不存在](media/58b75ba1ba6bfa524479ef35a58fcf13.png)
+![line5](media/line5.png)
 
 **Conceive:**
 
-Add library first, Click ![图片不存在](media/62c05ffc94b8065d1e8be8dbf5956696.png) to load **DHT sensor for ESP32** .
+Add library first, Click ![add](media/add.png) to load **DHT sensor for ESP32** .
 
-![图片不存在](media/afc0f07135dcadaed3db5cd7b5e06a7b.png)
+![3403](media/3403.png)
 
 
 1. **Initialization**
 
    Initialize serial port.
 
-   ![图片不存在](media/8248a42bd5dff4a76c995bf1cbafe54e.png)
+   ![3404](media/3404.png)
 
-![图片不存在](media/1479e66a96050e577af87d5a69edab5f.png)
+![line3](media/line3.png)
 
 2. **Main Code**
 
    Loop: read and print the temperature and humidity value every 0.5s.
 
-   ![图片不存在](media/5f2125e4f995401bed60a96ac3f01d45.png)
+   ![3405](media/3405.png)
 
    <br>
 
@@ -883,77 +883,77 @@ Add library first, Click ![图片不存在](media/62c05ffc94b8065d1e8be8dbf59566
 
    ① Drag blocks and build as follows:
 
-   ![图片不存在](media/338b4bdb24454e46fcdfe4c5c72ac591.png)
+   ![3406](media/3406.png)
 
-   ![图片不存在](media/35ed2fcd5aea903247f69dc65eeeafdc.png)
+   ![9top](media/9top.png)
 
-   ![图片不存在](media/979fa1498c7819703f405fd9fe342ea5.png) set the sensor pin.
+   ![dht-pin](media/dht-pin.png) set the sensor pin.
 
-   ![图片不存在](media/44ec79a7b20118c7414b12461405431d.png)
+   ![9bottom](media/9bottom.png)
 
    ② Drag blocks and build as follows:
 
-   ![图片不存在](media/5a1d72b2a97076eaac4a095f31652a76.png)
+   ![3407](media/3407.png)
 
-   ![图片不存在](media/35ed2fcd5aea903247f69dc65eeeafdc.png)
+   ![9top](media/9top.png)
 
-   ![图片不存在](media/64f308bf7de58042197c71d21008df31.png) read the temperature or the humidity value.
+   ![dht-t](media/dht-t.png) read the temperature or the humidity value.
 
-   ![图片不存在](media/44ec79a7b20118c7414b12461405431d.png)
+   ![9bottom](media/9bottom.png)
    
    Herein, print "temperature:" + measured actual temperature value + " °C" without wrapping. There is a space before °C, which is convenience for us to check results.
    
    ③ Drag blocks and build as follows:
    
-   ![图片不存在](media/5db995536ddfdf2002247d7c65c60b72.png)
+   ![3408](media/3408.png)
    
    This code prints the actual humidity value in the unit of " %" without wrapping. There is also a space before %.
    
-   ④ Add a delay ![图片不存在](media/wait.png) and set it to 0.5, so the results will be refreshed every 0.5s.
+   ④ Add a delay ![wait](media/wait.png) and set it to 0.5, so the results will be refreshed every 0.5s.
 
-![图片不存在](media/6efbaf3d2a2c7016395af93b825dea6b.png)
+![5bottom](media/5bottom.png)
 
-Test Result
+#### Test Result
 
-![图片不存在](media/7d7e42a04d79642c6d9f614a5e61a878.png)
+![4top](media/4top.png)
 
 <span style="color: rgb(2550, 10, 50);">Set baud rate before uploading code to avoid garbled words.</span>
 
-Click ![图片不存在](media/81687183903f3a617cf2f7088b089c33.png) to Buadrate to 115200 .
+Click ![Baud1](media/Baud1.png) to Buadrate to 115200 .
 
-![图片不存在](media/223b70a8d8b6e7fec01a3801b432fdc8.png)
+![Baud2](media/Baud2.png)
 
 After uploading the code, the serial monitor prints the actual temperature and humidity value every 0.5s.
 
-![图片不存在](media/3be840c15e707ae1ea16529df40eb937.png)
+![3409](media/3409.png)
 
 Blow to the XHT11 sensor and you will see both temperature and humidity values rise.
 
-![图片不存在](media/6d5d31a83e559898d281eace04285526.png)
+![3410](media/3410.png)
 
-![图片不存在](media/5b12ff14d62bf716490f70fedf2d820c.png)
+![3411](media/3411.png)
 
 
 
-![图片不存在](media/ffabdd3c49f62391b087a8d7f7339a8c.png)
+![4bottom](media/4bottom.png)
 
 ---
 
-3.5 Steam Sensor
+### 3.5 Steam Sensor
 
-![图片不存在](media/0f796489e3fccd806ac608826e78772c.png)
+![1top](media/1top.png)
 
-![图片不存在](media/f56f375c9ca328175c45e9a17eafe1b7.png)
+![KD2084](media/KD2084.png)
 
 Unlike the previous modules, the steam sensor is an analog module rather than a digital one.
 
 What is the difference? For digital modules, they only output high(3.3V) or low(0V); while analog ones are able to output or input intermediate voltage values through ADC analog ports on the board.
 
-![图片不存在](media/574fafd11b0076d3a77d6b35961bec45.png)
+![1bottom](media/1bottom.png)
 
-Parameters
+#### Parameters
 
-![图片不存在](media/bb22aeac8f0bbe54abccb1cb3e9a155a.png)
+![2top](media/2top.png)
 
 Operating voltage: DC 3.3 ~ 5V 
 
@@ -969,11 +969,11 @@ Positioning hole: diameter of 4.8mm
 
 Interface: Telephone socket
 
-![图片不存在](media/ff61b588417e98ef8df9e4d9834f8c52.png)
+![2bottom](media/2bottom.png)
 
-Principle
+#### Principle
 
-![图片不存在](media/dda544dbaa39b4e95f3be6d8b44aa584.png)
+![3top](media/3top.png)
 
 The steam sensor measures the amount of water through its exposed lines. The water will connect these lines. The more amount of water is, the wider the conductive area will be connected, and the higher the output voltage will be.
 
@@ -981,9 +981,9 @@ With the change of amount of water, the voltage (0 ~ 3.3V) detected by the analo
 
 <span style="color: rgb(10, 10, 200);">The board can only process digital signals, so we need to convert analog signals in to digital ones. Thus, an ADC(Analog to Digital Converter) acquisition is required.</span>
 
-![图片不存在](media/peg.png)
+![peg](media/peg.png)
 
-![图片不存在](media/1479e66a96050e577af87d5a69edab5f.png)
+![line3](media/line3.png)
 
 **What is ADC?**
 
@@ -1005,51 +1005,51 @@ ADC(Analog to Digital Converter) converts analog values to digital ones. The ADC
 
 3. $AVDD_{ADC}$：Reference voltage
 
-![图片不存在](media/1479e66a96050e577af87d5a69edab5f.png)
+![line3](media/line3.png)
 
 Modules with red housing are analog ones, so we should connect to analog io pins of the mainboard (ports with red).
 
-![图片不存在](media/e822fb1fa8348f4ac7a68d6873b1a991.png)
+![IOT-red](media/IOT-red.png)
 
 In this experiment, we connect the module to port 4. According to the board ports view, the analog io pin at port 4 is io39.
 
-![图片不存在](media/803824b697ed82d1ec302855f39ec922.png)
+![3bottom](media/3bottom.png)
 
-Wiring Diagram
+#### Wiring Diagram
 
-![图片不存在](media/3eacd6c2462dc2a7284c443970a41d69.png)
+![3501](media/3501.png)
 
-Test Code
+#### Test Code
 
 Open KidsBlock and connect the board to your computer. Click **File --> Load from your computer**.
 
-![图片不存在](media/769cddbf76a3c1810a85f38a006ca505.png)
+![3111](media/3111.png)
 
 Choose D:\Code\2.Code_kidsIOT to open **3.5Steam sensor.sb3** file.
 
-![图片不存在](media/51478833cae13578c43f584cd1e395a6.png)
+![3502](media/3502.png)
 
-Click![图片不存在](media/Unconnected.png) to connect to port and then ![图片不存在](media/251c1ea677e15869efc8ec5862a2204b.png).
+Click![Unconnected](media/Unconnected.png) to connect to port and then ![2210](media/2210.png).
 
-Explanations
+#### Explanations
 
-![图片不存在](media/8b7f0ae11532396b3d55b3d9e58143ad.png)
+![5top](media/5top.png)
 
 **Code Blocks**
 
 |              Blocks               |              Code block               |
 | :-------------------------------: | :-----------------------------------: |
-|    ![图片不存在](media/b235f1924c2c2c6201df43967b104116.png)    |       ![图片不存在](media/7b373bcabc1aed5fc0b05092679a22fa.png)       |
-|         ![图片不存在](media/P.png)         |     ![图片不存在](media/setmode.png)     |
-|         ![图片不存在](media/P.png)         |  ![图片不存在](media/readanalog.png)  |
-|    ![图片不存在](media/Serial.png)    | ![图片不存在](media/serialbegin.png) |
-|    ![图片不存在](media/Serial.png)    | ![图片不存在](media/serialprint.png) |
-| ![图片不存在](media/Operators.png) |      ![图片不存在](media/f7242d3975fc80e48eab9d45803f3839.png)      |
-| ![图片不存在](media/Operators.png) |    ![图片不存在](media/multiply.png)    |
-|   ![图片不存在](media/2d9bb68a76d6f85e82282e3b4833b446.png)   |     ![图片不存在](media/27ff2f64a99f85b0f74de875ad5572ec.png)     |
-|   ![图片不存在](media/2d9bb68a76d6f85e82282e3b4833b446.png)   |        ![图片不存在](media/wait.png)        |
+|    ![Events](media/Events.png)    |       ![begin](media/begin.png)       |
+|         ![P](media/P.png)         |     ![setmode](media/setmode.png)     |
+|         ![P](media/P.png)         |  ![readanalog](media/readanalog.png)  |
+|    ![Serial](media/Serial.png)    | ![serialbegin](media/serialbegin.png) |
+|    ![Serial](media/Serial.png)    | ![serialprint](media/serialprint.png) |
+| ![Operators](media/Operators.png) |      ![divide](media/divide.png)      |
+| ![Operators](media/Operators.png) |    ![multiply](media/multiply.png)    |
+|   ![Control](media/Control.png)   |     ![forever](media/forever.png)     |
+|   ![Control](media/Control.png)   |        ![wait](media/wait.png)        |
 
-![图片不存在](media/58b75ba1ba6bfa524479ef35a58fcf13.png)
+![line5](media/line5.png)
 
 **Conceive:**
 
@@ -1057,15 +1057,15 @@ Explanations
 
    Set pins and modes, initialize the serial port.
 
-   ![图片不存在](media/b270cbb243d480e6a58ba5c0d4efb923.png)
+   ![3503](media/3503.png)
 
-![图片不存在](media/1479e66a96050e577af87d5a69edab5f.png)
+![line3](media/line3.png)
 
 2. **Main Code**
 
    Loop: print the analog value read by the sensor and the voltage converted from the analog value. The results will be refreshed every 0.1s.
 
-   ![图片不存在](media/62b1d3eb83d17e42875cc02ba4218c84.png)
+   ![3504](media/3504.png)
 
    <br>
 
@@ -1073,83 +1073,83 @@ Explanations
 
    ① Drag blocks and build as follows:
 
-   ![图片不存在](media/d0cde6a22d2d363b94c7c971e7f538d1.png)
+   ![3505](media/3505.png)
    
-   ![图片不存在](media/35ed2fcd5aea903247f69dc65eeeafdc.png)
+   ![9top](media/9top.png)
    
-   ![图片不存在](media/readanalog.png) reads analog values.
+   ![readanalog](media/readanalog.png) reads analog values.
    
-   ![图片不存在](media/44ec79a7b20118c7414b12461405431d.png)
+   ![9bottom](media/9bottom.png)
    
    Connect steam sensor to pin IO39, read and output the value of pin IO39.
    
    ② Drag blocks and build as follows:
    
-   ![图片不存在](media/005a7c26ab03c5dd3c761ee632f8bad8.png)
+   ![3506](media/3506.png)
    
-   ![图片不存在](media/35ed2fcd5aea903247f69dc65eeeafdc.png)
+   ![9top](media/9top.png)
    
-   ![图片不存在](media/multiply.png): the two value will be multiplied.
+   ![multiply](media/multiply.png): the two value will be multiplied.
    
-   ![图片不存在](media/f7242d3975fc80e48eab9d45803f3839.png): the left value will divide by the right value. 
+   ![divide](media/divide.png): the left value will divide by the right value. 
    
-   ![图片不存在](media/44ec79a7b20118c7414b12461405431d.png)
+   ![9bottom](media/9bottom.png)
    
    Voltage value of a single scale = $\frac{3.3}{4095}$ , shown as below:
    
-   ![图片不存在](media/64423e10660235981c24bf2fa2f88329.png)
+   ![3507](media/3507.png)
    
    input voltage = read analog value * voltage value of a single scale:
    
-   ![图片不存在](media/0c6521e7f9a1f4a849aba6e97bad57b1.png)
+   ![3508](media/3508.png)
    
    the output value will be a input voltage value in the unit of V.
    
-   ③ Add a delay ![图片不存在](media/wait.png) and set it to 0.1s. The results will be refreshed every 0.1s.
+   ③ Add a delay ![wait](media/wait.png) and set it to 0.1s. The results will be refreshed every 0.1s.
 
-![图片不存在](media/6efbaf3d2a2c7016395af93b825dea6b.png)
+![5bottom](media/5bottom.png)
 
-Test Result
+#### Test Result
 
-![图片不存在](media/7d7e42a04d79642c6d9f614a5e61a878.png)
+![4top](media/4top.png)
 
 <span style="color: rgb(2550, 10, 50);">Set baud rate before uploading code to avoid garbled words.</span>
 
-Click ![图片不存在](media/81687183903f3a617cf2f7088b089c33.png) to set Buadrate to 115200.
+Click ![Baud1](media/Baud1.png) to set Buadrate to 115200.
 
-![图片不存在](media/223b70a8d8b6e7fec01a3801b432fdc8.png)
+![Baud2](media/Baud2.png)
 
 After uploading the code, the monitor outputs the detected analog values of water/vapor and the converted voltage values.
 
-![图片不存在](media/7e7bc30f7ac7f501fbce6b75c8ca98ec.png)
+![3509](media/3509.png)
 
 The more the amount of water is / the wetter the air is, the greater the analog and voltage value will be.
 
-![图片不存在](media/d9ff7ed5cef26927e70b130a26721c17.png)
+![3510](media/3510.png)
 
 Breath on the detection area, or touch it with a wet tissue, and you will see the analog value ans voltage will both increase.
 
 <span style="color: rgb(2550, 10, 50);">**ATTENTION: Be careful when using water, please do not to drip to any other place outside the detection area to aviod a short circuit.**</span>
 
-![图片不存在](media/9a89a2b3307c716da0054ff98dc9ce74.png)
+![3511](media/3511.png)
 
-![图片不存在](media/ffabdd3c49f62391b087a8d7f7339a8c.png)
+![4bottom](media/4bottom.png)
 
 ---
 
- 3.6 Flame Sensor
+###  3.6 Flame Sensor
 
-![图片不存在](media/0f796489e3fccd806ac608826e78772c.png)
+![1top](media/1top.png)
 
-![图片不存在](media/163859fbb024658a42cf80b14a16cd05.png)
+![KD2097](media/KD2097.png)
 
 Since a far-infrared flame probe is reserved, the flame sensor is particularly sensitive to the flame spectrum, so this sensor is an essential part of the fire-fighting robot to find the fire source.
 
-![图片不存在](media/574fafd11b0076d3a77d6b35961bec45.png)
+![1bottom](media/1bottom.png)
 
-Parameters
+#### Parameters
 
-![图片不存在](media/bb22aeac8f0bbe54abccb1cb3e9a155a.png)
+![2top](media/2top.png)
 
 Operating voltage: DC 3.3 ~ 5V 
 
@@ -1171,62 +1171,62 @@ Positioning hole: diameter of 4.8mm
 
 Interface: Telephone socket
 
-![图片不存在](media/ff61b588417e98ef8df9e4d9834f8c52.png)
+![2bottom](media/2bottom.png)
 
-Principle
+#### Principle
 
-![图片不存在](media/dda544dbaa39b4e95f3be6d8b44aa584.png)
+![3top](media/3top.png)
 
 The sensitive element of the sensor is a special infrared receiving diode, which is very sensitive to the infrared generated by the flame. It detects flame by converting the brightness of the flame into power level signals.
 
 Modules with red housing are analog ones, so we should connect to analog io pins of the mainboard (ports with red).
 
-![图片不存在](media/e822fb1fa8348f4ac7a68d6873b1a991.png)
+![IOT-red](media/IOT-red.png)
 
 In this experiment, we connect the module to port 6. According to the board ports view, the analog io pin at port 6 is io36.
 
-![图片不存在](media/803824b697ed82d1ec302855f39ec922.png)
+![3bottom](media/3bottom.png)
 
-Wiring Diagram
+#### Wiring Diagram
 
-![图片不存在](media/952d8bb565f6bcaac1db93198983347d.png)
+![3601](media/3601.png)
 
-Test Code
+#### Test Code
 
 Open KidsBlock and connect the board to your computer. Click **File --> Load from your computer**.
 
-![图片不存在](media/769cddbf76a3c1810a85f38a006ca505.png)
+![3111](media/3111.png)
 
 Choose D:\Code\2.Code_kidsIOT to open **3.6Flame sensor.sb3** file.
 
-![图片不存在](media/94e0501e579df30c73020115438017cf.png)
+![3602](media/3602.png)
 
-Click![图片不存在](media/Unconnected.png) to connect to port and then ![图片不存在](media/251c1ea677e15869efc8ec5862a2204b.png).
+Click![Unconnected](media/Unconnected.png) to connect to port and then ![2210](media/2210.png).
 
-Explanations
+#### Explanations
 
-![图片不存在](media/8b7f0ae11532396b3d55b3d9e58143ad.png)
+![5top](media/5top.png)
 
 **Code Blocks**
 
 |              Blocks               |               Code block                |
 | :-------------------------------: | :-------------------------------------: |
-|    ![图片不存在](media/b235f1924c2c2c6201df43967b104116.png)    |        ![图片不存在](media/7b373bcabc1aed5fc0b05092679a22fa.png)        |
-|         ![图片不存在](media/P.png)         |      ![图片不存在](media/setmode.png)      |
-|         ![图片不存在](media/P.png)         |   ![图片不存在](media/readanalog.png)   |
-|      ![图片不存在](media/Vari.png)      | ![图片不存在](media/variablename.png) |
-|      ![图片不存在](media/Vari.png)      |  ![图片不存在](media/setvariable.png)  |
-|      ![图片不存在](media/Vari.png)      |     ![图片不存在](media/variable.png)     |
-|    ![图片不存在](media/Serial.png)    |  ![图片不存在](media/serialbegin.png)  |
-|    ![图片不存在](media/Serial.png)    |  ![图片不存在](media/serialprint.png)  |
-| ![图片不存在](media/Operators.png) |       ![图片不存在](media/f7242d3975fc80e48eab9d45803f3839.png)       |
-| ![图片不存在](media/Operators.png) |     ![图片不存在](media/multiply.png)     |
-| ![图片不存在](media/Operators.png) |         ![图片不存在](media/25295ea6e954d3db107b46f8e315440e.png)         |
-|   ![图片不存在](media/2d9bb68a76d6f85e82282e3b4833b446.png)   |      ![图片不存在](media/27ff2f64a99f85b0f74de875ad5572ec.png)      |
-|   ![图片不存在](media/2d9bb68a76d6f85e82282e3b4833b446.png)   |       ![图片不存在](media/b2c84d5fb7db813965d4c1f256305faf.png)       |
-|   ![图片不存在](media/2d9bb68a76d6f85e82282e3b4833b446.png)   |         ![图片不存在](media/wait.png)         |
+|    ![Events](media/Events.png)    |        ![begin](media/begin.png)        |
+|         ![P](media/P.png)         |      ![setmode](media/setmode.png)      |
+|         ![P](media/P.png)         |   ![readanalog](media/readanalog.png)   |
+|      ![Vari](media/Vari.png)      | ![variablename](media/variablename.png) |
+|      ![Vari](media/Vari.png)      |  ![setvariable](media/setvariable.png)  |
+|      ![Vari](media/Vari.png)      |     ![variable](media/variable.png)     |
+|    ![Serial](media/Serial.png)    |  ![serialbegin](media/serialbegin.png)  |
+|    ![Serial](media/Serial.png)    |  ![serialprint](media/serialprint.png)  |
+| ![Operators](media/Operators.png) |       ![divide](media/divide.png)       |
+| ![Operators](media/Operators.png) |     ![multiply](media/multiply.png)     |
+| ![Operators](media/Operators.png) |         ![less](media/less.png)         |
+|   ![Control](media/Control.png)   |      ![forever](media/forever.png)      |
+|   ![Control](media/Control.png)   |       ![ifelse](media/ifelse.png)       |
+|   ![Control](media/Control.png)   |         ![wait](media/wait.png)         |
 
-![图片不存在](media/58b75ba1ba6bfa524479ef35a58fcf13.png)
+![line5](media/line5.png)
 
 **Conceive:**
 
@@ -1234,46 +1234,46 @@ Explanations
 
    Set pins and modes, initialize the serial port and create variables.
 
-   ![图片不存在](media/55d3d6f1154ad504c8c6c85ac3cc2178.png)
+   ![3603](media/3603.png)
 
-   ![图片不存在](media/35ed2fcd5aea903247f69dc65eeeafdc.png)
+   ![9top](media/9top.png)
 
-   ![图片不存在](media/variablename.png) creates a variable.
+   ![variablename](media/variablename.png) creates a variable.
 
-   - ![图片不存在](media/99f5d0cec1b94a35a04dc316d6af15ae.png)
+   - ![3610](media/3610.png)
 
      Define the variable is global or local.
 
-   - ![图片不存在](media/3e460de70b45945d18f97b0967a11e4d.png)
+   - ![3611](media/3611.png)
 
      Set the variable type.
 
-   - ![图片不存在](media/fd25ef0dae9ff0b7897cbe045a7903c4.png)
+   - ![3612](media/3612.png)
 
      Name the variable.
 
-   - ![图片不存在](media/4496ff09be49be551851804f43e2d048.png)
+   - ![3613](media/3613.png)
 
      Assign an initial value.
 
-   ![图片不存在](media/44ec79a7b20118c7414b12461405431d.png)
+   ![9bottom](media/9bottom.png)
 
-   ![图片不存在](media/386550fed7f387ca26d61619d17ab36c.png)
+   ![3614](media/3614.png)
 
    Create a float variable named *Flame_value* to store the analog value of flame sensor, with an initial value of 0.
 
-   ![图片不存在](media/7e56ddbd93148eca432b2e0dcbae1f10.png)
+   ![3615](media/3615.png)
 
    Create a float variable named *Voltage* to store the input voltage of the flame sensor, with an initial value of 0.
 
 
-![图片不存在](media/1479e66a96050e577af87d5a69edab5f.png)
+![line3](media/line3.png)
 
 2. **Main Code**
 
    Loop: print the analog value read by the sensor and the voltage converted from the analog value. The results will be refreshed every 0.1s.
 
-   ![图片不存在](media/192d22c7cf18c12d550765a913d38062.png)
+   ![3604](media/3604.png)
 
    <br>
 
@@ -1281,37 +1281,37 @@ Explanations
 
    ① Drag blocks and build as follows:
 
-   ![图片不存在](media/b62759eb9e08edb9f6f7532236c599b5.png)
+   ![3605](media/3605.png)
 
-   ![图片不存在](media/35ed2fcd5aea903247f69dc65eeeafdc.png)
+   ![9top](media/9top.png)
 
-   ![图片不存在](media/setvariable.png) set variable and assign to it.
+   ![setvariable](media/setvariable.png) set variable and assign to it.
 
-   ![图片不存在](media/variable.png) is a variable block.
+   ![variable](media/variable.png) is a variable block.
 
-   ![图片不存在](media/44ec79a7b20118c7414b12461405431d.png)
+   ![9bottom](media/9bottom.png)
 
    Connect the flame sensor to pin io36, read the analog value of pin io36 and assign it to the variable *Flame_value*.
 
-   ![图片不存在](media/1db0694ffa98181bc1fae9422564cfe6.png)
+   ![3606](media/3606.png)
 
    Assign the calculated voltage value to the variable *Voltage* .
 
    ② Drag blocks and build as follows:
 
-   ![图片不存在](media/05d649f44a6c6a9b934cb54624f4862b.png)
+   ![3607](media/3607.png)
 
    Print the analog value and the voltage value.
 
    ③ Drag blocks and build as follows:
 
-   ![图片不存在](media/bceb43f143abeb6ab9c4a6a0679e025a.png)
+   ![3608](media/3608.png)
    
-   ![图片不存在](media/35ed2fcd5aea903247f69dc65eeeafdc.png)
+   ![9top](media/9top.png)
    
-   ![图片不存在](media/25295ea6e954d3db107b46f8e315440e.png) determines whether left value of less than the right one. If yes, the condition will be output true.
+   ![less](media/less.png) determines whether left value of less than the right one. If yes, the condition will be output true.
    
-   ![图片不存在](media/44ec79a7b20118c7414b12461405431d.png)
+   ![9bottom](media/9bottom.png)
    
    When flame is detected, the voltage decrease. The brighter the flame is, the lower the voltage will be output. 
    
@@ -1321,45 +1321,45 @@ Explanations
    
    If voltage < 2, the serial monitor will display *Flame detected!* ; When voltage ≥ 2, it will prints *Nothing* .
    
-   ④ Add a delay ![图片不存在](media/wait.png) and set it to 0.1. The results will be refreshed every 0.1s.
+   ④ Add a delay ![wait](media/wait.png) and set it to 0.1. The results will be refreshed every 0.1s.
 
-![图片不存在](media/6efbaf3d2a2c7016395af93b825dea6b.png)
+![5bottom](media/5bottom.png)
 
-Test Result
+#### Test Result
 
-![图片不存在](media/7d7e42a04d79642c6d9f614a5e61a878.png)
+![4top](media/4top.png)
 
 <span style="color: rgb(2550, 10, 50);">Set baud rate before uploading code to avoid garbled words.</span>
 
-Click ![图片不存在](media/81687183903f3a617cf2f7088b089c33.png) to set the Buadrate to 115200.
+Click ![Baud1](media/Baud1.png) to set the Buadrate to 115200.
 
-![图片不存在](media/223b70a8d8b6e7fec01a3801b432fdc8.png)
+![Baud2](media/Baud2.png)
 
 After uploading the code, *Flame detected!* will be displayed on the serial monitor when the flame sensor detects flame.
 
 If no flame is detected, the serial monitor shows *Nothing*.
 
-![图片不存在](media/972b004259ff2aff12bf0243d7c9ccf6.png)
+![3609](media/3609.png)
 
-![图片不存在](media/ffabdd3c49f62391b087a8d7f7339a8c.png)
+![4bottom](media/4bottom.png)
 
 ---
 
-3.7 Sound Sensor
+### 3.7 Sound Sensor
 
-![图片不存在](media/0f796489e3fccd806ac608826e78772c.png)
+![1top](media/1top.png)
 
-![图片不存在](media/8ee457d4aeaba05f80b35989dfb7e84f.png)
+![KD2098BG](media/KD2098BG.png)
 
 The sound sensor acts as a microphone that can capture sound information in the environment.
 
 It is consists of a sensitive capacitor microphone for detecting sound and an amplification circuit. It works based on the propagation and vibration of sound. When sound travels near the sensor, the sound wave causes the sensor to vibrate. Then, the sensor converts sound vibrations into electrical signals and sends them for further processing or analysis.
 
-![图片不存在](media/574fafd11b0076d3a77d6b35961bec45.png)
+![1bottom](media/1bottom.png)
 
-Parameters
+#### Parameters
 
-![图片不存在](media/bb22aeac8f0bbe54abccb1cb3e9a155a.png)
+![2top](media/2top.png)
 
 Operating voltage: DC 3.3 ~ 5V 
 
@@ -1375,59 +1375,59 @@ Positioning hole: diameter of 4.8mm
 
 Interface: Telephone socket
 
-![图片不存在](media/ff61b588417e98ef8df9e4d9834f8c52.png)
+![2bottom](media/2bottom.png)
 
-Principle
+#### Principle
 
-![图片不存在](media/dda544dbaa39b4e95f3be6d8b44aa584.png)
+![3top](media/3top.png)
 
 When you speak loudly or play music to the MIC, these sound signals are converted into electrical ones, which are output at analog ports.
 
 The amplifier circuit on the module amplifies the sound detected by the MIC. We can adjust the amplification by rotating the potentiometer. It is the maximum when we adjust the potentiometer clockwise to the end.
 
-![图片不存在](media/f5b03dfc4b076d2e3c7028a8c6319bee.png)
+![3703](media/3703.png)
 
 Modules with red housing are analog ones, so we should connect to analog io pins of the mainboard (ports with red).
 
-![图片不存在](media/e822fb1fa8348f4ac7a68d6873b1a991.png)
+![IOT-red](media/IOT-red.png)
 
 In this experiment, we connect the module to port 7. According to the board ports view, the analog io pin at port 7 is io35.
 
-![图片不存在](media/803824b697ed82d1ec302855f39ec922.png)
+![3bottom](media/3bottom.png)
 
-Wiring Diagram
+#### Wiring Diagram
 
-![图片不存在](media/aa9a74e86f53902f7004e2e8c003fd06.png)
+![3701](media/3701.png)
 
-Test Code
+#### Test Code
 
 Open KidsBlock and connect the board to your computer. Click **File --> Load from your computer**.
 
-![图片不存在](media/769cddbf76a3c1810a85f38a006ca505.png)
+![3111](media/3111.png)
 
 Choose D:\Code\2.Code_kidsIOT to open **3.7Sound sensor.sb3** file.
 
-![图片不存在](media/287007972ae684373dc1e67e3b09cd08.png)
+![3702](media/3702.png)
 
-Click![图片不存在](media/Unconnected.png) to connect to port and then ![图片不存在](media/251c1ea677e15869efc8ec5862a2204b.png).
+Click![Unconnected](media/Unconnected.png) to connect to port and then ![2210](media/2210.png).
 
-Explanations
+#### Explanations
 
-![图片不存在](media/8b7f0ae11532396b3d55b3d9e58143ad.png)
+![5top](media/5top.png)
 
 **Code Blocks**
 
 |            Blocks             |              Code block               |
 | :---------------------------: | :-----------------------------------: |
-|  ![图片不存在](media/b235f1924c2c2c6201df43967b104116.png)  |       ![图片不存在](media/7b373bcabc1aed5fc0b05092679a22fa.png)       |
-|       ![图片不存在](media/P.png)       |     ![图片不存在](media/setmode.png)     |
-|       ![图片不存在](media/P.png)       |  ![图片不存在](media/readanalog.png)  |
-|  ![图片不存在](media/Serial.png)  | ![图片不存在](media/serialbegin.png) |
-|  ![图片不存在](media/Serial.png)  | ![图片不存在](media/serialprint.png) |
-| ![图片不存在](media/2d9bb68a76d6f85e82282e3b4833b446.png) |     ![图片不存在](media/27ff2f64a99f85b0f74de875ad5572ec.png)     |
-| ![图片不存在](media/2d9bb68a76d6f85e82282e3b4833b446.png) |        ![图片不存在](media/wait.png)        |
+|  ![Events](media/Events.png)  |       ![begin](media/begin.png)       |
+|       ![P](media/P.png)       |     ![setmode](media/setmode.png)     |
+|       ![P](media/P.png)       |  ![readanalog](media/readanalog.png)  |
+|  ![Serial](media/Serial.png)  | ![serialbegin](media/serialbegin.png) |
+|  ![Serial](media/Serial.png)  | ![serialprint](media/serialprint.png) |
+| ![Control](media/Control.png) |     ![forever](media/forever.png)     |
+| ![Control](media/Control.png) |        ![wait](media/wait.png)        |
 
-![图片不存在](media/58b75ba1ba6bfa524479ef35a58fcf13.png)
+![line5](media/line5.png)
 
 **Conceive:**
 
@@ -1435,41 +1435,41 @@ Explanations
 
    Set pins and modes, initialize the serial port.
 
-   ![图片不存在](media/761d051445e5d1406e0ddeefa76aebd7.png)
+   ![3704](media/3704.png)
 
-![图片不存在](media/1479e66a96050e577af87d5a69edab5f.png)
+![line3](media/line3.png)
 
 2. **Main Code**
 
    Loop: print the analog value read by the sound sensor every 0.1s.
 
-   ![图片不存在](media/e4776677346c7d5846ba6b2e0d0d9269.png)
+   ![3705](media/3705.png)
 
-![图片不存在](media/6efbaf3d2a2c7016395af93b825dea6b.png)
+![5bottom](media/5bottom.png)
 
-Test Result
+#### Test Result
 
-![图片不存在](media/7d7e42a04d79642c6d9f614a5e61a878.png)
+![4top](media/4top.png)
 
 <span style="color: rgb(2550, 10, 50);">Set baud rate before uploading code to avoid garbled words.</span>
 
-Click ![图片不存在](media/81687183903f3a617cf2f7088b089c33.png) to set the Buadrate to 115200.
+Click ![Baud1](media/Baud1.png) to set the Buadrate to 115200.
 
-![图片不存在](media/223b70a8d8b6e7fec01a3801b432fdc8.png)
+![Baud2](media/Baud2.png)
 
 After uploading the code, speak to the MIC, and monitor will display the analog value of sound volume that is detected by the sound sensor.
 
-![图片不存在](media/0be7e930000b3c55fe5b2fc7a5526f99.png)
+![3706](media/3706.png)
 
-![图片不存在](media/ffabdd3c49f62391b087a8d7f7339a8c.png)
+![4bottom](media/4bottom.png)
 
 ---
 
-3.8 Ultraviolet Sensor
+### 3.8 Ultraviolet Sensor
 
-![图片不存在](media/0f796489e3fccd806ac608826e78772c.png)
+![1top](media/1top.png)
 
-![图片不存在](media/9e43601fc6a14e09dcbde167ba0d3e63.png)
+![KD2102](media/KD2102.png)
 
 In the solar spectrum, the frequency of ultraviolet is higher than that of visible light, so it is invisible. 
 
@@ -1479,11 +1479,11 @@ Through ultraviolet radiation, the skin will produce more melanin, which is dist
 
 But it's not all bad. When ultraviolet light hits the body, it can promote the synthesis of vitamin D to prevent rickets. Besides, it harbors bactericidal efficacy, so some hospitals disinfect by ultraviolet light. In spite of its benefits, too strong ultraviolet will harm the human body, leading to a skin cancer.
 
-![图片不存在](media/574fafd11b0076d3a77d6b35961bec45.png)
+![1bottom](media/1bottom.png)
 
-Parameters
+#### Parameters
 
-![图片不存在](media/bb22aeac8f0bbe54abccb1cb3e9a155a.png)
+![2top](media/2top.png)
 
 Operating voltage: DC 3.3 ~ 5V 
 
@@ -1517,17 +1517,17 @@ Positioning hole: diameter of 4.8mm
 
 Interface: Telephone socket
 
-![图片不存在](media/ff61b588417e98ef8df9e4d9834f8c52.png)
+![2bottom](media/2bottom.png)
 
-Principle
+#### Principle
 
-![图片不存在](media/dda544dbaa39b4e95f3be6d8b44aa584.png)
+![3top](media/3top.png)
 
 This ultraviolet sensor measures the intensity of ultraviolet light and converts it into electrical outputs.
 
 The relationship between the output voltage of the UV sensor and the UV index:
 
-![图片不存在](media/8774c089ac751540608d4e32732aec09.png)
+![3806](media/3806.png)
 
 <center>Comparison Table of Voltage and UV index</center>
 
@@ -1535,53 +1535,53 @@ We can have a clearly look of the UV index corresponding to the output voltage. 
 
 Modules with red housing are analog ones, so we should connect to analog io pins of the mainboard (ports with red).
 
-![图片不存在](media/e822fb1fa8348f4ac7a68d6873b1a991.png)
+![IOT-red](media/IOT-red.png)
 
 In this experiment, we connect the module to port 8. According to the board ports view, the analog io pin at port 8 is io34.
 
-![图片不存在](media/803824b697ed82d1ec302855f39ec922.png)
+![3bottom](media/3bottom.png)
 
-Wiring Diagram
+#### Wiring Diagram
 
-![图片不存在](media/bfa3d2f88920e2455d52b21489d60811.png)
+![3801](media/3801.png)
 
-Test Code
+#### Test Code
 
 Open KidsBlock and connect the board to your computer. Click **File --> Load from your computer**.
 
-![图片不存在](media/769cddbf76a3c1810a85f38a006ca505.png)
+![3111](media/3111.png)
 
 Choose D:\Code\2.Code_kidsIOT to open **3.8Solar ultraviolet sensor.sb3** file.
 
-![图片不存在](media/127d43a0fd457bb4436544fb55721dcd.png)
+![3802](media/3802.png)
 
-Click![图片不存在](media/Unconnected.png) to connect to port and then ![图片不存在](media/251c1ea677e15869efc8ec5862a2204b.png).
+Click![Unconnected](media/Unconnected.png) to connect to port and then ![2210](media/2210.png).
 
-Explanations
+#### Explanations
 
-![图片不存在](media/8b7f0ae11532396b3d55b3d9e58143ad.png)
+![5top](media/5top.png)
 
 **Code Blocks**
 
 |              Blocks               |               Code block                |
 | :-------------------------------: | :-------------------------------------: |
-|    ![图片不存在](media/b235f1924c2c2c6201df43967b104116.png)    |        ![图片不存在](media/7b373bcabc1aed5fc0b05092679a22fa.png)        |
-|         ![图片不存在](media/P.png)         |   ![图片不存在](media/readanalog.png)   |
-|      ![图片不存在](media/Vari.png)      | ![图片不存在](media/variablename.png) |
-|      ![图片不存在](media/Vari.png)      |  ![图片不存在](media/setvariable.png)  |
-|      ![图片不存在](media/Vari.png)      |     ![图片不存在](media/variable.png)     |
-|    ![图片不存在](media/Serial.png)    |  ![图片不存在](media/serialbegin.png)  |
-|    ![图片不存在](media/Serial.png)    |  ![图片不存在](media/serialprint.png)  |
-| ![图片不存在](media/Operators.png) |       ![图片不存在](media/f7242d3975fc80e48eab9d45803f3839.png)       |
-| ![图片不存在](media/Operators.png) |     ![图片不存在](media/multiply.png)     |
-| ![图片不存在](media/Operators.png) |         ![图片不存在](media/25295ea6e954d3db107b46f8e315440e.png)         |
-| ![图片不存在](media/Operators.png) |      ![图片不存在](media/19475c6dc699433b285feba386d1cd74.png)      |
-| ![图片不存在](media/Operators.png) |          ![图片不存在](media/acc07e3e4671abf870f3db5769414e09.png)          |
-|   ![图片不存在](media/2d9bb68a76d6f85e82282e3b4833b446.png)   |      ![图片不存在](media/27ff2f64a99f85b0f74de875ad5572ec.png)      |
-|   ![图片不存在](media/2d9bb68a76d6f85e82282e3b4833b446.png)   |           ![图片不存在](media/67aad2ab2cfe74285da6d91e53385ff4.png)           |
-|   ![图片不存在](media/2d9bb68a76d6f85e82282e3b4833b446.png)   |         ![图片不存在](media/wait.png)         |
+|    ![Events](media/Events.png)    |        ![begin](media/begin.png)        |
+|         ![P](media/P.png)         |   ![readanalog](media/readanalog.png)   |
+|      ![Vari](media/Vari.png)      | ![variablename](media/variablename.png) |
+|      ![Vari](media/Vari.png)      |  ![setvariable](media/setvariable.png)  |
+|      ![Vari](media/Vari.png)      |     ![variable](media/variable.png)     |
+|    ![Serial](media/Serial.png)    |  ![serialbegin](media/serialbegin.png)  |
+|    ![Serial](media/Serial.png)    |  ![serialprint](media/serialprint.png)  |
+| ![Operators](media/Operators.png) |       ![divide](media/divide.png)       |
+| ![Operators](media/Operators.png) |     ![multiply](media/multiply.png)     |
+| ![Operators](media/Operators.png) |         ![less](media/less.png)         |
+| ![Operators](media/Operators.png) |      ![greater](media/greater.png)      |
+| ![Operators](media/Operators.png) |          ![and](media/and.png)          |
+|   ![Control](media/Control.png)   |      ![forever](media/forever.png)      |
+|   ![Control](media/Control.png)   |           ![if](media/if.png)           |
+|   ![Control](media/Control.png)   |         ![wait](media/wait.png)         |
 
-![图片不存在](media/58b75ba1ba6bfa524479ef35a58fcf13.png)
+![line5](media/line5.png)
 
 **Conceive:**
 
@@ -1593,15 +1593,15 @@ Explanations
 
    Create an integer variable *uv* to store the detected UV index. Assign an initial value of 0 to it.
 
-   ![图片不存在](media/1b3d43944ec1f2405c3daa9df01aeecb.png)
+   ![3803](media/3803.png)
 
-   ![图片不存在](media/1479e66a96050e577af87d5a69edab5f.png)
+   ![line3](media/line3.png)
 
 2. **Main Code**
 
    Loop: print the analog value read by the sensor and the voltage converted from the analog value. The results will be refreshed every 0.1s.
 
-   ![图片不存在](media/9aecf4dd159263b5fc140b30a8c17841.png)
+   ![3804](media/3804.png)
 
    <br>
 
@@ -1609,55 +1609,55 @@ Explanations
 
    ① Drag blocks and build as follows:
 
-   ![图片不存在](media/9d2c5fb63deedefc8fcf64e24f0b7420.png)
+   ![3805](media/3805.png)
 
    Connect the UV sensor to pin A7, read the analog value of pin A7 and convert it into voltage.
 
-   ![图片不存在](media/1e8abc343248733d5903e93773a083a1.png)
+   ![3807](media/3807.png)
 
    The voltage unit in the Comparison Table is millivolt(mV), so we convert the analog value read by the sensor into voltage in mV. We only need to multiply the value by 1000.
 
-   ![图片不存在](media/6ad716339685274b5581bf9debfeda51.png)
+   ![3808](media/3808.png)
 
    Assign the converted value to variable *Voltage*.
 
    ② Drag blocks and build as follows:
 
-   ![图片不存在](media/72bc56af80c7ebc51672e8aaa149fbad.png)
+   ![3809](media/3809.png)
 
-   ![图片不存在](media/35ed2fcd5aea903247f69dc65eeeafdc.png)
+   ![9top](media/9top.png)
 
-   ![图片不存在](media/67aad2ab2cfe74285da6d91e53385ff4.png)
+   ![if](media/if.png)
 
    If the condition is True, execute the blocks in "if".
 
    If the condition is False, skip this block.
 
-   ![图片不存在](media/44ec79a7b20118c7414b12461405431d.png)
+   ![9bottom](media/9bottom.png)
 
    If the voltage is lower than 50mV, UV index = 0
 
    ③ Drag blocks and build as follows:
 
-   ![图片不存在](media/0f07d25e7df49a7d3ed8a7d8d5be364a.png)
+   ![3810](media/3810.png)
 
-   ![图片不存在](media/35ed2fcd5aea903247f69dc65eeeafdc.png)
+   ![9top](media/9top.png)
 
-   ![图片不存在](media/19475c6dc699433b285feba386d1cd74.png) determines whether the left value is greater than the right value. If yes, the condition will be output true.
+   ![greater](media/greater.png) determines whether the left value is greater than the right value. If yes, the condition will be output true.
 
-   ![图片不存在](media/acc07e3e4671abf870f3db5769414e09.png): Only when the two conditions are both satisfied, it outputs True.
+   ![and](media/and.png): Only when the two conditions are both satisfied, it outputs True.
 
-   ![图片不存在](media/44ec79a7b20118c7414b12461405431d.png)
+   ![9bottom](media/9bottom.png)
 
    When the voltage is greater than 50 but lower than 227, UV index = 1.
 
    ④ Duplicate the block.
    
-   ![图片不存在](media/ea238f677ffd2fa1b93c85a69e33fb67.png)
+   ![3811](media/3811.png)
    
    As follows:
    
-   ![图片不存在](media/11d7659857ade68a8baceb30516acae2.png)
+   ![3812](media/3812.png)
    
    Duplicate for 10 times and set the condition according to the Comparison Table:
    
@@ -1673,51 +1673,51 @@ Explanations
    
    If voltage > 1079, uv = 11.
    
-   ![图片不存在](media/2cd0e0f19841e005017f8e805579d5a3.png)
+   ![3813](media/3813.png)
    
    We adopt **if** block to determine the range of the UV index.
    
    ⑤ Put into **forever**, as follows:
    
-   ![图片不存在](media/cc504ba9da724882340535f1eaff1bea.png)
+   ![3814](media/3814.png)
    
    Serial monitor prints the voltage value and UV index and refreshes the results every 0.1s.
 
-![图片不存在](media/6efbaf3d2a2c7016395af93b825dea6b.png)
+![5bottom](media/5bottom.png)
 
-Test Result
+#### Test Result
 
-![图片不存在](media/7d7e42a04d79642c6d9f614a5e61a878.png)
+![4top](media/4top.png)
 
 <span style="color: rgb(2550, 10, 50);">Set baud rate before uploading code to avoid garbled words.</span>
 
-Click ![图片不存在](media/81687183903f3a617cf2f7088b089c33.png) to set the Buadrate to 115200.
+Click ![Baud1](media/Baud1.png) to set the Buadrate to 115200.
 
-![图片不存在](media/223b70a8d8b6e7fec01a3801b432fdc8.png)
+![Baud2](media/Baud2.png)
 
 After uploading the code, the monitor prints the UV index and the voltage value (mV) converted from analog values of the sensor.
 
-![图片不存在](media/ee2fa452c6b4cc7b43ab0828fffdc8f4.png)
+![3815](media/3815.png)
 
-![图片不存在](media/ffabdd3c49f62391b087a8d7f7339a8c.png)
+![4bottom](media/4bottom.png)
 
 ---
 
-3.9 Traffic Light Module
+### 3.9 Traffic Light Module
 
-![图片不存在](media/0f796489e3fccd806ac608826e78772c.png)
+![1top](media/1top.png)
 
-![图片不存在](media/7198611019434fe1aa7380892f0d2835.png)
+![KD2080](media/KD2080.png)
 
 A traffic light acts as a signal that commands the traffic operation, which is generally composed of red, green and yellow light. Red indicates traffic-prohibited, green means traffic-permitted, and yellow is a warning signal.
 
 This traffic light module is also composed of red LED, yellow and green LED, whose working principle is consistent with that of white LED module.
 
-![图片不存在](media/574fafd11b0076d3a77d6b35961bec45.png)
+![1bottom](media/1bottom.png)
 
-Parameters
+#### Parameters
 
-![图片不存在](media/bb22aeac8f0bbe54abccb1cb3e9a155a.png)
+![2top](media/2top.png)
 
 Operating voltage: DC 3.3 ~ 5V 
 
@@ -1733,54 +1733,54 @@ Positioning hole: diameter of 4.8mm
 
 Interface: Telephone socket
 
-![图片不存在](media/ff61b588417e98ef8df9e4d9834f8c52.png)
+![2bottom](media/2bottom.png)
 
-Principle
+#### Principle
 
-![图片不存在](media/dda544dbaa39b4e95f3be6d8b44aa584.png)
+![3top](media/3top.png)
 
 The port of this module is in white, so we need to connect it to the white ports on the board.
 
-![图片不存在](media/3d3e29a21f0d5ddca205e4524bb9bbd7.png)
+![IOT-white](media/IOT-white.png)
 
 In this experiment, we connect the module to port 9. According to the order of the pins, the red LED is connected to pin io17, yellow to pin io18, and green to io19.
 
 When the mainboard inputs high(1) to the module, the connected LED will light up. If it is low(0), the related LED will go off.
 
-![图片不存在](media/803824b697ed82d1ec302855f39ec922.png)
+![3bottom](media/3bottom.png)
 
-Wiring Diagram
+#### Wiring Diagram
 
-![图片不存在](media/3ffadf87060a0ffdec8dcb4b8c84b0a6.png)
+![3901](media/3901.png)
 
-Test Code
+#### Test Code
 
 Open KidsBlock and connect the board to your computer. Click **File --> Load from your computer**.
 
-![图片不存在](media/769cddbf76a3c1810a85f38a006ca505.png)
+![3111](media/3111.png)
 
 Choose D:\Code\2.Code_kidsIOT to open **3.9Traffic light module.sb3** file.
 
-![图片不存在](media/1dd9890e4dcb024be0122fb0b43467ee.png)
+![3902](media/3902.png)
 
-Click![图片不存在](media/Unconnected.png) to connect to port and then ![图片不存在](media/251c1ea677e15869efc8ec5862a2204b.png).
+Click![Unconnected](media/Unconnected.png) to connect to port and then ![2210](media/2210.png).
 
-Explanations
+#### Explanations
 
-![图片不存在](media/8b7f0ae11532396b3d55b3d9e58143ad.png)
+![5top](media/5top.png)
 
 **Code Blocks**
 
 |            Blocks             |          Code block           |
 | :---------------------------: | :---------------------------: |
-|  ![图片不存在](media/b235f1924c2c2c6201df43967b104116.png)  |   ![图片不存在](media/7b373bcabc1aed5fc0b05092679a22fa.png)   |
-|       ![图片不存在](media/P.png)       | ![图片不存在](media/setmode.png) |
-|       ![图片不存在](media/P.png)       |  ![图片不存在](media/setout.png)  |
-| ![图片不存在](media/2d9bb68a76d6f85e82282e3b4833b446.png) | ![图片不存在](media/27ff2f64a99f85b0f74de875ad5572ec.png) |
-| ![图片不存在](media/2d9bb68a76d6f85e82282e3b4833b446.png) |    ![图片不存在](media/wait.png)    |
-| ![图片不存在](media/2d9bb68a76d6f85e82282e3b4833b446.png) |  ![图片不存在](media/repeat.png)  |
+|  ![Events](media/Events.png)  |   ![begin](media/begin.png)   |
+|       ![P](media/P.png)       | ![setmode](media/setmode.png) |
+|       ![P](media/P.png)       |  ![setout](media/setout.png)  |
+| ![Control](media/Control.png) | ![forever](media/forever.png) |
+| ![Control](media/Control.png) |    ![wait](media/wait.png)    |
+| ![Control](media/Control.png) |  ![repeat](media/repeat.png)  |
 
-![图片不存在](media/58b75ba1ba6bfa524479ef35a58fcf13.png)
+![line5](media/line5.png)
 
 **Conceive:**
 
@@ -1788,16 +1788,16 @@ Explanations
 
    Set pins and modes.
 
-   ![图片不存在](media/bce5ee7ef652dfd0ee1b19a9b556b09c.png)
+   ![3903](media/3903.png)
 
 
-![图片不存在](media/1479e66a96050e577af87d5a69edab5f.png)
+![line3](media/line3.png)
 
 2. **Main Code**
 
    Loop: red LED lights up for 5s; yellow LED blinks for 3 times; green LED lights up for 5s.
 
-   ![图片不存在](media/892e819fa69240b9d06d9ce21e291180.png)
+   ![3904](media/3904.png)
 
    <br>
 
@@ -1805,53 +1805,53 @@ Explanations
 
    ① Drag blocks and build as follows:
 
-   ![图片不存在](media/2d7e410f5ac25e63d7f9cf8618d96f9a.png)
+   ![3905](media/3905.png)
 
    Set pin IO17 to output high for 5s and then output low: red LED lights up for 5s and goes off.
 
    ② Drag blocks and build as follows:
 
-   ![图片不存在](media/84c7bffbe93c4fdae16b90cecb1f4bf3.png)
+   ![3906](media/3906.png)
 
-   ![图片不存在](media/35ed2fcd5aea903247f69dc65eeeafdc.png)
+   ![9top](media/9top.png)
 
-   ![图片不存在](media/repeat.png): codes in this block will run repeatedly, and the times can be set.
+   ![repeat](media/repeat.png): codes in this block will run repeatedly, and the times can be set.
 
-   ![图片不存在](media/44ec79a7b20118c7414b12461405431d.png)
+   ![9bottom](media/9bottom.png)
 
-   ![图片不存在](media/a0df578eab16e4fe8a378f6791a5e3a8.png)
+   ![3907](media/3907.png)
 
    The yellow LED turns on for 0.5s and off for 0.5s (blinks for 1s).
 
-   ![图片不存在](media/a5dbce9122c8f57f01740c147088caa6.png)
+   ![3908](media/3908.png)
 
    Set the times to 3, so the yellow LED blinks for 3 times.
 
    ③ Drag blocks and build as follows:
 
-   ![图片不存在](media/79ce92ad08aadb56939a4baaafca8fe9.png)
+   ![3909](media/3909.png)
 
    The green LED lights up for 5s and goes off.
 
-![图片不存在](media/6efbaf3d2a2c7016395af93b825dea6b.png)
+![5bottom](media/5bottom.png)
 
-Test Result
+#### Test Result
 
-![图片不存在](media/7d7e42a04d79642c6d9f614a5e61a878.png)
+![4top](media/4top.png)
 
 After uploading the code, repeat these actions: the red LED lights up for 5s, yellow one blinks for 3 times and green LED lights up for 5s. 
 
-![图片不存在](media/b46d007e9c767f48d4e52e1f360e9b4d.gif)
+![3902](media/3902.gif)
 
-![图片不存在](media/ffabdd3c49f62391b087a8d7f7339a8c.png)
+![4bottom](media/4bottom.png)
 
 ---
 
-3.10 LPS331APTR Air Pressure Sensor
+### 3.10 LPS331APTR Air Pressure Sensor
 
-![图片不存在](media/0f796489e3fccd806ac608826e78772c.png)
+![1top](media/1top.png)
 
-![图片不存在](media/9792eb8b58f683d734af81a3d6a4133f.png)
+![KD2117](media/KD2117.png)
 
 Air pressure effects human health physiologically and psychologically.
 
@@ -1861,11 +1861,11 @@ High pressure is also having a deleterious effect. It may lead to tinnitus, dizz
 
 Beyond that, air pressure will also change people's psychological moods, causing depressed emotions.
 
-![图片不存在](media/574fafd11b0076d3a77d6b35961bec45.png)
+![1bottom](media/1bottom.png)
 
-Parameters
+#### Parameters
 
-![图片不存在](media/bb22aeac8f0bbe54abccb1cb3e9a155a.png)
+![2top](media/2top.png)
 
 Operating voltage: DC 3.3 ~ 5V
 
@@ -1883,208 +1883,208 @@ Positioning hole: diameter of 4.8mm
 
 Interface: Telephone socket
 
-![图片不存在](media/ff61b588417e98ef8df9e4d9834f8c52.png)
+![2bottom](media/2bottom.png)
 
-Principle
+#### Principle
 
-![图片不存在](media/dda544dbaa39b4e95f3be6d8b44aa584.png)
+![3top](media/3top.png)
 
 LPS331APTR module is with green housing, which is an I2C communication sensor, so we should connect to ports with green on the board.
 
 In this experiment, we connect it to port 5.
 
-![图片不存在](media/c201b36002f94508d0ab2b18cf4e6964.png)
+![IOT-green](media/IOT-green.png)
 
 Before using, we need to import LPS331AP library.
 
-![图片不存在](media/803824b697ed82d1ec302855f39ec922.png)
+![3bottom](media/3bottom.png)
 
-Wiring Diagram
+#### Wiring Diagram
 
-![图片不存在](media/3021c98010a5594e0c68b95d547c9b3d.png)
+![31001](media/31001.png)
 
-Test Code
+#### Test Code
 
 Open KidsBlock and connect the board to your computer. Click **File --> Load from your computer**.
 
-![图片不存在](media/769cddbf76a3c1810a85f38a006ca505.png)
+![3111](media/3111.png)
 
 Choose D:\Code\2.Code_kidsIOT to open **3.10Air pressure detection.sb3** file.
 
-![图片不存在](media/92a480686d517d0cfb21039c43bda764.png)
+![31002](media/31002.png)
 
-Click![图片不存在](media/Unconnected.png) to connect to port and then ![图片不存在](media/251c1ea677e15869efc8ec5862a2204b.png).
+Click![Unconnected](media/Unconnected.png) to connect to port and then ![2210](media/2210.png).
 
-Explanations
+#### Explanations
 
-![图片不存在](media/8b7f0ae11532396b3d55b3d9e58143ad.png)
+![5top](media/5top.png)
 
 **Code Blocks**
 
 |             Blocks              |           Code block            |
 | :-----------------------------: | :-----------------------------: |
-|   ![图片不存在](media/b235f1924c2c2c6201df43967b104116.png)   |    ![图片不存在](media/7b373bcabc1aed5fc0b05092679a22fa.png)    |
-| ![图片不存在](media/Pressure.png) | ![图片不存在](media/LPS331AP.png) |
-|  ![图片不存在](media/2d9bb68a76d6f85e82282e3b4833b446.png)  |  ![图片不存在](media/27ff2f64a99f85b0f74de875ad5572ec.png)  |
-|  ![图片不存在](media/2d9bb68a76d6f85e82282e3b4833b446.png)  |     ![图片不存在](media/wait.png)     |
+|   ![Events](media/Events.png)   |    ![begin](media/begin.png)    |
+| ![Pressure](media/Pressure.png) | ![LPS331AP](media/LPS331AP.png) |
+|  ![Control](media/Control.png)  |  ![forever](media/forever.png)  |
+|  ![Control](media/Control.png)  |     ![wait](media/wait.png)     |
 
-![图片不存在](media/58b75ba1ba6bfa524479ef35a58fcf13.png)
+![line5](media/line5.png)
 
 **Conceive:**
 
-Add library first, Click ![图片不存在](media/62c05ffc94b8065d1e8be8dbf5956696.png) to load library **lps331ap**.
+Add library first, Click ![add](media/add.png) to load library **lps331ap**.
 
-![图片不存在](media/e520cf28c9668f9860ea54e0baab2895.png)
+![31003](media/31003.png)
 
 1. **Initialization**
 
    Initialize the serial port.
 
-   ![图片不存在](media/8248a42bd5dff4a76c995bf1cbafe54e.png)
+   ![3404](media/3404.png)
 
 
-![图片不存在](media/1479e66a96050e577af87d5a69edab5f.png)
+![line3](media/line3.png)
 
 2. **Main Code**
 
    Loop: print the air pressure value and temperature value read by the LPS331APTR sensor. The results will be refreshed every 0.1s.
 
-   ![图片不存在](media/da9179c7619f88cdb7a779a6a443f8c1.png)
+   ![31005](media/31005.png)
 
 
-![图片不存在](media/6efbaf3d2a2c7016395af93b825dea6b.png)
+![5bottom](media/5bottom.png)
 
-Test Result
+#### Test Result
 
-![图片不存在](media/7d7e42a04d79642c6d9f614a5e61a878.png)
+![4top](media/4top.png)
 
 <span style="color: rgb(2550, 10, 50);">Set baud rate before uploading code to avoid garbled words.</span>
 
-Click ![图片不存在](media/81687183903f3a617cf2f7088b089c33.png) to set the Buadrate to 115200.
+Click ![Baud1](media/Baud1.png) to set the Buadrate to 115200.
 
-![图片不存在](media/223b70a8d8b6e7fec01a3801b432fdc8.png)
+![Baud2](media/Baud2.png)
 
 After uploading the code, the monitor outputs the pressure and temperature value and refreshes them every 0.1s.
 
-![图片不存在](media/bd113ec21ee35887db54d108789a4597.png)
+![31007](media/31007.png)
 
 Touch the sensing area with your finger, and you will see the temperature value rises.
 
-![图片不存在](media/372d0e57149d16fdf4a529113d9b8246.png)
+![31006](media/31006.png)
 
-![图片不存在](media/e1bd75bbc77c65e72e1731760b661ca1.png)
+![31008](media/31008.png)
 
-![图片不存在](media/ffabdd3c49f62391b087a8d7f7339a8c.png)
+![4bottom](media/4bottom.png)
 
 ---
 
 ## 4. Comprehensive Experiments
 
-4.1 Rain Detection
+### 4.1 Rain Detection
 
 This station monitors weather conditions in real time.
 
 In this experiment, we combine a steam sensor and a passive buzzer to achieve a rain detection function for this mini meteorological station. When the steam sensor detects rain, the buzzer alarms. 
 
-Flow
+#### Flow
 
-![图片不存在](media/68739b9eba3e04a88586eec60d7fc9ca.png)
+![4101](media/4101.png)
 
-Assembly
+#### Assembly
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Required Parts**
 
-![图片不存在](media/668dd2767382d9d52b8c4c189acc16c7.png)
+![41_00](media/41_00.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 1**
 
-![图片不存在](media/72ee1b98f8676fbd77f8bfd8b44f18a9.png)
+![41_01](media/41_01.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 2**
 
-![图片不存在](media/499530e704634795298458202095ad5c.png)
+![41_02](media/41_02.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 3**
 
-![图片不存在](media/39e658e4d34fdfe5103fd8ea46d2b5db.png)
+![41_03](media/41_03.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 4**
 
-![图片不存在](media/f2223f22e15f0f1201e2ced9d0c80a65.png)
+![41_04](media/41_04.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 5**
 
-![图片不存在](media/a612f004ad2dcb2390cd349537a32329.png)
+![41_05](media/41_05.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 6**
 
-![图片不存在](media/d0c551fe609f044fbfd06794f3ceebec.png)
+![41_06](media/41_06.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 7**
 
-![图片不存在](media/e3c488608724e22735acc9fac9f3c5b9.png)
+![41_07](media/41_07.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 8**
 
-![图片不存在](media/dabd92658af8140a063ee2b33197ee03.png)
+![41_08](media/41_08.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Completed**
 
-![图片不存在](media/0179974542dccfc8ff6b8be2f0669523.png)
+![41_09](media/41_09.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
-Wiring Diagram
+#### Wiring Diagram
 
-![图片不存在](media/f571079e610439ceb66fbb0d966e5859.png)
+![4102](media/4102.png)
 
-Test Code
+#### Test Code
 
 Open KidsBlock and connect the board to your computer. Click **File --> Load from your computer**.
 
-![图片不存在](media/769cddbf76a3c1810a85f38a006ca505.png)
+![3111](media/3111.png)
 
 Choose D:\Code\2.Code_kidsIOT to open **4.1Rain detection.sb3** file.
 
-![图片不存在](media/e63da729c2a0471534bcee150335fed3.png)
+![4103](media/4103.png)
 
-Click![图片不存在](media/Unconnected.png) to connect to port and then ![图片不存在](media/251c1ea677e15869efc8ec5862a2204b.png).
+Click![Unconnected](media/Unconnected.png) to connect to port and then ![2210](media/2210.png).
 
-Explanations
+#### Explanations
 
-![图片不存在](media/8b7f0ae11532396b3d55b3d9e58143ad.png)
+![5top](media/5top.png)
 
 **Conceive:**	
 
 Set a threshold of voltage to determine the water volume. When there is too much water, the voltage exceeds the threshold, rain is detected, and the buzzer alarms. The buzzer will stop alarming when the voltage is lower than the threshold.
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 **Code structure:**
 
 1. Initialization. Set the pins of the steam sensor and the passive buzzer, set the voltage value of a single scale, and set the frequency of the passive buzzer.
 
-   ![图片不存在](media/61064dd35a5721e1723e7cea4189c33f.png)
+   ![4104](media/4104.png)
 
 2. Loop.
 
@@ -2095,129 +2095,129 @@ Set a threshold of voltage to determine the water volume. When there is too much
    - voltage > 1: buzzer alarms.
    - voltage ≤ 1: buzzer does not emit sounds.
 
-   ![图片不存在](media/12107ffaa6fadb6587c889dfde2906aa.png)
+   ![4105](media/4105.png)
 
-![图片不存在](media/6efbaf3d2a2c7016395af93b825dea6b.png)
+![5bottom](media/5bottom.png)
 
-Test Result
+#### Test Result
 
-![图片不存在](media/7d7e42a04d79642c6d9f614a5e61a878.png)
+![4top](media/4top.png)
 
 After uploading the code, the steam sensor will detects the ambient water volume and converts it to a voltage output. When the voltage is greater than 1, the buzzer alarms. If not, the buzzer will not emit sounds.
 
 <span style="color: rgb(2550, 10, 50);">**ATTENTION: Be careful when using water, please do not to drip to any other place outside the detection area to aviod a short circuit.**</span>
 
-![图片不存在](media/71fed73fa89c2d7b7b4e3d936c8a9206.gif)
+![4106](media/4106.gif)
 
-![图片不存在](media/ffabdd3c49f62391b087a8d7f7339a8c.png)
+![4bottom](media/4bottom.png)
 
 ---
 
-4.2 Fire Alarm
+### 4.2 Fire Alarm
 
 The fire alarm system of the station can effectively prevent and deal with forest fires.
 
 In this experiment, we build a fire alarm with a flame sensor and a passive buzzer. When flame is detected, the buzzer will emit sounds for alarming. 
 
-Flow
+#### Flow
 
-![图片不存在](media/2860a693e50904d0c22e6eade5a8c440.png)
+![4201](media/4201.png)
 
-Assembly
+#### Assembly
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Required Parts**
 
-![图片不存在](media/52cf38f0c8ebe681d5944ff75d8cb6c8.png)
+![42_00](media/42_00.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 1**
 
-![图片不存在](media/6de6d32c05cd762207f811692f9645fa.png)
+![42_01](media/42_01.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 2**
 
-![图片不存在](media/23b2a3a5a34c9ebcedd2cc7feff4a349.png)
+![42_02](media/42_02.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 3**
 
-![图片不存在](media/d56dcc94ae490773d04d66794e1d8633.png)
+![42_03](media/42_03.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 4**
 
-![图片不存在](media/ccea7ef564d9db2a9da94f73633675c9.png)
+![42_04](media/42_04.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 5**
 
-![图片不存在](media/d5119b491d04aa12dfe213f60f1379f4.png)
+![42_05](media/42_05.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 6**
 
-![图片不存在](media/5ebf8c8add33588e91805f3f2aed8916.png)
+![42_06](media/42_06.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 7**
 
-![图片不存在](media/6cb0a0d26e43706c6c340654c5297319.png)
+![42_07](media/42_07.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 8**
 
-![图片不存在](media/06698f4cfc017346049a1ca6cf920357.png)
+![42_08](media/42_08.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Completed**
 
-![图片不存在](media/414176f6673cde2f461c2d89b1bca116.png)
+![42_09](media/42_09.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
-Wiring Diagram
+#### Wiring Diagram
 
-![图片不存在](media/3fee2daeba2eccae0fac052d27c7b6c2.png)
+![4202](media/4202.png)
 
-Test Code
+#### Test Code
 
 Open KidsBlock and connect the board to your computer. Click **File --> Load from your computer**.
 
-![图片不存在](media/769cddbf76a3c1810a85f38a006ca505.png)
+![3111](media/3111.png)
 
 Choose D:\Code\2.Code_kidsIOT to open **4.2Fire alarm.sb3** file.
 
-![图片不存在](media/e46404c55252f1b8b427f18a4820816c.png)
+![4203](media/4203.png)
 
-Click![图片不存在](media/Unconnected.png) to connect to port and then ![图片不存在](media/251c1ea677e15869efc8ec5862a2204b.png).
+Click![Unconnected](media/Unconnected.png) to connect to port and then ![2210](media/2210.png).
 
-Explanations
+#### Explanations
 
-![图片不存在](media/8b7f0ae11532396b3d55b3d9e58143ad.png)
+![5top](media/5top.png)
 
 **Conceive:**
 
 Set a threshold of voltage to determine whether there is flame. When the sensor detects flame, the voltage is lower than the threshold, and the buzzer alarms. The buzzer will stop alarming when the voltage exceeds the threshold (the sensor detects no flame).
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 **Code structure:**
 
 1. Initialization. Set the pins of the flame sensor and the passive buzzer, set the voltage value of a single scale, and set the frequency of the passive buzzer.
 
-   ![图片不存在](media/55d3d6f1154ad504c8c6c85ac3cc2178.png)
+   ![3603](media/3603.png)
 
 2. Loop.
 
@@ -2228,23 +2228,23 @@ Set a threshold of voltage to determine whether there is flame. When the sensor 
    - voltage < 2: buzzer alarms.
    - voltage ≥ 2: buzzer does not emit sounds.
    
-   ![图片不存在](media/fa2bdcad4473244cc0c1dea56a4b4fe6.png)
+   ![4204](media/4204.png)
 
-![图片不存在](media/6efbaf3d2a2c7016395af93b825dea6b.png)
+![5bottom](media/5bottom.png)
 
-Test Result
+#### Test Result
 
-![图片不存在](media/7d7e42a04d79642c6d9f614a5e61a878.png)
+![4top](media/4top.png)
 
 Upload the code. When the flame sensor detects flame, the voltage will lower than 2, and the buzzer will alarm. If not, the buzzer will not emit sounds.
 
-![图片不存在](media/07ede3488c0f57d2e61ed58e76416f98.gif)
+![4205](media/4205.gif)
 
-![图片不存在](media/ffabdd3c49f62391b087a8d7f7339a8c.png)
+![4bottom](media/4bottom.png)
 
 ---
 
-4.3 Magnetic Field Detection
+### 4.3 Magnetic Field Detection
 
 After the lightning strike, a certain amount of electricity will generated in the surrounding, and a strong magnetic field will be produced in an instant. 
 
@@ -2252,99 +2252,99 @@ This magnetic field interferes with the connection of the relevant equipment of 
 
 In this experiment, we utilize a Hall sensor and a white LED module to detect magnetic field. When the Hall sensor detects a magnetic field, the white LED lights up.
 
-Flow
+#### Flow
 
-![图片不存在](media/bd8bc7dc51edb15ab56e90e1b3a3b260.png)
+![4301](media/4301.png)
 
-Assembly
+#### Assembly
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Required Parts**
 
-![图片不存在](media/a0757e59a99ce5cdc8c4bd63366b3cd3.png)
+![43_00](media/43_00.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 1**
 
-![图片不存在](media/f86308ab94f949ecf77e06cdbc23c15b.png)
+![43_01](media/43_01.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 2**
 
-![图片不存在](media/81e10d4791b4b6aec20238f37c493aae.png)
+![43_02](media/43_02.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 3**
 
-![图片不存在](media/ba12d32f1e2ee9a1524e3c8c49dd2bd8.png)
+![43_03](media/43_03.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 4**
 
-![图片不存在](media/cc241419ca42e9ba125b54b10776274a.png)
+![43_04](media/43_04.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 5**
 
-![图片不存在](media/0cd2f7377d0deeb1d76d345ff2480ec9.png)
+![43_05](media/43_05.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 6**
 
-![图片不存在](media/caca86ba4ab1c99d99838e21695606e0.png)
+![43_06](media/43_06.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 7**
 
-![图片不存在](media/d8277bcc6b09ed294039ceb9cd9770ed.png)
+![43_07](media/43_07.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Completed**
 
-![图片不存在](media/3d5f8e842bda98fa7354987fc6b7b4b7.png)
+![43_08](media/43_08.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
-Wiring Diagram
+#### Wiring Diagram
 
-![图片不存在](media/e87a86da052b59f0bd289ef230812f7d.png)
+![4302](media/4302.png)
 
-Test Code
+#### Test Code
 
 Open KidsBlock and connect the board to your computer. Click **File --> Load from your computer**.
 
-![图片不存在](media/769cddbf76a3c1810a85f38a006ca505.png)
+![3111](media/3111.png)
 
 Choose D:\Code\2.Code_kidsIOT to open **4.3Magnetic field detection.sb3** file.
 
-![图片不存在](media/c55ac65ff38dc87ab701d6d1efc1f93d.png)
+![4303](media/4303.png)
 
-Click![图片不存在](media/Unconnected.png) to connect to port and then ![图片不存在](media/251c1ea677e15869efc8ec5862a2204b.png).
+Click![Unconnected](media/Unconnected.png) to connect to port and then ![2210](media/2210.png).
 
-Explanations
+#### Explanations
 
-![图片不存在](media/8b7f0ae11532396b3d55b3d9e58143ad.png)
+![5top](media/5top.png)
 
 **Conceive:**
 
 When the Hall sensor detects a magnetic field, a low power(0) will be output, and the white LED lights up. If there is no magnetic field, high(1) will be output, and the LED goes off.
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 **Code structure:**
 
 1. Initialization. Set the pins of the Hall sensor and the white LED module.
 
-   ![图片不存在](media/48de175a3f787d4eb04fe78eed9c2029.png)
+   ![4304](media/4304.png)
 
 2. Loop.
 
@@ -2355,124 +2355,124 @@ When the Hall sensor detects a magnetic field, a low power(0) will be output, an
    - value = 0: the white LED lights up.
    - value ≠ 0: the white LED goes off.
 
-![图片不存在](media/81d815d433d17b03e1ccd6fd03cf2533.png)
+![4305](media/4305.png)
 
 
-![图片不存在](media/6efbaf3d2a2c7016395af93b825dea6b.png)
+![5bottom](media/5bottom.png)
 
-Test Result
+#### Test Result
 
-![图片不存在](media/7d7e42a04d79642c6d9f614a5e61a878.png)
+![4top](media/4top.png)
 
 After uploading the code, the Hall sensor starts to detect magnetic field.
 
 If the sensor detects a magnetic field, the white LED will turn on. If not, the LED will go off.
 
-![图片不存在](media/97377a5dee3ef21e6b9d98c7a1df470a.gif)
+![4306](media/4306.gif)
 
-![图片不存在](media/ffabdd3c49f62391b087a8d7f7339a8c.png)
+![4bottom](media/4bottom.png)
 
 ---
 
-4.4 Thunder Detection
+### 4.4 Thunder Detection
 
 Thunder is the atmospheric sound produced by lightning. When thunder is detected, it sends an alert that rain may be coming.
 
 In this experiment, we integrate a sound sensor and a white LED module to construct a thunder detector. When the thunder volume exceeds a set threshold, the white LED will lights up.
 
-Flow
+#### Flow
 
-![图片不存在](media/926d61ac26eb6307c74266bc20b53f4e.png)
+![4401](media/4401.png)
 
-Assembly
+#### Assembly
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Required Parts**
 
-![图片不存在](media/0da61e437d1f482051c6d7998a3f2c4e.png)
+![44_00](media/44_00.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 1**
 
-![图片不存在](media/fe786304d8f096dd119a6ba6901bb21a.png)
+![44_01](media/44_01.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 2**
 
-![图片不存在](media/db20f1b299a2b67a8a35f60816e71e43.png)
+![44_02](media/44_02.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 3**
 
-![图片不存在](media/09958a8f58a27dc300bd59c29678f7b8.png)
+![44_03](media/44_03.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 4**
 
-![图片不存在](media/e9531dd1d9bb6b3f378bdf1fd45f5410.png)
+![44_04](media/44_04.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 5**
 
-![图片不存在](media/9ca55af68b595d65870a37f3ff56d845.png)
+![44_05](media/44_05.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 6**
 
-![图片不存在](media/1c779230910422b86a80f8279d9395e8.png)
+![44_06](media/44_06.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 7**
 
-![图片不存在](media/fc6adb99c821d9e3378a6c46b50e2543.png)
+![44_07](media/44_07.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Completed**
 
-![图片不存在](media/924d8ade589d186ae8637f11c2fc15b9.png)
+![44_08](media/44_08.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
-Wiring Diagram
+#### Wiring Diagram
 
-![图片不存在](media/e6651ece085de73562037c8efcb87fa6.png)
+![4402](media/4402.png)
 
-Test Code
+#### Test Code
 
 Open KidsBlock and connect the board to your computer. Click **File --> Load from your computer**.
 
-![图片不存在](media/769cddbf76a3c1810a85f38a006ca505.png)
+![3111](media/3111.png)
 
 Choose D:\Code\2.Code_kidsIOT to open **4.4Sound detection.sb3** file.
 
-![图片不存在](media/0e57c17df75566fa16193d5fdd78157c.png)
+![4403](media/4403.png)
 
-Click![图片不存在](media/Unconnected.png) to connect to port and then ![图片不存在](media/251c1ea677e15869efc8ec5862a2204b.png).
+Click![Unconnected](media/Unconnected.png) to connect to port and then ![2210](media/2210.png).
 
-Explanations
+#### Explanations
 
-![图片不存在](media/8b7f0ae11532396b3d55b3d9e58143ad.png)
+![5top](media/5top.png)
 
 **Conceive:**
 
 Set a threshold of analog value to determine the thunder volume. When thunder is detected, the analog value exceeds the threshold, and the white LED lights up as an alarm. The LED will go off when the value is lower than the threshold.
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 **Code structure:**
 
 1. Initialization. Set the pins of the sound sensor and the white LED module.
 
-   ![图片不存在](media/63a47923acb1d8eb6fbc699aadee9cef.png)
+   ![4404](media/4404.png)
 
 2. Loop.
 
@@ -2483,105 +2483,105 @@ Set a threshold of analog value to determine the thunder volume. When thunder is
    - analog value > 100, the white LED lights up.
    - analog value ≤ 100, the white LED goes off.
    
-   ![图片不存在](media/17b35e9e94247857dc1257ca247ef3d3.png)
+   ![4405](media/4405.png)
 
-![图片不存在](media/6efbaf3d2a2c7016395af93b825dea6b.png)
+![5bottom](media/5bottom.png)
 
-Test Result
+#### Test Result
 
-![图片不存在](media/7d7e42a04d79642c6d9f614a5e61a878.png)
+![4top](media/4top.png)
 
 After uploading the code, the sound sensor detects whether there is a thunder. When the analog value of the sound exceeds 100, a thunder is detected and the white LED will light up.
 
 Here we stimulate thunder by playing music. When the value is greater than 100, LED lights up.
 
-![图片不存在](media/0adbf9cc90f58d97990ea9b3cb5fe64a.gif)
+![4406](media/4406.gif)
 
-![图片不存在](media/ffabdd3c49f62391b087a8d7f7339a8c.png)
+![4bottom](media/4bottom.png)
 
 ---
 
-4.5 Temperature Detection
+### 4.5 Temperature Detection
 
 It is necessary to monitor the atmospheric temperature in the natural environment in real time. If the temperature is too high, disasters such as fire may occur. When the normal temperature is detected, the green LED lights up; the yellow LED is a reminder for raising temperature; if red LED is on, be very careful because it indicates a high temperature.
 
 In this experiment, the XHT11 temperature and humidity sensor and the traffic light module to measure temperature range. Three colors of LED indicate three ranges of ambient temperature. 
 
-Flow
+#### Flow
 
-![图片不存在](media/92f231d00b82599a16cd042f2c404b32.png)
+![4501](media/4501.png)
 
-Assembly
+#### Assembly
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Required Parts**
 
-![图片不存在](media/260e654ff76eef3862a782225fe43eb9.png)
+![45_00](media/45_00.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 1**
 
-![图片不存在](media/b27745a041067c2705eb90555b3671f4.png)
+![45_01](media/45_01.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 2**
 
-![图片不存在](media/dd1ff7fcce38303faeabbfef77ad8209.png)
+![45_02](media/45_02.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 3**
 
-![图片不存在](media/6968f988bf1b29a065a46eff399abd5b.png)
+![45_03](media/45_03.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 4**
 
-![图片不存在](media/fd17d839912b892766339eba04b6ca42.png)
+![45_04](media/45_04.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 5**
 
-![图片不存在](media/97edee6113a8e371c4ecbb65a7f5cfb8.png)
+![45_05](media/45_05.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 6**
 
-![图片不存在](media/38b47b800997b2a1d1e13ae7f16aeb6b.png)
+![45_06](media/45_06.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Completed**
 
-![图片不存在](media/63bf01c075cc0d4d854502e67ce157a4.png)
+![45_07](media/45_07.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
-Wiring Diagram
+#### Wiring Diagram
 
-![图片不存在](media/234ebcb88377356ed965b407264dfd16.png)
+![4502](media/4502.png)
 
-Test Code
+#### Test Code
 
 Open KidsBlock and connect the board to your computer. Click **File --> Load from your computer**.
 
-![图片不存在](media/769cddbf76a3c1810a85f38a006ca505.png)
+![3111](media/3111.png)
 
 Choose D:\Code\2.Code_kidsIOT to open **4.5Temperature and humidity detection.sb3** file.
 
-![图片不存在](media/3aa5d66f873bb64dfd3c3d061800b1e6.png)
+![4503](media/4503.png)
 
-Click![图片不存在](media/Unconnected.png) to connect to port and then ![图片不存在](media/251c1ea677e15869efc8ec5862a2204b.png).
+Click![Unconnected](media/Unconnected.png) to connect to port and then ![2210](media/2210.png).
 
-Explanations
+#### Explanations
 
-![图片不存在](media/8b7f0ae11532396b3d55b3d9e58143ad.png)
+![5top](media/5top.png)
 
 **Conceive:**
 
@@ -2597,13 +2597,13 @@ Corresponding LED will light up when the ambient temperature is within the relat
 - Within warning temperature range: the yellow LED lights up.
 - Within high temperature range: the red LED lights up.
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 **Code structure:**
 
 1. Initialization. Set the pins of XHT11 temperature and humidity sensor and the traffic light module.
 
-   ![图片不存在](media/8a3f2c2b5cdbfc734b03c9d057775de5.png)
+   ![4504](media/4504.png)
 
 2. Loop.
 
@@ -2615,13 +2615,13 @@ Corresponding LED will light up when the ambient temperature is within the relat
    - 29°C ≤ temperature < 35°C: the yellow LED lights up and other LEDs are off.
    - temperature > 35°C: the red LED lights up and other LEDs are off.
    
-   ![图片不存在](media/ffa14d6e941f259cb7ef6cecf4d91755.png)
+   ![4505](media/4505.png)
 
-![图片不存在](media/6efbaf3d2a2c7016395af93b825dea6b.png)
+![5bottom](media/5bottom.png)
 
-Test Result
+#### Test Result
 
-![图片不存在](media/7d7e42a04d79642c6d9f614a5e61a878.png)
+![4top](media/4top.png)
 
 After uploading the code, the XHT11 sensor detects the ambient temperature value.
 
@@ -2631,99 +2631,99 @@ When the value is within the warning temperature range, the yellow LED turns on;
 
 When the value exceeds the high temperature threshold, the red LED lights up.
 
-![图片不存在](media/525e9ee10b46ccf3dfd4a32cbfc24c53.gif)
+![4506](media/4506.gif)
 
-![图片不存在](media/ffabdd3c49f62391b087a8d7f7339a8c.png)
+![4bottom](media/4bottom.png)
 
 ---
 
-4.6 Ultraviolet Detection
+### 4.6 Ultraviolet Detection
 
 In daily life, when the UV index is greater than 3, you'd better do sunscreen measures when going out. This station will calculate the UV index in real time to make timely reminders.
 
 In this experiment, we detect the UV index with an ultraviolet sensor and a traffic light module. When the detected UV index is higher than a set threshold, the red LED will light up.
 
-Flow
+#### Flow
 
-![图片不存在](media/963f0500563a5475c7c7cca18957809e.png)
+![4601](media/4601.png)
 
-Assembly
+#### Assembly
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Required Parts**
 
-![图片不存在](media/9d66023baa1dcfb5162c864c3c96d7c4.png)
+![46_00](media/46_00.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 1**
 
-![图片不存在](media/5b833078a67b5a846d314acfec93b963.png)
+![46_01](media/46_01.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 2**
 
-![图片不存在](media/56d5597e4413006b525cdfb36af13326.png)
+![46_02](media/46_02.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 3**
 
-![图片不存在](media/f21fc29eb3436bbf49ac9a2d0488fcf1.png)
+![46_03](media/46_03.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 4**
 
-![图片不存在](media/ab78dd16a2499e31108b27c92d9b565e.png)
+![46_04](media/46_04.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 5**
 
-![图片不存在](media/269a148802b930ce2e89aa0d61bc7d31.png)
+![46_05](media/46_05.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 6**
 
-![图片不存在](media/749965e3af108da858a8a75d323b077d.png)
+![46_06](media/46_06.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 7**
 
-![图片不存在](media/5e6185623f7b33bed5ae1926e1fcea11.png)
+![46_07](media/46_07.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Completed**
 
-![图片不存在](media/e225b921268892cd261ff256d1bd55be.png)
+![46_08](media/46_08.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
-Wiring Diagram
+#### Wiring Diagram
 
-![图片不存在](media/8d58a1305481b8af027c2500cb033740.png)
+![4602](media/4602.png)
 
-Test Code
+#### Test Code
 
 Open KidsBlock and connect the board to your computer. Click **File --> Load from your computer**.
 
-![图片不存在](media/769cddbf76a3c1810a85f38a006ca505.png)
+![3111](media/3111.png)
 
 Choose D:\Code\2.Code_kidsIOT to open **4.6Ultraviolet detection.sb3** file.
 
-![图片不存在](media/88f7568d91f1c3fb6fe200081e8f2186.png)
+![4603](media/4603.png)
 
-Click![图片不存在](media/Unconnected.png) to connect to port and then ![图片不存在](media/251c1ea677e15869efc8ec5862a2204b.png).
+Click![Unconnected](media/Unconnected.png) to connect to port and then ![2210](media/2210.png).
 
-Explanations
+#### Explanations
 
-![图片不存在](media/8b7f0ae11532396b3d55b3d9e58143ad.png)
+![5top](media/5top.png)
 
 **Conceive:**
 
@@ -2731,13 +2731,13 @@ When the UV index is within 0 ~ 2, the ultraviolet light is the weakest, and it 
 
 Herein, we set the threshold of the UV index to 3. If the value exceeds 3, the red LED will light up to remind you to wear sunscreen. If the value does not reach 3, the LED will go off.
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 **Code structure:**
 
 1. Initialization.
 
-   ![图片不存在](media/df41c7e3023f34461e62d1de4815e231.png)
+   ![4604](media/4604.png)
 
 2. Loop:
 
@@ -2748,120 +2748,120 @@ Herein, we set the threshold of the UV index to 3. If the value exceeds 3, the r
    - UV index > 3: the red LED lights up as a reminder.
    - UV index ≤ 3: the red LED goes off.
    
-   ![图片不存在](media/6acd9be92c4ef0fd7f3c60bad8293b0b.png)
+   ![4605](media/4605.png)
 
-![图片不存在](media/6efbaf3d2a2c7016395af93b825dea6b.png)
+![5bottom](media/5bottom.png)
 
-Test Result
+#### Test Result
 
-![图片不存在](media/7d7e42a04d79642c6d9f614a5e61a878.png)
+![4top](media/4top.png)
 
 After uploading the code, when the UV index is greater than 3, the red LED will light up to remind you to take sun protection measures when going out.
 
-![图片不存在](media/bc1b7fb876c256f6d4f7127f91e93611.gif)
+![4606](media/4606.gif)
 
-![图片不存在](media/ffabdd3c49f62391b087a8d7f7339a8c.png)
+![4bottom](media/4bottom.png)
 
 ---
-4.7 Air Pressure Detection
+### 4.7 Air Pressure Detection
 
 The station monitors air pressure in real time. When the air pressure is in normal range, the green LED lights up; When it is in the low range, the yellow LED turns on; When it is high, the red LED is on.
 
 In this experiment, we use an LPS331APTR air pressure sensor and a traffic light module to reveal the air pressure. LED will light up in corresponding colors when the pressure value is in the related set range.
 
-Flow
+#### Flow
 
-![图片不存在](media/f508427f4d260c90191cf7162370eae3.png)
+![4701](media/4701.png)
 
-Assembly
+#### Assembly
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Required Parts**
 
-![图片不存在](media/ef4b52a495a1f34c52f16a1db9f7427a.png)
+![47_00](media/47_00.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 1**
 
-![图片不存在](media/9671348396f252ed46af2ed29b048250.png)
+![47_01](media/47_01.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 2**
 
-![图片不存在](media/f2269238892afb6150323e1decfe759e.png)
+![47_02](media/47_02.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 3**
 
-![图片不存在](media/22de8e93ff1e063b3c089fa7f694609d.png)
+![47_03](media/47_03.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 4**
 
-![图片不存在](media/e70ca9d932469fc42f2aaa0e6ac0361d.png)
+![47_04](media/47_04.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 5**
 
-![图片不存在](media/84ac495795ecf8b8c7a3312665f16626.png)
+![47_05](media/47_05.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 6**
 
-![图片不存在](media/2ca6903e9b9f010891777a7f565eb907.png)
+![47_06](media/47_06.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 7**
 
-![图片不存在](media/6929988fb26d0a1132ff4718adf880e3.png)
+![47_07](media/47_07.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 8**
 
-![图片不存在](media/6c4764786c83678c16a8a112e049a515.png)
+![47_08](media/47_08.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 9**
 
-![图片不存在](media/10efe116a687a3a59804cab69f7f3715.png)
+![47_09](media/47_09.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Completed**
 
-![图片不存在](media/d078547f4346561b2924f1b5b1cd803a.png)
+![47_10](media/47_10.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
-Wiring Diagram
+#### Wiring Diagram
 
-![图片不存在](media/b699f3240cf1c43e48c3c2d5c7a1d024.png)
+![4702](media/4702.png)
 
-Test Code
+#### Test Code
 
 Open KidsBlock and connect the board to your computer. Click **File --> Load from your computer**.
 
-![图片不存在](media/769cddbf76a3c1810a85f38a006ca505.png)
+![3111](media/3111.png)
 
 Choose D:\Code\2.Code_kidsIOT to open **4.7Air pressure detection.sb3** file.
 
-![图片不存在](media/f707debdbdde0a3512fa5a3a82b77eb4.png)
+![4703](media/4703.png)
 
-Click![图片不存在](media/Unconnected.png) to connect to port and then ![图片不存在](media/251c1ea677e15869efc8ec5862a2204b.png).
+Click![Unconnected](media/Unconnected.png) to connect to port and then ![2210](media/2210.png).
 
-Explanations
+#### Explanations
 
-![图片不存在](media/8b7f0ae11532396b3d55b3d9e58143ad.png)
+![5top](media/5top.png)
 
 **Conceive:**
 
@@ -2879,13 +2879,13 @@ LED will light up in corresponding colors when the pressure value is in the rela
 - Within normal pressure range: the green LED lights up.
 - Within high pressure range: the red LED lights up.
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 **Code structure:**
 
 1. Initialization. set the pins of LPS331APTR air pressure sensor and the traffic light module.
 
-   ![图片不存在](media/8a3f2c2b5cdbfc734b03c9d057775de5.png)
+   ![4504](media/4504.png)
 
 2. Loop.
 
@@ -2897,13 +2897,13 @@ LED will light up in corresponding colors when the pressure value is in the rela
    - air pressure < 950hPa: the yellow LED lights up and other two LEDs goes off.
    - 950hPa < air pressure < 1050hPa: the green LED lights up and other two LEDs goes off.
 
-   ![图片不存在](media/7bb437ecb27f4bd753a30e8d82eb7bd5.png)
+   ![4705](media/4705.png)
 
-![图片不存在](media/6efbaf3d2a2c7016395af93b825dea6b.png)
+![5bottom](media/5bottom.png)
 
-Test Result
+#### Test Result
 
-![图片不存在](media/7d7e42a04d79642c6d9f614a5e61a878.png)
+![4top](media/4top.png)
 
 After uploading the code, the LPS331APTR sensor measures the air pressure.
 
@@ -2913,9 +2913,9 @@ When the air pressure is in the low range, the yellow LED lights up;
 
 When the air pressure is in the high range, the res LED turns on.
 
-![图片不存在](media/8ed5aa7ca790e59dcc52115d19338975.gif)
+![4706](media/4706.gif)
 
-![图片不存在](media/ffabdd3c49f62391b087a8d7f7339a8c.png)
+![4bottom](media/4bottom.png)
 
 ---
 

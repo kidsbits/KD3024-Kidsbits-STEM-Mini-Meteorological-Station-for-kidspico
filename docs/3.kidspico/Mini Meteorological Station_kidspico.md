@@ -16,9 +16,9 @@ For convenience, <span style="color: rgb(2550, 10, 50);">we move the codes into:
 
 ## 2. Development Environment Configuration
 
-2.1 Thonny Download
+### 2.1 Thonny Download
 
-Windows
+#### Windows
 
 **We demonstrate on Windows 10.**
 
@@ -26,19 +26,19 @@ Download: [Thonny Official](https://thonny.org)
 
 Click **Windows** to choose one version to download.
 
-![图片不存在](media/1da314fdb9460667dbfd3a4697d7d815.png)
+![1101](media/1101.png)
 
-![图片不存在](media/f71c729288441acf01675ae9cad173fa.png)
+![1102](media/1102.png)
 
-MAC
+#### MAC
 
 Similar to Windows.
 
-![图片不存在](media/f517b5c778eb9e172ca7372f9e4c5206.png)
+![1103](media/1103.png)
 
-![图片不存在](media/ed892528a3b824fea39e6ac7c55b507e.png)
+![1104](media/1104.png)
 
-2.2 Thonny Installation
+### 2.2 Thonny Installation
 
 Two methods:
 
@@ -48,146 +48,146 @@ Two methods:
 
 	- Installer
 
-		![图片不存在](media/25dd356cfd9dfd55ecbdb0b92c5c9b46.png)
+		![1201](media/1201.png)
 
 	- Portable variant
 
-		![图片不存在](media/678a9e354e95415065e0778a31f528a1.png)
+		![1202](media/1202.png)
 
 - Install Thonny only
 
   Recommended for developers: When the user already has a python environment, `pip install thonny` comes in handy to install Thonny separately.
 
-  ![图片不存在](media/94f0fd8a4fa3a9175c15b6888f4544f2.png)
+  ![1203](media/1203.png)
 
 Please just install according to your needs.
 
-Installer
+#### Installer
 
 Here we demonstrate how to install `Installer with 64-bit Python 3.10` on <span style="background:#ff0;color:#000">64bit Windows 10</span>.
 
-(1）After downloading, click![图片不存在](media/338a61d9cff83564996f495080f416ac.png) . And you will see **Select Setup Install Mode**, choose **Install for me only**.
+(1）After downloading, click![1204](media/1204.png) . And you will see **Select Setup Install Mode**, choose **Install for me only**.
 
-![图片不存在](media/88a462f0aaa7ad0f4942f99d422d8334.png)
+![1205](media/1205.png)
 
 (2） **Next** 
 
-![图片不存在](media/c1460a4ddcd3cfafd15715dd853cce8e.png)
+![1206](media/1206.png)
 
 (3）Tick **I accept the agreement** and **Next**.
 
-![图片不存在](media/fbdc3f05f83a9307844ec71b33d073c0.png)
+![1207](media/1207.png)
 
 (4）The default path is Disk C, or you can click **Browse...** to modify the path. After that, click **Next**.
 
-![图片不存在](media/927100ee3afa1898f8838ce20b320778.png)
+![1208](media/1208.png)
 
 (5）Choose a path to create the program's shortcuts, and click **Next**.
 
-![图片不存在](media/8f07d7269aa8712708ced638a2f11520.png)
+![1209](media/1209.png)
 
 (6）Tick **Create desktop icon** and click **Next**.
 
-![图片不存在](media/b174adb8f5e2ec634231f56c218bca66.png)
+![1210](media/1210.png)
 
 (7）Inatall 
 
-![图片不存在](media/1ec304475b437048c292b2fc681d035b.png)
+![1211](media/1211.png)
 
 (8）“**Finish**”
 
-![图片不存在](media/b76a5b738925fee9067972e32c623904.png)
+![1212](media/1212.png)
 
 (9）Open Thonny and choose your language.
 
-![图片不存在](media/ead3ab9ec7ccfc8b0868be0b49b909b4.png)
+![1213](media/1213.png)
 
 (10）Main interface:
 
-![图片不存在](media/a306e5906d179d1ff414e7b2719ecc50.png)
+![1214](media/1214.png)
 
-Portable Variant
+#### Portable Variant
 
 Here we demonstrate how to install `Portable variant with 64-bit Python 3.10` on <span style="background:#ff0;color:#000">64bit Windows 10</span>.
 
-(1）After downloading and being unzipped, click ![图片不存在](media/0217a936fef31e9b5cd9746e14bdbc3e.png) to choose your language.
+(1）After downloading and being unzipped, click ![1105](media/1105.png) to choose your language.
 
-![图片不存在](media/ead3ab9ec7ccfc8b0868be0b49b909b4.png)
+![1213](media/1213.png)
 
 (2）Main interface:
 
-![图片不存在](media/a306e5906d179d1ff414e7b2719ecc50.png)
+![1214](media/1214.png)
 
-(3）For convenience, please send ![图片不存在](media/989d968b70ef76f419148e56237f4b73.png) to Desktop(create shortcut).
+(3）For convenience, please send ![1217](media/1217.png) to Desktop(create shortcut).
 
-![图片不存在](media/24b758a58e44e004e2268a1e4d9e6343.png)
+![1215](media/1215.png)
 
-Shortcut: ![图片不存在](media/c09110399ccfb7dd7ec25a6837aade3e.png)
+Shortcut: ![1216](media/1216.png)
 
 ---
 
-2.3 Firmware
+### 2.3 Firmware
 
 Press and hold the BOOT button on the kidspico mainboard, connect it to PC via USB cable and then release the BOOT button. 
 
 A removable hard disk will show up.
 
-Open folder **3.Firmware_kidspico**, find and copy the firmware ![图片不存在](media/43b4b7f9196fe802d033df8122d36de0.png) into this disk.
+Open folder **3.Firmware_kidspico**, find and copy the firmware ![1301](media/1301.png) into this disk.
 
-![图片不存在](media/0a41cb38660c2588db2e2177c5fac490.png)
+![1302](media/1302.png)
 
 After that, open Thonny to connect to port (COM number varies from devices). 
 
-![图片不存在](media/64e1bb12fbdbbab05685ef622b0dc7db.png)
+![1303](media/1303.png)
 
 ---
 
-2.4 Thonny
+### 2.4 Thonny
 
-Interface
+#### Interface
 
 Click **View** and tick **Files** to open the file path management.
 
-![图片不存在](media/96b321dd12559ae0431ab769e4881d3e.png)
+![1401](media/1401.png)
 
-![图片不存在](media/66ec7c77b9e71d0153a0a768bbda8ae1.png)
+![1402](media/1402.png)
 
-Toolbar
+#### Toolbar
 
-![图片不存在](media/def0d20d9c2937b70b683e9c628c9bfe.png)
+![1403](media/1403.png)
 
 |          ICON           |            FUNCTION            |
 | :---------------------: | :----------------------------: |
-| ![图片不存在](media/1ca46b3024b5eb56a64f9e51fb5b6bda.png) |          New (Ctrl+N)          |
-| ![图片不存在](media/09eb106daa19a6839389b861c0189eb8.png) |        Open... (Ctrl+O)        |
-| ![图片不存在](media/6165658942fac7b66d707bf8c138e261.png) |         Save (Ctrl+S)          |
-| ![图片不存在](media/bb8bff3c77c2988be0eb31c62ebefa75.png) |    Run current script (F5)     |
-| ![图片不存在](media/5b1e3fe0bca1c55b4b836513ca80b250.png) |      Debug current script      |
-| ![图片不存在](media/1db201db2164fd4add0190cc9960e5fc.png) |         Step over (F6)         |
-| ![图片不存在](media/b4e2114fed530be1ebcccf33204d9b44.png) |         Step into (F7)         |
-| ![图片不存在](media/b3b8f253dd39dc4996401f94b70f953c.png) |            Step out            |
-| ![图片不存在](media/772d4d8c7b2426ca1c7b9843947b8ae4.png) |          Resume (F8)           |
-| ![图片不存在](media/dc7b8f052ee9198b54f12392d91d4171.png) | Stop/Restart backend (Ctrl+F2) |
+| ![1404](media/1404.png) |          New (Ctrl+N)          |
+| ![1405](media/1405.png) |        Open... (Ctrl+O)        |
+| ![1406](media/1406.png) |         Save (Ctrl+S)          |
+| ![1407](media/1407.png) |    Run current script (F5)     |
+| ![1408](media/1408.png) |      Debug current script      |
+| ![1409](media/1409.png) |         Step over (F6)         |
+| ![1410](media/1410.png) |         Step into (F7)         |
+| ![1411](media/1411.png) |            Step out            |
+| ![1412](media/1412.png) |          Resume (F8)           |
+| ![1413](media/1413.png) | Stop/Restart backend (Ctrl+F2) |
 
 ---
 
-2.5 Test
+### 2.5 Test
 
 <span style="color: rgb(2550, 10, 50);">Please download and unzip code files and save them in a path as your need. For instance, **D:\Code\3.Code_kidspico**.</span>
 
 In Files, click **This computer**.
 
-![图片不存在](media/783512ccf54871000cf504915a1e07d6.png)
+![1506](media/1506.png)
 
 Enter **Disk D** and open folder **Code**, find **3.Code_kidspico** and you will see all codes.
 
-![图片不存在](media/c74fca08585092681a160922b86aaa24.png) ![图片不存在](media/00672cbe77dde615a6c221deb183baee.png) ![图片不存在](media/a5bd23f7d9c5a8bb58956ab2c53bd692.png)
+![1507](media/1507.png) ![1508](media/1508.png) ![1509](media/1509.png)
 
 Connect to kidspico and choose COM port. 
 
-![图片不存在](media/19e971320f9aea85ab005f755b97288f.png)
+![1513](media/1513.png)
 
-Test Shell Command
+#### Test Shell Command
 
 Input the following code in Shell.	
 
@@ -195,45 +195,45 @@ Input the following code in Shell.
 print('hello world')
 ```
 
-![图片不存在](media/fb2d12dcfb12dfa47e06709d8deaffee.png)
+![1501](media/1501.png)
 
 Press "Enter" and the Shell prints **hello world**.
 
-![图片不存在](media/e53cb8a3cd7799d413e668daf21e467b.png)
+![1502](media/1502.png)
 
 ---
 
-Test Online Running
+#### Test Online Running
 
 Click to open code **Onboard_LED.py**.
 
-![图片不存在](media/d748a13d2f91d3267b6f52536f329a60.png)
+![1503](media/1503.png)
 
-Click ![图片不存在](media/bb8bff3c77c2988be0eb31c62ebefa75.png) to run the code, and the yellow LED on kidspico board will flashes: on for 1s and off for 1s.
+Click ![1407](media/1407.png) to run the code, and the yellow LED on kidspico board will flashes: on for 1s and off for 1s.
 
-![图片不存在](media/fb558cc8643eb22477758eb64da45f46.gif)
+![1504](media/1504.gif)
 
 ---
 
-Test Offline Running
+#### Test Offline Running
 
 Open **Onboard_LED.py** in Files: File --> Save as... 
 
-Click ![图片不存在](media/1ca46b3024b5eb56a64f9e51fb5b6bda.png) to create a new script, copy and paste Onboard_LED.py in it.
+Click ![1404](media/1404.png) to create a new script, copy and paste Onboard_LED.py in it.
 
-![图片不存在](media/1e7753ff81d1f10725037bd3583ba6f9.png)
+![1505](media/1505.png)
 
-Click ![图片不存在](media/6165658942fac7b66d707bf8c138e261.png) to save it to Raspberry Pi Pico.
+Click ![1406](media/1406.png) to save it to Raspberry Pi Pico.
 
-![图片不存在](media/5442d6b89f57ce083cb5b27428b0bc87.png)
+![1510](media/1510.png)
 
 We name it as **main.py**.
 
-![图片不存在](media/c13e40c5484183e9591d9c81b7821603.png)
+![1511](media/1511.png)
 
 After saving, the main.py code will automatically execute as long as the kidspico board is powered on. You will see the yellow LED flashes per second. 
 
-![图片不存在](media/75e025ff18a6955748fd47c10c4dfd1c.png)
+![1512](media/1512.png)
 
 ---
 
@@ -241,17 +241,17 @@ After saving, the main.py code will automatically execute as long as the kidspic
 
 <span style="color: rgb(2550, 10, 50);">Please move the codes to a convenient path as your needs, for instance, path: **D:\Code\3.Code_kidspico**.</span>
 
-Kidspico Ports View
+### Kidspico Ports View
 
 During experiments, <span style="color: rgb(2550, 10, 50);">modules can only be connected to ports in the same color.</span>
 
-![图片不存在](media/9a058aa13b94ce84f19de3a2f611a348.png)
+![KD2077](media/KD2077.png)
 
-3.1 White LED Module
+### 3.1 White LED Module
 
-![图片不存在](media/0f796489e3fccd806ac608826e78772c.png)
+![1top](media/1top.png)
 
-![图片不存在](media/a22119f910ee2e8172fdba2106151e8e.png)
+![KD2078](media/KD2078.png)
 
 **LED (Light-Emitting Diode)**
 
@@ -266,11 +266,11 @@ It generally includes gallium(Ga), arsenic(As), phosphorus(P), nitrogen(N) and s
 |  silicon carbide diode  |        yellow         |
 |  gallium nitride diode  |         blue          |
 
-![图片不存在](media/574fafd11b0076d3a77d6b35961bec45.png)
+![1bottom](media/1bottom.png)
 
-Parameters
+#### Parameters
 
-![图片不存在](media/bb22aeac8f0bbe54abccb1cb3e9a155a.png)
+![2top](media/2top.png)
 
 Operating voltage: DC 3.3 ~ 5 V
 
@@ -286,29 +286,29 @@ Positioning holes: diameter of 4.8 mm
 
 Interface: telephone socket
 
-![图片不存在](media/ff61b588417e98ef8df9e4d9834f8c52.png)
+![2bottom](media/2bottom.png)
 
-Principle
+#### Principle
 
-![图片不存在](media/dda544dbaa39b4e95f3be6d8b44aa584.png)
+![3top](media/3top.png)
 
 Modules with blue housing are digital ones, so we should connect to digital io pins of the mainboard (ports with blue).
 
-![图片不存在](media/4010a09457ccb90a934a457c17ece36a.png)
+![pico-blue](media/pico-blue.png)
 
 In this experiment, we connect the white LED module to port 1. According to the board ports view, the digital io pin at port 1 is io11.
 
 When we set the pin to high(1), the LED lights up in white; if we set to low(0), it will be off.
 
-![图片不存在](media/803824b697ed82d1ec302855f39ec922.png)
+![3bottom](media/3bottom.png)
 
-Wiring Diagram
+#### Wiring Diagram
 
-![图片不存在](media/306b5e05a127b7189a3537a988f75ac9.png)
+![3101](media/3101.png)
 
-Test Code
+#### Test Code
 
-Open Thonny and connect to COM port. Open **3.1Light_on.py** in **Files** and click ![图片不存在](media/bb8bff3c77c2988be0eb31c62ebefa75.png).
+Open Thonny and connect to COM port. Open **3.1Light_on.py** in **Files** and click ![1407](media/1407.png).
 
 ```python
 '''
@@ -327,15 +327,15 @@ while True:
     time.sleep(1)  # delay 1s
 ```
 
-Explanations
+#### Explanations
 
-![图片不存在](media/8b7f0ae11532396b3d55b3d9e58143ad.png)
+![5top](media/5top.png)
 
 1. `from machine import Pin`
 
    Import Pin from machine to enable its functions.
 
-![图片不存在](media/2fd65b883dd17bd50a77af9b5bdb37c2.png)
+![peg](media/peg.png)
 
   **machine.pin**
 
@@ -367,27 +367,27 @@ machine.Pin(id,mode,pull,value)
 
    - Pin.off() - set pin to low
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 2. `import time`
 
    Import **time** type so that its related functions can be adopted.
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 3. `led = Pin(11, Pin.OUT)`
 
 	Set LED pin io11 to output mode.
 
-![图片不存在](media/2f5f4d9ef54812ea08960cca8a8806e8.png)
+![6top](media/6top.png)
 
 Q ：Why "output"?
 
 A ：The code is written for the mainboard. For the board, pin io11 is outputting power levels (high or low) to the connected module.
 
-![图片不存在](media/bcc144c573b815d3bad3fed954f006c2.png)
+![6bottom](media/6bottom.png)
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 4. `while True:`
 
@@ -400,47 +400,47 @@ while (condition):
     (statements)
 ```
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 5. `led.on()` and `led.off()`
 
    At pin io11 on the mainboard, respectively output high(1) and low(0); i.e., output high(1)/low(0) to LED module to make it on/off.
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 6. `time.sleep(1)` 
 
    Delay 1s.
 
-   ![图片不存在](media/2f5f4d9ef54812ea08960cca8a8806e8.png)
+   ![6top](media/6top.png)
 
    Q ：Why delay?
 
    A ：If you output a high level to LED, it will be always on. Yet, we add a delay of 1s, so it lights up for only 1s. Delay time is the ON/OFF time of LED.
    
-   ![图片不存在](media/bcc144c573b815d3bad3fed954f006c2.png)
+   ![6bottom](media/6bottom.png)
 
-![图片不存在](media/6efbaf3d2a2c7016395af93b825dea6b.png)
+![5bottom](media/5bottom.png)
 
-Test Result
+#### Test Result
 
-![图片不存在](media/7d7e42a04d79642c6d9f614a5e61a878.png)
+![4top](media/4top.png)
 
 After uploading code, the LED module will flash with an interval of 1s (on for 1s and off for 1s).
 
-![图片不存在](media/d60aa95d6e9040d62f3c15db68fb6d66.gif)
+![3102](media/3102.gif)
 
-Click ![图片不存在](media/dc7b8f052ee9198b54f12392d91d4171.png) or Ctrl+C to exit the execution.
+Click ![1413](media/1413.png) or Ctrl+C to exit the execution.
 
-![图片不存在](media/ffabdd3c49f62391b087a8d7f7339a8c.png)
+![4bottom](media/4bottom.png)
 
 ---
 
-3.2 Hall Magnetic Sensor
+### 3.2 Hall Magnetic Sensor
 
-![图片不存在](media/0f796489e3fccd806ac608826e78772c.png)
+![1top](media/1top.png)
 
-![图片不存在](media/3ca2db2df249fd47e6d58bad1b06d0a9.png)
+![KD2101](media/KD2101.png)
 
 This Hall sensor module is mainly composed of A3144 linear Hall components. 
 
@@ -448,11 +448,11 @@ Based on Hall Effect, its magnetic sensitive circuit adopts semiconductor integr
 
 Its input is the magnetic induction intensity and its output is a digital voltage signal.
 
-![图片不存在](media/574fafd11b0076d3a77d6b35961bec45.png)
+![1bottom](media/1bottom.png)
 
-Parameters
+#### Parameters
 
-![图片不存在](media/bb22aeac8f0bbe54abccb1cb3e9a155a.png)
+![2top](media/2top.png)
 
 Voltage: DC 3.3 ~ 5V 
 
@@ -468,33 +468,33 @@ Positioning hole: diameter of 4.8mm
 
 Interface: Telephone socket
 
-![图片不存在](media/ff61b588417e98ef8df9e4d9834f8c52.png)
+![2bottom](media/2bottom.png)
 
-Principle
+#### Principle
 
-![图片不存在](media/dda544dbaa39b4e95f3be6d8b44aa584.png)
+![3top](media/3top.png)
 
 This Hall sensor is able to distinguish magnetic field north and south. The front of the magnetic induction element (with numbers) senses the South Pole, while its back detects the North Pole.
 
-![图片不存在](media/6aee28639f5ba48880bea0cc37ffd40b.png)
+![3205](media/3205.png)
 
 Modules with blue housing are digital ones, so we should connect to digital io pins of the mainboard (ports with blue).
 
-![图片不存在](media/4010a09457ccb90a934a457c17ece36a.png)
+![pico-blue](media/pico-blue.png)
 
 In this experiment, we connect the Hall sensor module to port 2. According to the board ports view, the digital io pin at port 2 is io8.
 
 When a magnetic field is detected, Hall sensor outputs low; When no magnetic field is detected, the sensor outputs high.
 
-![图片不存在](media/803824b697ed82d1ec302855f39ec922.png)
+![3bottom](media/3bottom.png)
 
-Wiring Diagram
+#### Wiring Diagram
 
-![图片不存在](media/eabceb4db79d82216879279daade4382.png)
+![3201](media/3201.png)
 
-Test Code
+#### Test Code
 
-Open **3.2Hall sensor.py** and click ![图片不存在](media/bb8bff3c77c2988be0eb31c62ebefa75.png).
+Open **3.2Hall sensor.py** and click ![1407](media/1407.png).
 
 ```python
 '''
@@ -516,27 +516,27 @@ while True:
     time.sleep(0.1)
 ```
 
-Code Explanation
+#### Code Explanation
 
-![图片不存在](media/8b7f0ae11532396b3d55b3d9e58143ad.png)
+![5top](media/5top.png)
 
 1. `hall = Pin(8, Pin.IN)`
 
    Connect Hall sensor to pin io8 and set it to input mode.
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 2. `value = hall.value()` 
    
    Assign the power level output by the sensor to  `value`.
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 3. `print(value, end=' ')` 
    
    Print value without wrapping, and end with space.
    
-   ![图片不存在](media/2fd65b883dd17bd50a77af9b5bdb37c2.png)
+   ![peg](media/peg.png)
    
    `print()`  will wrap to output results **by default**, because there is a **line break** `end ='\n'` which is usually omitted.
    
@@ -544,7 +544,7 @@ Code Explanation
    
    `end=' '`: add a space at the end rather than a line break.
    
-   ![图片不存在](media/2f5f4d9ef54812ea08960cca8a8806e8.png)
+   ![6top](media/6top.png)
    
    Q ：Why Space?
    
@@ -552,19 +552,19 @@ Code Explanation
    
    Without space (`end=''`):
    
-   ![图片不存在](media/33b6c70105961dd45189bd03d93ab607.png)
+   ![3203](media/3203.png)
    
    With space (`end=' '`):
    
-   ![图片不存在](media/9c77df605791e522124ef903afecb9e4.png)
+   ![3204](media/3204.png)
    
    A ：We add a space to separate the value and contents.
    
-   ![图片不存在](media/bcc144c573b815d3bad3fed954f006c2.png)
+   ![6bottom](media/6bottom.png)
    
    
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 4. ```python
    if value == 0:
@@ -579,11 +579,11 @@ Code Explanation
 
    value ≠ 0 (return False): Shell prints *There is no magnetic field*
 
-   ![图片不存在](media/2fd65b883dd17bd50a77af9b5bdb37c2.png)
+   ![peg](media/peg.png)
 
    The process flow of if statement:
 
-   ![图片不存在](media/cae5fe19879ff100ee40d508a997098d.png)
+   ![3202](media/3202.png)
 
    Running Principle: pose a condition to determine the trend of next step. If the condition is true, execute the code under this condition. If false, exit the execution.
 
@@ -625,47 +625,47 @@ Code Explanation
    
    If "condition_2" is False, skip "statement_block_2" to run "statement_block_3".
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 5. `time.sleep(0.1)`
 
    Delay 0.1s to stabilize the output, otherwise the Shell will print results at a very fast speed.
 
-![图片不存在](media/6efbaf3d2a2c7016395af93b825dea6b.png)
+![5bottom](media/5bottom.png)
 
-Test Result
+#### Test Result
 
-![图片不存在](media/7d7e42a04d79642c6d9f614a5e61a878.png)
+![4top](media/4top.png)
 
 After uploading the code, when the **South Pole** of the magnet approaches to the front of the magnetic induction element, the red LED lights up and Shell prints *0  A magnetic field*; 
 
-![图片不存在](media/c0741f51c46a8a5e6f438d87bc5de92b.png)
+![3206](media/3206.png)
 
 When the **South Pole** of the magnet approaches to its back or is away from the sensor, the red LED goes off, and Shell prints *1  There is no magnetic field* .
 
-![图片不存在](media/4afb5ba7145d0fdc2462f3e86d6c4928.png)
+![3207](media/3207.png)
 
 Put the **North Pole** of the magnet to the back of the element, the red LED lights up and Shell prints *0  A magnetic field*; 
 
-![图片不存在](media/2cfffb7160fc70c2f1243b59c1dc6ccf.png)
+![3209](media/3209.png)
 
 Put the **North Pole** of the magnet approach to the sensor or is away from its back, the red LED goes off, and Shell prints *1  There is no magnetic field*.
 
-![图片不存在](media/9d826c2ebf795347d3d574cc08af4b5e.png)
+![3210](media/3210.png)
 
-![图片不存在](media/cf8f1b2bc6c97ce11a4e4f5200dcb0b9.gif)
+![3208](media/3208.gif)
 
-Click ![图片不存在](media/dc7b8f052ee9198b54f12392d91d4171.png)or click Ctrl+C to exit execution.
+Click ![1413](media/1413.png)or click Ctrl+C to exit execution.
 
-![图片不存在](media/ffabdd3c49f62391b087a8d7f7339a8c.png)
+![4bottom](media/4bottom.png)
 
 ---
 
-3.3 Passive Buzzer
+### 3.3 Passive Buzzer
 
-![图片不存在](media/0f796489e3fccd806ac608826e78772c.png)
+![1top](media/1top.png)
 
-![图片不存在](media/ff3d76372cb787a611199a128dc13303.png)
+![KD2121](media/KD2121.png)
 
 Buzzer is an integrated structure of electronic sound device, which is powered by DC voltage. In application, it is widely used in computers, printers, copiers, alarms, electronic toys, automotive electronic equipment, telephones and timers. 
 
@@ -677,11 +677,11 @@ Passive ones, however, do not include oscillating sources. If we directly power 
 
 **To sum up, The active buzzer contains a vibration source, and its sound frequency is fixed. Yet there is no vibration source inside the passive one, so it must be driven by square waves whose frequency can be changed to control sounds.**
 
-![图片不存在](media/574fafd11b0076d3a77d6b35961bec45.png)
+![1bottom](media/1bottom.png)
 
-Parameters
+#### Parameters
 
-![图片不存在](media/bb22aeac8f0bbe54abccb1cb3e9a155a.png)
+![2top](media/2top.png)
 
 Operating voltage: DC 3.3 ~ 5V 
 
@@ -695,17 +695,17 @@ Positioning hole: diameter of 4.8mm
 
 Interface: Telephone socket
 
-![图片不存在](media/ff61b588417e98ef8df9e4d9834f8c52.png)
+![2bottom](media/2bottom.png)
 
-Principle
+#### Principle
 
-![图片不存在](media/dda544dbaa39b4e95f3be6d8b44aa584.png)
+![3top](media/3top.png)
 
 Music is an invisible art. It is a language that narrates emotions and thoughts. 
 
 The foundation of music, as we all know, is note. We can compose a variety of melodies and rhythms with different notes. Of all the notes, the most basic are seven:
 
-![图片不存在](media/66e6823bf861f8cad52bc0611ca9d997.png)
+![3301](media/3301.png)
 
 We can compose a variety of melodies and rhythms with these notes.
 
@@ -717,9 +717,9 @@ And the tones vary from different frequency of PWM.
 
 - The higher the frequency is, the higher the tone will be.
 
-![图片不存在](media/2fd65b883dd17bd50a77af9b5bdb37c2.png)
+![peg](media/peg.png)
 
-![图片不存在](media/1479e66a96050e577af87d5a69edab5f.png)
+![line3](media/line3.png)
 
 **What is PWM?**
 
@@ -727,7 +727,7 @@ PWM (Pulse width modulation) simulates the change of analog signal through digit
 
 Pulse width is the high level in a complete square wave cycle. So, pulse width modulation is to adjust the high level(of course, in other words, low level is also adjusted).
 
-![图片不存在](media/5b8b29a16e235513a47e4519cd8e8a86.png)
+![3302](media/3302.png)
 
 - **PWM frequency**: the number of times the signal going from high level to low level and back to high level in 1 second (one cycle), that is, how many cycles there are in a second.
 
@@ -749,7 +749,7 @@ Pulse width is the high level in a complete square wave cycle. So, pulse width m
   - Cycle: The time of a pulse signal. The number of cycles in 1s equals the frequency.
   - Pulse width time: high level time.
   
-  ![图片不存在](media/89e6481176c78795322869df5feff457.gif)
+  ![3303](media/3303.gif)
 
   <center>The relationship between duty cycle and LED brightness.gif<center>
 
@@ -759,25 +759,25 @@ Pulse width is the high level in a complete square wave cycle. So, pulse width m
 
 **The PWM frequency corresponding to notes**:
 
-![图片不存在](media/bd6f281865cd802b82db6bc86bbe502f.png)
+![3304](media/3304.png)
 
-![图片不存在](media/1479e66a96050e577af87d5a69edab5f.png)
+![line3](media/line3.png)
 
 Modules with blue housing are digital ones, so we should connect to digital io pins of the mainboard (ports with blue).
 
-![图片不存在](media/4010a09457ccb90a934a457c17ece36a.png)
+![pico-blue](media/pico-blue.png)
 
 In this experiment, we connect the passive buzzer to port 3. According to the board ports view, the digital io pin at port 3 is io3.
 
-![图片不存在](media/803824b697ed82d1ec302855f39ec922.png)
+![3bottom](media/3bottom.png)
 
-Wiring Diagram
+#### Wiring Diagram
 
-![图片不存在](media/dc3c31b99bc5b0055bfc74dbd2ec8b68.png)
+![3305](media/3305.png)
 
-Test Code
+#### Test Code
 
-Open **3.3Passive buzzer.py** and click ![图片不存在](media/bb8bff3c77c2988be0eb31c62ebefa75.png).
+Open **3.3Passive buzzer.py** and click ![1407](media/1407.png).
 
 ```python
 '''
@@ -818,15 +818,15 @@ while True:
         time.sleep(0.2)
 ```
 
-Code Explanation
+#### Code Explanation
 
-![图片不存在](media/8b7f0ae11532396b3d55b3d9e58143ad.png)
+![5top](media/5top.png)
 
 1. `from machine import Pin, PWM`
 
    Import PWM function.
    
-   ![图片不存在](media/2fd65b883dd17bd50a77af9b5bdb37c2.png)
+   ![peg](media/peg.png)
    
     **machine.PWM**
    
@@ -842,19 +842,19 @@ Code Explanation
    
         value: Set duty cycle ratio within 0-65536.
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 2. `buzzer = PWM(Pin(3))` 
 
    Connect the passive buzzer to pin io3, output PWM.
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 3. `a = [523,587,659,698,784,880,988]`
 
    Create a list **a** and put elements in [ ], including 523, 587, 659, 698,7 84, 880, 988, which are correspond to frequency of C, D, E, F, G, A, B.
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 4. ```python
    #Tone of duty cycle = 1000
@@ -866,7 +866,7 @@ Code Explanation
 
    **for loop**: play tones when the duty cycle is 1000, each tone is played for 0.2 seconds.
 
-   ![图片不存在](media/2fd65b883dd17bd50a77af9b5bdb37c2.png)
+   ![peg](media/peg.png)
 
    In Python, a for loop is an traversal flow that can be used to process every element(string, list, tuple, dictionary, set) in sequence, or to execute a loop for a specified number of times. 
 
@@ -879,7 +879,7 @@ Code Explanation
 
    The process flow of for loop:
 
-   ![图片不存在](media/fa8bd2019f71f40dda2a30b803617e1b.png)
+   ![3306](media/3306.png)
 
    Process strings:
    
@@ -907,7 +907,7 @@ Code Explanation
    
    In for loop, characters in the string will be output separately, so it is also called traversal loop function.
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 5. ```python
    #Tone of duty cycle = 5000
@@ -919,21 +919,21 @@ Code Explanation
 
    Similarly, this for loop play tones when the duty cycle is 5000, each tone is played for 0.2 seconds.
 
-![图片不存在](media/6efbaf3d2a2c7016395af93b825dea6b.png)
+![5bottom](media/5bottom.png)
 
-Test Result
+#### Test Result
 
-![图片不存在](media/7d7e42a04d79642c6d9f614a5e61a878.png)
+![4top](media/4top.png)
 
 After uploading the code, the buzzer will circularly play tones(C, D ,E, F, G, A, B) of duty cycle of 1000 and 5000. It is obvious that the sound is much louder when the duty cycle is 5000.
 
-Click ![图片不存在](media/dc7b8f052ee9198b54f12392d91d4171.png)or click Ctrl+C to exit execution.
+Click ![1413](media/1413.png)or click Ctrl+C to exit execution.
 
-![图片不存在](media/ffabdd3c49f62391b087a8d7f7339a8c.png)
+![4bottom](media/4bottom.png)
 
-Extension
+#### Extension
 
-![图片不存在](media/20165af751e3a46de15eb7992240aeba.png)
+![7top](media/7top.png)
 
 Congratulations! You have played these basic notes successfully! Now let's try to compose a beautiful music and play with this passive buzzer!
 
@@ -941,33 +941,33 @@ Open **3.3Music.py**.
 
 Import library to kidspico before uploading code. Open **buzzer_music.py** and choose *Upload to /*.
 
-![图片不存在](media/baa7325b8c367b1d47fa2896a91b15b4.png)
+![3307](media/3307.png)
 
 Upload successfully.
 
-![图片不存在](media/3b75d3d148ca10604cd90636ee952c76.png)
+![3308](media/3308.png)
 
-Click ![图片不存在](media/bb8bff3c77c2988be0eb31c62ebefa75.png) to run the code. Cool! do you hear the music?
+Click ![1407](media/1407.png) to run the code. Cool! do you hear the music?
 
-![图片不存在](media/d33d7d83d36b8c3f5effdcdf73bd6f4c.gif)
+![3309](media/3309.gif)
 
-![图片不存在](media/adb2dc68eebff18cfe59251042f7d5a1.png)
+![7bottom](media/7bottom.png)
 
 ---
 
-3.4 XHT11 Temperature and Humidity Sensor
+### 3.4 XHT11 Temperature and Humidity Sensor
 
-![图片不存在](media/0f796489e3fccd806ac608826e78772c.png)
+![1top](media/1top.png)
 
-![图片不存在](media/fd4eb242f6a61beabfe6482e45638c92.png)
+![KD2095 ](media/KD2095.png)
 
 XHT11 sensor is a low-cost and entry-level temperature and humidity sensor, which consists of a resistive humidity sensor and an NTC temperature sensor. It is designed 4-pin single-row pin and adopts single-wire serial interface, so we just add the appropriate pull-up resistance to read values. Moreover, its signal transmission distance can reach more than 20 meters.
 
-![图片不存在](media/574fafd11b0076d3a77d6b35961bec45.png)
+![1bottom](media/1bottom.png)
 
-Parameters
+#### Parameters
 
-![图片不存在](media/bb22aeac8f0bbe54abccb1cb3e9a155a.png)
+![2top](media/2top.png)
 
 Operating voltage ：DC 3.3 ~ 5V 
 
@@ -989,27 +989,27 @@ Positioning hole: diameter of 4.8mm
 
 Interface: Telephone socket
 
-![图片不存在](media/ff61b588417e98ef8df9e4d9834f8c52.png)
+![2bottom](media/2bottom.png)
 
-Principle
+#### Principle
 
-![图片不存在](media/dda544dbaa39b4e95f3be6d8b44aa584.png)
+![3top](media/3top.png)
 
 Modules with blue housing are digital ones, so we should connect to digital io pins of the mainboard (ports with blue).
 
-![图片不存在](media/4010a09457ccb90a934a457c17ece36a.png)
+![pico-blue](media/pico-blue.png)
 
 In this experiment, we connect the sensor to port 4. According to the board ports view, the digital io pin at port 4 is io2.
 
-![图片不存在](media/803824b697ed82d1ec302855f39ec922.png)
+![3bottom](media/3bottom.png)
 
-Wiring Diagram
+#### Wiring Diagram
 
-![图片不存在](media/a9a1e1a338c695e70235d62b41eb9b98.png)
+![3401](media/3401.png)
 
-Test Code
+#### Test Code
 
-Open **3.4Humiture.py** and click ![图片不存在](media/bb8bff3c77c2988be0eb31c62ebefa75.png).
+Open **3.4Humiture.py** and click ![1407](media/1407.png).
 
 ```python
 '''
@@ -1032,33 +1032,33 @@ while True:
     time.sleep(0.5)
 ```
 
-Code Explanation
+#### Code Explanation
 
-![图片不存在](media/8b7f0ae11532396b3d55b3d9e58143ad.png)
+![5top](media/5top.png)
 
 1. `import dht`
 
    Import dht library to enable functions in it.
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 2. `XHT = dht.DHT11(Pin(2))` 
 
    Connect XHT11 temperature and humidity sensor to pin io2.
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 3. `XHT.measure()`
    
    Call the measure function to detect the temperature and humidity value once.
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 4. `XHT.temperature()` and `XHT.humidity()`
 
    Call the attain function to acquire the temperature and humidity values, and then return them.
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 5. `print('temperature:',XHT.temperature(),'℃','humidity:',XHT.humidity(),'%')`
 
@@ -1066,59 +1066,59 @@ Code Explanation
 
    The contents to be printed should be enclosed in single quotation marks.
 
-   ![图片不存在](media/053cdef01438ff9456b5d0e031c4315f.png)
+   ![3402](media/3402.png)
 
    And these contents must be separated with commas.
 
-   ![图片不存在](media/1724b91ea32573d3265a91f3e1cca8f2.png)
+   ![3403](media/3403.png)
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 6. `time.sleep(0.5)`
 
    Add a delay of 0.5s to refresh the values every 0.5s.
 
-![图片不存在](media/6efbaf3d2a2c7016395af93b825dea6b.png)
+![5bottom](media/5bottom.png)
 
-Test Result
+#### Test Result
 
-![图片不存在](media/7d7e42a04d79642c6d9f614a5e61a878.png)
+![4top](media/4top.png)
 
 Before uploading code, please connect wires well. Otherwise, errors will occur:
 
-![图片不存在](media/07d0985849b07164d2eb2cc565739fc5.png)
+![3407](media/3407.png)
 
 After uploading the code, Shell prints the temperature and humidity values every 0.5s.
 
-![图片不存在](media/664a35ec10e7acd5afe24aba0401dcd0.png)
+![3404](media/3404.png)
 
 Blow to the XHT11 sensor and you will see both temperature and humidity values rise.
 
-![图片不存在](media/6d5d31a83e559898d281eace04285526.png)
+![3405](media/3405.png)
 
-![图片不存在](media/98743859b93bc926b824314e365e96dc.png)
+![3406](media/3406.png)
 
-Click ![图片不存在](media/dc7b8f052ee9198b54f12392d91d4171.png)or click Ctrl+C to exit execution.
+Click ![1413](media/1413.png)or click Ctrl+C to exit execution.
 
-![图片不存在](media/ffabdd3c49f62391b087a8d7f7339a8c.png)
+![4bottom](media/4bottom.png)
 
 ---
 
-3.5 Steam Sensor
+### 3.5 Steam Sensor
 
-![图片不存在](media/0f796489e3fccd806ac608826e78772c.png)
+![1top](media/1top.png)
 
-![图片不存在](media/f56f375c9ca328175c45e9a17eafe1b7.png)
+![KD2084](media/KD2084.png)
 
 Unlike the previous modules, the steam sensor is an analog module rather than a digital one.
 
 What is the difference? For digital modules, they only output high(3.3V) or low(0V); while analog ones are able to output or input intermediate voltage values through ADC analog ports on the board.
 
-![图片不存在](media/574fafd11b0076d3a77d6b35961bec45.png)
+![1bottom](media/1bottom.png)
 
-Parameters
+#### Parameters
 
-![图片不存在](media/bb22aeac8f0bbe54abccb1cb3e9a155a.png)
+![2top](media/2top.png)
 
 Operating voltage: DC 3.3 ~ 5V 
 
@@ -1134,11 +1134,11 @@ Positioning hole: diameter of 4.8mm
 
 Interface: Telephone socket
 
-![图片不存在](media/ff61b588417e98ef8df9e4d9834f8c52.png)
+![2bottom](media/2bottom.png)
 
-Principle
+#### Principle
 
-![图片不存在](media/dda544dbaa39b4e95f3be6d8b44aa584.png)
+![3top](media/3top.png)
 
 The steam sensor measures the amount of water through its exposed lines. The water will connect these lines. The more amount of water is, the wider the conductive area will be connected, and the higher the output voltage will be.
 
@@ -1146,9 +1146,9 @@ With the change of amount of water, the voltage (0 ~ 3.3V) detected by the analo
 
 <span style="color: rgb(10, 10, 200);">The board can only process digital signals, so we need to convert analog signals in to digital ones. Thus, an ADC(Analog to Digital Converter) acquisition is required.</span>
 
-![图片不存在](media/2fd65b883dd17bd50a77af9b5bdb37c2.png)
+![peg](media/peg.png)
 
-![图片不存在](media/1479e66a96050e577af87d5a69edab5f.png)
+![line3](media/line3.png)
 
 **What is ADC?**
 
@@ -1176,25 +1176,25 @@ ADC(Analog to Digital Converter) converts analog values to digital ones. The ADC
 
    Since ADC4 is built-in, it cannot be used at the pin. It measures the value of the on-board temperature sensor.	
 
-![图片不存在](media/1479e66a96050e577af87d5a69edab5f.png)
+![line3](media/line3.png)
 
 Modules with red housing are analog ones, so we should connect to analog io pins of the mainboard (ports with red).
 
-![图片不存在](media/faccc06d7b4f13dbb89250282fdb20d7.png)
+![pico-red](media/pico-red.png)
 
 In this experiment, we connect the module to port 6. According to the board ports view, the analog io pin at port 6 is io28.
 
 In addition to the measurement of water amount, this module also detects the vapor in air.
 
-![图片不存在](media/803824b697ed82d1ec302855f39ec922.png)
+![3bottom](media/3bottom.png)
 
-Wiring Diagram
+#### Wiring Diagram
 
-![图片不存在](media/8bbc96e5e1bfd5da77d1ab8be6bf24f0.png)
+![3501](media/3501.png)
 
-Test Code
+#### Test Code
 
-Open **3.5Steam sensor.py** and click ![图片不存在](media/bb8bff3c77c2988be0eb31c62ebefa75.png).
+Open **3.5Steam sensor.py** and click ![1407](media/1407.png).
 
 ```python
 '''
@@ -1218,15 +1218,15 @@ while True:
     time.sleep(0.1)
 ```
 
-Code Explanation
+#### Code Explanation
 
-![图片不存在](media/8b7f0ae11532396b3d55b3d9e58143ad.png)
+![5top](media/5top.png)
 
 1. `from machine import ADC`
 
    Import ADC module
    
-   ![图片不存在](media/2fd65b883dd17bd50a77af9b5bdb37c2.png)
+   ![peg](media/peg.png)
    
    **machine.ADC function**
    
@@ -1240,7 +1240,7 @@ Code Explanation
    
      ADC voltage calculation: <font face="courier New" color="black" size=6>$ Vin= \frac {3.3*ReadData}{65535}$</font>
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 2. `Water = ADC(28)` 
 
@@ -1248,13 +1248,13 @@ Code Explanation
 
    ADC0 - ADC3 are GPIO 26 - 29, among which ADC0, ADC1, ADC2 are available.
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 3. `conversion_fator = 3.3 / 65535` 
    
    Voltage value of a single scale
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 4. `Water_value = Water.read_u16()`
 
@@ -1262,51 +1262,51 @@ Code Explanation
 
    `read()` reads digital inputs, while `read_u16()` reads analog inputs. `u16` indicates that the result received is not a binary (0 or 1), but an unsigned 16-bit integer (0 ~ 65535).
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 5. `voltage = Water_value * conversion_fator`
 
    Convert values into voltage value. The voltage value (unit: V) equals analog value multiply by the voltage value of a single scale.
 
-![图片不存在](media/6efbaf3d2a2c7016395af93b825dea6b.png)
+![5bottom](media/5bottom.png)
 
-Test Result
+#### Test Result
 
-![图片不存在](media/7d7e42a04d79642c6d9f614a5e61a878.png)
+![4top](media/4top.png)
 
 After uploading the code, Shell outputs the detected analog values of water/vapor and the converted voltage values.
 
-![图片不存在](media/5008b01943e34f23116070f72be96ff0.png)
+![3503](media/3503.png)
 
 The more the amount of water is / the wetter the air is, the greater the analog and voltage value will be.
 
-![图片不存在](media/d9ff7ed5cef26927e70b130a26721c17.png)
+![3502](media/3502.png)
 
 Breath on the detection area, or touch it with a wet tissue, and you will see the analog value ans voltage will both increase.
 
 <span style="color: rgb(2550, 10, 50);">**ATTENTION: Be careful when using water, please do not to drip to any other place outside the detection area to aviod a short circuit.**</span>
 
-![图片不存在](media/70bb9412b1ae9bbd619e53642122c60d.png)
+![3504](media/3504.png)
 
-Click ![图片不存在](media/dc7b8f052ee9198b54f12392d91d4171.png)or click Ctrl+C to exit execution.
+Click ![1413](media/1413.png)or click Ctrl+C to exit execution.
 
-![图片不存在](media/ffabdd3c49f62391b087a8d7f7339a8c.png)
+![4bottom](media/4bottom.png)
 
 ---
 
- 3.6 Flame Sensor
+###  3.6 Flame Sensor
 
-![图片不存在](media/0f796489e3fccd806ac608826e78772c.png)
+![1top](media/1top.png)
 
-![图片不存在](media/163859fbb024658a42cf80b14a16cd05.png)
+![KD2097](media/KD2097.png)
 
 Since a far-infrared flame probe is reserved, the flame sensor is particularly sensitive to the flame spectrum, so this sensor is an essential part of the fire-fighting robot to find the fire source.
 
-![图片不存在](media/574fafd11b0076d3a77d6b35961bec45.png)
+![1bottom](media/1bottom.png)
 
-Parameters
+#### Parameters
 
-![图片不存在](media/bb22aeac8f0bbe54abccb1cb3e9a155a.png)
+![2top](media/2top.png)
 
 Operating voltage: DC 3.3 ~ 5V 
 
@@ -1328,29 +1328,29 @@ Positioning hole: diameter of 4.8mm
 
 Interface: Telephone socket
 
-![图片不存在](media/ff61b588417e98ef8df9e4d9834f8c52.png)
+![2bottom](media/2bottom.png)
 
-Principle
+#### Principle
 
-![图片不存在](media/dda544dbaa39b4e95f3be6d8b44aa584.png)
+![3top](media/3top.png)
 
 The sensitive element of the sensor is a special infrared receiving diode, which is very sensitive to the infrared generated by the flame. It detects flame by converting the brightness of the flame into power level signals.
 
 Modules with red housing are analog ones, so we should connect to analog io pins of the mainboard (ports with red).
 
-![图片不存在](media/faccc06d7b4f13dbb89250282fdb20d7.png)
+![pico-red](media/pico-red.png)
 
 In this experiment, we connect the module to port 6. According to the board ports view, the analog io pin at port 6 is io28.
 
-![图片不存在](media/803824b697ed82d1ec302855f39ec922.png)
+![3bottom](media/3bottom.png)
 
-Wiring Diagram
+#### Wiring Diagram
 
-![图片不存在](media/0d3c2acdcd4f134060cb9e879d489773.png)
+![3601](media/3601.png)
 
-Test Code
+#### Test Code
 
-Open **3.6Flame sensor.py** and click ![图片不存在](media/bb8bff3c77c2988be0eb31c62ebefa75.png).
+Open **3.6Flame sensor.py** and click ![1407](media/1407.png).
 
 ```python
 '''
@@ -1378,9 +1378,9 @@ while True:
     time.sleep(0.1)
 ```
 
-Code Explanation
+#### Code Explanation
 
-![图片不存在](media/8b7f0ae11532396b3d55b3d9e58143ad.png)
+![5top](media/5top.png)
 
 The first half part is exactly the same as the previous project. In the last half, we adopt an if statement. 
 
@@ -1401,37 +1401,37 @@ else:
 
 If voltage < 2, Shell will display *Flame detected!* ; When voltage ≥ 2, Shell will prints values in the next line, because a line break command `end ='\n'`  is used in the code.
 
-![图片不存在](media/6efbaf3d2a2c7016395af93b825dea6b.png)
+![5bottom](media/5bottom.png)
 
-Test Result
+#### Test Result
 
-![图片不存在](media/7d7e42a04d79642c6d9f614a5e61a878.png)
+![4top](media/4top.png)
 
 After uploading the code, *Flame detected!* will be displayed on the Shell when the flame sensor detects flame.
 
-![图片不存在](media/f43cbd758fc084aea34e937dac557754.png)
+![3602](media/3602.png)
 
-Click ![图片不存在](media/dc7b8f052ee9198b54f12392d91d4171.png)or click Ctrl+C to exit execution.
+Click ![1413](media/1413.png)or click Ctrl+C to exit execution.
 
-![图片不存在](media/ffabdd3c49f62391b087a8d7f7339a8c.png)
+![4bottom](media/4bottom.png)
 
 ---
 
-3.7 Sound Sensor
+### 3.7 Sound Sensor
 
-![图片不存在](media/0f796489e3fccd806ac608826e78772c.png)
+![1top](media/1top.png)
 
-![图片不存在](media/8ee457d4aeaba05f80b35989dfb7e84f.png)
+![KD2098BG](media/KD2098BG.png)
 
 The sound sensor acts as a microphone that can capture sound information in the environment.
 
 It is consists of a sensitive capacitor microphone for detecting sound and an amplification circuit. It works based on the propagation and vibration of sound. When sound travels near the sensor, the sound wave causes the sensor to vibrate. Then, the sensor converts sound vibrations into electrical signals and sends them for further processing or analysis.
 
-![图片不存在](media/574fafd11b0076d3a77d6b35961bec45.png)
+![1bottom](media/1bottom.png)
 
-Parameters
+#### Parameters
 
-![图片不存在](media/bb22aeac8f0bbe54abccb1cb3e9a155a.png)
+![2top](media/2top.png)
 
 Operating voltage: DC 3.3 ~ 5V 
 
@@ -1447,33 +1447,33 @@ Positioning hole: diameter of 4.8mm
 
 Interface: Telephone socket
 
-![图片不存在](media/ff61b588417e98ef8df9e4d9834f8c52.png)
+![2bottom](media/2bottom.png)
 
-Principle
+#### Principle
 
-![图片不存在](media/dda544dbaa39b4e95f3be6d8b44aa584.png)
+![3top](media/3top.png)
 
 When you speak loudly or play music to the MIC, these sound signals are converted into electrical ones, which are output at analog ports.
 
 The amplifier circuit on the module amplifies the sound detected by the MIC. We can adjust the amplification by rotating the potentiometer. It is the maximum when we adjust the potentiometer clockwise to the end.
 
-![图片不存在](media/f5b03dfc4b076d2e3c7028a8c6319bee.png)
+![3703](media/3703.png)
 
 Modules with red housing are analog ones, so we should connect to analog io pins of the mainboard (ports with red).
 
-![图片不存在](media/faccc06d7b4f13dbb89250282fdb20d7.png)
+![pico-red](media/pico-red.png)
 
 In this experiment, we connect the module to port 7. According to the board ports view, the analog io pin at port 7 is io27.
 
-![图片不存在](media/803824b697ed82d1ec302855f39ec922.png)
+![3bottom](media/3bottom.png)
 
-Wiring Diagram
+#### Wiring Diagram
 
-![图片不存在](media/618f0c3110164c8058362cbcbd1d34ba.png)
+![3701](media/3701.png)
 
-Test Code
+#### Test Code
 
-Open **3.7Sound sensor.py** and click ![图片不存在](media/bb8bff3c77c2988be0eb31c62ebefa75.png).
+Open **3.7Sound sensor.py** and click ![1407](media/1407.png).
 
 ```python
 '''
@@ -1493,9 +1493,9 @@ while True:
     time.sleep(0.1)
 ```
 
-Code Explanation
+#### Code Explanation
 
-![图片不存在](media/8b7f0ae11532396b3d55b3d9e58143ad.png)
+![5top](media/5top.png)
 
 **Conceive:**
 
@@ -1505,27 +1505,27 @@ Code Explanation
 
    Read the ADC value of corresponding channel and print the value on Shell, refresh the results every 0.1s.
 
-![图片不存在](media/6efbaf3d2a2c7016395af93b825dea6b.png)
+![5bottom](media/5bottom.png)
 
-Test Result
+#### Test Result
 
-![图片不存在](media/7d7e42a04d79642c6d9f614a5e61a878.png)
+![4top](media/4top.png)
 
 After uploading the code, speak to the MIC, and Shell will display the analog value of sound volume that is detected by the sound sensor.
 
-![图片不存在](media/b54b854c0a3b905b79d69b92112a03b0.png)
+![3702](media/3702.png)
 
-Click ![图片不存在](media/dc7b8f052ee9198b54f12392d91d4171.png)or click Ctrl+C to exit execution.
+Click ![1413](media/1413.png)or click Ctrl+C to exit execution.
 
-![图片不存在](media/ffabdd3c49f62391b087a8d7f7339a8c.png)
+![4bottom](media/4bottom.png)
 
 ---
 
-3.8 Ultraviolet Sensor
+### 3.8 Ultraviolet Sensor
 
-![图片不存在](media/0f796489e3fccd806ac608826e78772c.png)
+![1top](media/1top.png)
 
-![图片不存在](media/9e43601fc6a14e09dcbde167ba0d3e63.png)
+![KD2102](media/KD2102.png)
 
 In the solar spectrum, the frequency of ultraviolet is higher than that of visible light, so it is invisible. 
 
@@ -1535,11 +1535,11 @@ Through ultraviolet radiation, the skin will produce more melanin, which is dist
 
 But it's not all bad. When ultraviolet light hits the body, it can promote the synthesis of vitamin D to prevent rickets. Besides, it harbors bactericidal efficacy, so some hospitals disinfect by ultraviolet light. In spite of its benefits, too strong ultraviolet will harm the human body, leading to a skin cancer.
 
-![图片不存在](media/574fafd11b0076d3a77d6b35961bec45.png)
+![1bottom](media/1bottom.png)
 
-Parameters
+#### Parameters
 
-![图片不存在](media/bb22aeac8f0bbe54abccb1cb3e9a155a.png)
+![2top](media/2top.png)
 
 Operating voltage: DC 3.3 ~ 5V 
 
@@ -1573,17 +1573,17 @@ Positioning hole: diameter of 4.8mm
 
 Interface: Telephone socket
 
-![图片不存在](media/ff61b588417e98ef8df9e4d9834f8c52.png)
+![2bottom](media/2bottom.png)
 
-Principle
+#### Principle
 
-![图片不存在](media/dda544dbaa39b4e95f3be6d8b44aa584.png)
+![3top](media/3top.png)
 
 This ultraviolet sensor measures the intensity of ultraviolet light and converts it into electrical outputs.
 
 The relationship between the output voltage of the UV sensor and the UV index:
 
-![图片不存在](media/8774c089ac751540608d4e32732aec09.png)
+![3805](media/3805.png)
 
 <center>Comparison Table of Voltage and UV index</center>
 
@@ -1591,19 +1591,19 @@ We can have a clearly look of the UV index corresponding to the output voltage. 
 
 Modules with red housing are analog ones, so we should connect to analog io pins of the mainboard (ports with red).
 
-![图片不存在](media/faccc06d7b4f13dbb89250282fdb20d7.png)
+![pico-red](media/pico-red.png)
 
 In this experiment, we connect the module to port 8. According to the board ports view, the analog io pin at port 8 is io26.
 
-![图片不存在](media/803824b697ed82d1ec302855f39ec922.png)
+![3bottom](media/3bottom.png)
 
-Wiring Diagram
+#### Wiring Diagram
 
-![图片不存在](media/d10d13061c1a5040441c6450767e27b9.png)
+![3801](media/3801.png)
 
-Test Code
+#### Test Code
 
-Open **3.8Solar ultraviolet sensor.py** and click ![图片不存在](media/bb8bff3c77c2988be0eb31c62ebefa75.png).
+Open **3.8Solar ultraviolet sensor.py** and click ![1407](media/1407.png).
 
 ```python
 '''
@@ -1663,9 +1663,9 @@ while True:
     print('UV Index = ',uv)
 ```
 
-Code Explanation
+#### Code Explanation
 
-![图片不存在](media/8b7f0ae11532396b3d55b3d9e58143ad.png)
+![5top](media/5top.png)
 
 **Conceive:**
 
@@ -1696,13 +1696,13 @@ Code Explanation
    
    Determine which UV index range the converted voltage value is in, and print the result.
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 1. `from machine import ADC`
 
    Import ADC module.
 
-   ![图片不存在](media/2fd65b883dd17bd50a77af9b5bdb37c2.png)
+   ![peg](media/peg.png)
 
    **machine.ADC function**
 
@@ -1715,7 +1715,7 @@ Code Explanation
      ATTENTION: <span style="color: rgb(10, 10, 200);">In MicroPython, the ADC is converted to 16-bit for calculation, that is, from 0 to 65535. This function does not directly return the value read by ADC, but the processed one, which ranges from 0 to 65535.</span>
 
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 2. `ultraviolet = ADC(26)`
 
@@ -1723,13 +1723,13 @@ Code Explanation
    
    ADC0 - ADC3 are GPIO 26 - 29, among which ADC0, ADC1, ADC2 are available.
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 3. `conversion_fator = 3.3 / 65535`
 
      Voltage value of a single scale
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 4. `ultraviolet_value = ultraviolet.read_u16()`
 
@@ -1737,7 +1737,7 @@ Code Explanation
 
     `read()` reads digital inputs, while `read_u16()` reads analog inputs.  `u16` indicates that the result received is not a binary (0 or 1), but an unsigned 16-bit integer (0 ~ 65535).
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 5. `voltage = int(ultraviolet_value * conversion_fator * 1000)`
 
@@ -1749,7 +1749,7 @@ Code Explanation
 
    The calculated voltage value is in the unit of V: 
 
-   ![图片不存在](media/9160cbe1250f65d7cabb4f494c5c37d7.png)
+   ![3802](media/3802.png)
 
    We convert it into mV by multiplying 1000, as follows:
 
@@ -1757,7 +1757,7 @@ Code Explanation
 
    The output: 
 
-   ![图片不存在](media/83d81bc8b03c8a92d50cada2028b6115.png)
+   ![3803](media/3803.png)
 
    Lots of decimals are remained, so we may adopt `int()` to maintain their integer portion only. `int()` converts floats into integers, which facilitate result checking. 
 
@@ -1767,11 +1767,11 @@ Code Explanation
 
    Outputs:
 
-   ![图片不存在](media/be796f82a9bfb0c82b676e2e0352cb9b.png)
+   ![3804](media/3804.png)
    
    
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 6. ```python
    # voltage < 50
@@ -1834,37 +1834,37 @@ Code Explanation
 
    If `voltage < 1079` is False, skip `uv = 10` , execute `uv = 11` , so uv index is 11.
 
-![图片不存在](media/6efbaf3d2a2c7016395af93b825dea6b.png)
+![5bottom](media/5bottom.png)
 
-Test Result
+#### Test Result
 
-![图片不存在](media/7d7e42a04d79642c6d9f614a5e61a878.png)
+![4top](media/4top.png)
 
 After uploading the code, Shell prints the UV index and the voltage value (mV) converted from analog values of the sensor.
 
-![图片不存在](media/5857b3b33afb351e8c15a60031c296b2.png)
+![3806](media/3806.png)
 
-Click ![图片不存在](media/dc7b8f052ee9198b54f12392d91d4171.png)or click Ctrl+C to exit execution.
+Click ![1413](media/1413.png)or click Ctrl+C to exit execution.
 
-![图片不存在](media/ffabdd3c49f62391b087a8d7f7339a8c.png)
+![4bottom](media/4bottom.png)
 
 ---
 
-3.9 Traffic Light Module
+### 3.9 Traffic Light Module
 
-![图片不存在](media/0f796489e3fccd806ac608826e78772c.png)
+![1top](media/1top.png)
 
-![图片不存在](media/7198611019434fe1aa7380892f0d2835.png)
+![KD2080](media/KD2080.png)
 
 A traffic light acts as a signal that commands the traffic operation, which is generally composed of red, green and yellow light. Red indicates traffic-prohibited, green means traffic-permitted, and yellow is a warning signal.
 
 This traffic light module is also composed of red LED, yellow and green LED, whose working principle is consistent with that of white LED module.
 
-![图片不存在](media/574fafd11b0076d3a77d6b35961bec45.png)
+![1bottom](media/1bottom.png)
 
-Parameters
+#### Parameters
 
-![图片不存在](media/bb22aeac8f0bbe54abccb1cb3e9a155a.png)
+![2top](media/2top.png)
 
 Operating voltage: DC 3.3 ~ 5V 
 
@@ -1880,29 +1880,29 @@ Positioning hole: diameter of 4.8mm
 
 Interface: Telephone socket
 
-![图片不存在](media/ff61b588417e98ef8df9e4d9834f8c52.png)
+![2bottom](media/2bottom.png)
 
-Principle
+#### Principle
 
-![图片不存在](media/dda544dbaa39b4e95f3be6d8b44aa584.png)
+![3top](media/3top.png)
 
 The port of this module is in white, so we need to connect it to the white ports on the board.
 
-![图片不存在](media/b6d4df7b4d3e80f9f77b4cb361c0d9a7.png)
+![pico-white](media/pico-white.png)
 
 In this experiment, we connect the module to port 9. According to the order of the pins, the red LED is connected to pin io13, yellow to pin io14, and green to io15.
 
 When the mainboard inputs high(1) to the module, the connected LED will light up. If it is low(0), the related LED will go off.
 
-![图片不存在](media/803824b697ed82d1ec302855f39ec922.png)
+![3bottom](media/3bottom.png)
 
-Wiring Diagram
+#### Wiring Diagram
 
-![图片不存在](media/539cda0fd8b40364d7baf575648d0a5f.png)
+![3901](media/3901.png)
 
-Test Code
+#### Test Code
 
-Open **3.9Traffic light module.py** and click ![图片不存在](media/bb8bff3c77c2988be0eb31c62ebefa75.png).
+Open **3.9Traffic light module.py** and click ![1407](media/1407.png).
 
 ```python
 '''
@@ -1936,16 +1936,16 @@ while True:
     green.off()
 ```
 
-Code Explanation
+#### Code Explanation
 
-![图片不存在](media/8b7f0ae11532396b3d55b3d9e58143ad.png)
+![5top](media/5top.png)
 
 1. `red = Pin(13, Pin.OUT)`
 
    Connect red LED to pin io13 and set it to output. Set the yellow and green LED pins and modes.
 
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 2. ```python
    #red LED lights up for 5s
@@ -1960,7 +1960,7 @@ Code Explanation
    
    `red.off()` turns off the red LED. This part is indispensable because red will effect other colors if it is not turned off. 
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 3. ```python
    #yellow LED blinks for 3 times.
@@ -1973,7 +1973,7 @@ Code Explanation
    
    A **for loop** is adopted here to make the yellow LED blink(on and off) for 3 times.
    
-   ![图片不存在](media/2fd65b883dd17bd50a77af9b5bdb37c2.png)
+   ![peg](media/peg.png)
    
    **range()**: creates an integer list, generally used in for loop.
    
@@ -2007,25 +2007,25 @@ Code Explanation
    
    End, quit the loop.
 
-![图片不存在](media/6efbaf3d2a2c7016395af93b825dea6b.png)
+![5bottom](media/5bottom.png)
 
-Test Result
+#### Test Result
 
-![图片不存在](media/7d7e42a04d79642c6d9f614a5e61a878.png)
+![4top](media/4top.png)
 
 After uploading the code, the red LED lights up for 5s, yellow one blinks for 3 times and green LED lights up for 5s.
 
-![图片不存在](media/b46d007e9c767f48d4e52e1f360e9b4d.gif)
+![3902](media/3902.gif)
 
-![图片不存在](media/ffabdd3c49f62391b087a8d7f7339a8c.png)
+![4bottom](media/4bottom.png)
 
 ---
 
-3.10 LPS331APTR Air Pressure Sensor
+### 3.10 LPS331APTR Air Pressure Sensor
 
-![图片不存在](media/0f796489e3fccd806ac608826e78772c.png)
+![1top](media/1top.png)
 
-![图片不存在](media/9792eb8b58f683d734af81a3d6a4133f.png)
+![KD2117](media/KD2117.png)
 
 Air pressure effects human health physiologically and psychologically.
 
@@ -2035,11 +2035,11 @@ High pressure is also having a deleterious effect. It may lead to tinnitus, dizz
 
 Beyond that, air pressure will also change people's psychological moods, causing depressed emotions.
 
-![图片不存在](media/574fafd11b0076d3a77d6b35961bec45.png)
+![1bottom](media/1bottom.png)
 
-Parameters
+#### Parameters
 
-![图片不存在](media/bb22aeac8f0bbe54abccb1cb3e9a155a.png)
+![2top](media/2top.png)
 
 Operating voltage: DC 3.3 ~ 5V
 
@@ -2057,39 +2057,39 @@ Positioning hole: diameter of 4.8mm
 
 Interface: Telephone socket
 
-![图片不存在](media/ff61b588417e98ef8df9e4d9834f8c52.png)
+![2bottom](media/2bottom.png)
 
-Principle
+#### Principle
 
-![图片不存在](media/dda544dbaa39b4e95f3be6d8b44aa584.png)
+![3top](media/3top.png)
 
 LPS331APTR module is with green housing, which is an I2C communication sensor, so we should connect to ports with green on the board.
 
 In this experiment, we connect it to port 5.
 
-![图片不存在](media/06a64915730e7590a0dc4dc47b722665.png)
+![pico-green](media/pico-green.png)
 
 Before using, we need to import LPS331AP.py library.
 
-![图片不存在](media/803824b697ed82d1ec302855f39ec922.png)
+![3bottom](media/3bottom.png)
 
-Wiring Diagram
+#### Wiring Diagram
 
-![图片不存在](media/902c8c402d34ce59ccb9a18c7e8003be.png)
+![31001](media/31001.png)
 
-Test Code
+#### Test Code
 
 Open **3.10Air pressure detection.py**.
 
 Upload library LPS331AP.py to kidspico first. Click it to choose *Upload to /*.
 
-![图片不存在](media/75a6e2b957f994c4ddf299c9491efde4.png)
+![31002](media/31002.png)
 
 Upload successfully.
 
-![图片不存在](media/f377c748f281960b8aac61c359344f30.png)
+![31003](media/31003.png)
 
-Click ![图片不存在](media/bb8bff3c77c2988be0eb31c62ebefa75.png).
+Click ![1407](media/1407.png).
 
 ```python
 '''
@@ -2111,9 +2111,9 @@ while True:
     time.sleep(0.1)
 ```
 
-Code Explanation
+#### Code Explanation
 
-![图片不存在](media/8b7f0ae11532396b3d55b3d9e58143ad.png)
+![5top](media/5top.png)
 
 1. `from LPS331AP import lps331ap`
    
@@ -2121,127 +2121,127 @@ Code Explanation
    
    `pressure_temp.measure()` measure the pressure and temperature value once.
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 2. `pressure_temp.pressure_data`
    
    attain the measured pressure value.
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 3. `pressure_temp.temp_data`
    
    attain the measured temperature value.
 
-![图片不存在](media/6efbaf3d2a2c7016395af93b825dea6b.png)
+![5bottom](media/5bottom.png)
 
-Test Result
+#### Test Result
 
-![图片不存在](media/7d7e42a04d79642c6d9f614a5e61a878.png)
+![4top](media/4top.png)
 
 Before uploading the code, please ensure the wiring is connected correctly. Otherwise, errors may occur:
 
-![图片不存在](media/e0fe70fbb42136b87101db12e8cbfa78.png)
+![31004](media/31004.png)
 
 After uploading the code, Shell outputs the pressure and temperature value and refreshes them every 0.1s.
 
-![图片不存在](media/7a86bed14dd2a49535db921a64bf7b80.png)
+![31005](media/31005.png)
 
 Touch the sensing area with your finger, and you will see the temperature value rises.
 
-![图片不存在](media/372d0e57149d16fdf4a529113d9b8246.png)
+![31006](media/31006.png)
 
-![图片不存在](media/0d84e8e4f9df63aaa4b5d13f20b140c0.png)
+![31007](media/31007.png)
 
-Click ![图片不存在](media/dc7b8f052ee9198b54f12392d91d4171.png)or click Ctrl+C to exit execution.
+Click ![1413](media/1413.png)or click Ctrl+C to exit execution.
 
-![图片不存在](media/ffabdd3c49f62391b087a8d7f7339a8c.png)
+![4bottom](media/4bottom.png)
 
 ---
 
 ## 4. Comprehensive Experiments
 
-4.1 Rain Detection
+### 4.1 Rain Detection
 
 This station monitors weather conditions in real time.
 
 In this experiment, we combine a steam sensor and a passive buzzer to achieve a rain detection function for this mini meteorological station. When the steam sensor detects rain, the buzzer alarms. 
 
-Flow
+#### Flow
 
-![图片不存在](media/68739b9eba3e04a88586eec60d7fc9ca.png)
+![4101](media/4101.png)
 
-Assembly
+#### Assembly
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Required Parts**
 
-![图片不存在](media/668dd2767382d9d52b8c4c189acc16c7.png)
+![41_00](media/41_00.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 1**
 
-![图片不存在](media/72ee1b98f8676fbd77f8bfd8b44f18a9.png)
+![41_01](media/41_01.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 2**
 
-![图片不存在](media/499530e704634795298458202095ad5c.png)
+![41_02](media/41_02.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 3**
 
-![图片不存在](media/39e658e4d34fdfe5103fd8ea46d2b5db.png)
+![41_03](media/41_03.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 4**
 
-![图片不存在](media/f2223f22e15f0f1201e2ced9d0c80a65.png)
+![41_04](media/41_04.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 5**
 
-![图片不存在](media/a612f004ad2dcb2390cd349537a32329.png)
+![41_05](media/41_05.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 6**
 
-![图片不存在](media/d0c551fe609f044fbfd06794f3ceebec.png)
+![41_06](media/41_06.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 7**
 
-![图片不存在](media/e3c488608724e22735acc9fac9f3c5b9.png)
+![41_07](media/41_07.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 8**
 
-![图片不存在](media/dabd92658af8140a063ee2b33197ee03.png)
+![41_08](media/41_08.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Completed**
 
-![图片不存在](media/0179974542dccfc8ff6b8be2f0669523.png)
+![41_09](media/41_09.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
-Wiring Diagram
+#### Wiring Diagram
 
-![图片不存在](media/eacbf0408e2f027ca8af59b05b00baca.png)
+![4102](media/4102.png)
 
-Test Code
+#### Test Code
 
-Open **4.1Rain detection.py** and click ![图片不存在](media/bb8bff3c77c2988be0eb31c62ebefa75.png).
+Open **4.1Rain detection.py** and click ![1407](media/1407.png).
 
 ```python
 '''
@@ -2272,15 +2272,15 @@ while True:
         buzzer.duty_u16(0)
 ```
 
-Code Explanation
+#### Code Explanation
 
-![图片不存在](media/8b7f0ae11532396b3d55b3d9e58143ad.png)
+![5top](media/5top.png)
 
 **Conceive:**	
 
 Set a threshold of voltage to determine the water volume. When there is too much water, the voltage exceeds the threshold, rain is detected, and the buzzer alarms. The buzzer will stop alarming when the voltage is lower than the threshold.
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 **Code structure:**
 
@@ -2295,103 +2295,103 @@ Set a threshold of voltage to determine the water volume. When there is too much
    - voltage > 1: buzzer alarms.
    - voltage ≤ 1: buzzer does not emit sounds.
 
-![图片不存在](media/6efbaf3d2a2c7016395af93b825dea6b.png)
+![5bottom](media/5bottom.png)
 
-Test Result
+#### Test Result
 
-![图片不存在](media/7d7e42a04d79642c6d9f614a5e61a878.png)
+![4top](media/4top.png)
 
 After uploading the code, the steam sensor will detects the ambient water volume and converts it to a voltage output. When the voltage is greater than 1, the buzzer alarms. If not, the buzzer will not emit sounds.
 
 <span style="color: rgb(2550, 10, 50);">**ATTENTION: Be careful when using water, please do not to drip to any other place outside the detection area to aviod a short circuit.**</span>
 
-![图片不存在](media/71fed73fa89c2d7b7b4e3d936c8a9206.gif)
+![4103](media/4103.gif)
 
-![图片不存在](media/ffabdd3c49f62391b087a8d7f7339a8c.png)
+![4bottom](media/4bottom.png)
 
 ---
 
-4.2 Fire Alarm
+### 4.2 Fire Alarm
 
 The fire alarm system of the station can effectively prevent and deal with forest fires.
 
 In this experiment, we build a fire alarm with a flame sensor and a passive buzzer. When flame is detected, the buzzer will emit sounds for alarming. 
 
-Flow
+#### Flow
 
-![图片不存在](media/2860a693e50904d0c22e6eade5a8c440.png)
+![4201](media/4201.png)
 
-Assembly
+#### Assembly
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Required Parts**
 
-![图片不存在](media/52cf38f0c8ebe681d5944ff75d8cb6c8.png)
+![42_00](media/42_00.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 1**
 
-![图片不存在](media/6de6d32c05cd762207f811692f9645fa.png)
+![42_01](media/42_01.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 2**
 
-![图片不存在](media/23b2a3a5a34c9ebcedd2cc7feff4a349.png)
+![42_02](media/42_02.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 3**
 
-![图片不存在](media/d56dcc94ae490773d04d66794e1d8633.png)
+![42_03](media/42_03.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 4**
 
-![图片不存在](media/ccea7ef564d9db2a9da94f73633675c9.png)
+![42_04](media/42_04.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 5**
 
-![图片不存在](media/d5119b491d04aa12dfe213f60f1379f4.png)
+![42_05](media/42_05.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 6**
 
-![图片不存在](media/5ebf8c8add33588e91805f3f2aed8916.png)
+![42_06](media/42_06.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 7**
 
-![图片不存在](media/6cb0a0d26e43706c6c340654c5297319.png)
+![42_07](media/42_07.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 8**
 
-![图片不存在](media/06698f4cfc017346049a1ca6cf920357.png)
+![42_08](media/42_08.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Completed**
 
-![图片不存在](media/414176f6673cde2f461c2d89b1bca116.png)
+![42_09](media/42_09.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
-Wiring Diagram
+#### Wiring Diagram
 
-![图片不存在](media/4cd978f3613cc94a3f734448a19fa9fe.png)
+![4202](media/4202.png)
 
-Test Code
+#### Test Code
 
-Open **4.2Fire alarm.py** and click ![图片不存在](media/bb8bff3c77c2988be0eb31c62ebefa75.png).
+Open **4.2Fire alarm.py** and click ![1407](media/1407.png).
 
 ```python
 '''
@@ -2422,15 +2422,15 @@ while True:
     time.sleep(0.1)
 ```
 
-Code Explanation
+#### Code Explanation
 
-![图片不存在](media/8b7f0ae11532396b3d55b3d9e58143ad.png)
+![5top](media/5top.png)
 
 **Conceive:**
 
 Set a threshold of voltage to determine whether there is flame. When the sensor detects flame, the voltage is lower than the threshold, and the buzzer alarms. The buzzer will stop alarming when the voltage exceeds the threshold (the sensor detects no flame).
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 **Code structure:**
 
@@ -2445,21 +2445,21 @@ Set a threshold of voltage to determine whether there is flame. When the sensor 
    - voltage < 2: buzzer alarms.
    - voltage ≥ 1: buzzer does not emit sounds.
 
-![图片不存在](media/6efbaf3d2a2c7016395af93b825dea6b.png)
+![5bottom](media/5bottom.png)
 
-Test Result
+#### Test Result
 
-![图片不存在](media/7d7e42a04d79642c6d9f614a5e61a878.png)
+![4top](media/4top.png)
 
 Upload the code. When the flame sensor detects flame, the voltage will lower than 2, and the buzzer will alarm. If not, the buzzer will not emit sounds.
 
-![图片不存在](media/07ede3488c0f57d2e61ed58e76416f98.gif)
+![4203](media/4203.gif)
 
-![图片不存在](media/ffabdd3c49f62391b087a8d7f7339a8c.png)
+![4bottom](media/4bottom.png)
 
 ---
 
-4.3 Magnetic Field Detection
+### 4.3 Magnetic Field Detection
 
 After the lightning strike, a certain amount of electricity will generated in the surrounding, and a strong magnetic field will be produced in an instant. 
 
@@ -2467,75 +2467,75 @@ This magnetic field interferes with the connection of the relevant equipment of 
 
 In this experiment, we utilize a Hall sensor and a white LED module to detect magnetic field. When the Hall sensor detects a magnetic field, the white LED lights up.
 
-Flow
+#### Flow
 
-![图片不存在](media/bd8bc7dc51edb15ab56e90e1b3a3b260.png)
+![4301](media/4301.png)
 
-Assembly
+#### Assembly
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Required Parts**
 
-![图片不存在](media/a0757e59a99ce5cdc8c4bd63366b3cd3.png)
+![43_00](media/43_00.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 1**
 
-![图片不存在](media/f86308ab94f949ecf77e06cdbc23c15b.png)
+![43_01](media/43_01.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 2**
 
-![图片不存在](media/81e10d4791b4b6aec20238f37c493aae.png)
+![43_02](media/43_02.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 3**
 
-![图片不存在](media/ba12d32f1e2ee9a1524e3c8c49dd2bd8.png)
+![43_03](media/43_03.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 4**
 
-![图片不存在](media/cc241419ca42e9ba125b54b10776274a.png)
+![43_04](media/43_04.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 5**
 
-![图片不存在](media/0cd2f7377d0deeb1d76d345ff2480ec9.png)
+![43_05](media/43_05.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 6**
 
-![图片不存在](media/caca86ba4ab1c99d99838e21695606e0.png)
+![43_06](media/43_06.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 7**
 
-![图片不存在](media/d8277bcc6b09ed294039ceb9cd9770ed.png)
+![43_07](media/43_07.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Completed**
 
-![图片不存在](media/3d5f8e842bda98fa7354987fc6b7b4b7.png)
+![43_08](media/43_08.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
-Wiring Diagram
+#### Wiring Diagram
 
-![图片不存在](media/2f65c76a8ea90d9c74bd5938a9722362.png)
+![4302](media/4302.png)
 
-Test Code
+#### Test Code
 
-Open **4.3Magnetic field detection.py** and click ![图片不存在](media/bb8bff3c77c2988be0eb31c62ebefa75.png).
+Open **4.3Magnetic field detection.py** and click ![1407](media/1407.png).
 
 ```python
 '''
@@ -2560,15 +2560,15 @@ while True:
     time.sleep(0.1)
 ```
 
-Code Explanation
+#### Code Explanation
 
-![图片不存在](media/8b7f0ae11532396b3d55b3d9e58143ad.png)
+![5top](media/5top.png)
 
 **Conceive:**
 
 When the Hall sensor detects a magnetic field, a low power(0) will be output, and the white LED lights up. If there is no magnetic field, high(1) will be output, and the LED goes off.
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 **Code structure:**
 
@@ -2584,97 +2584,97 @@ When the Hall sensor detects a magnetic field, a low power(0) will be output, an
    - value ≠ 0: the white LED goes off.
 
 
-![图片不存在](media/6efbaf3d2a2c7016395af93b825dea6b.png)
+![5bottom](media/5bottom.png)
 
-Test Result
+#### Test Result
 
-![图片不存在](media/7d7e42a04d79642c6d9f614a5e61a878.png)
+![4top](media/4top.png)
 
 After uploading the code, the Hall sensor starts to detect magnetic field.
 
 If the sensor detects a magnetic field, the white LED will turn on. If not, the LED will go off.
 
-![图片不存在](media/97377a5dee3ef21e6b9d98c7a1df470a.gif)
+![4303](media/4303.gif)
 
-![图片不存在](media/ffabdd3c49f62391b087a8d7f7339a8c.png)
+![4bottom](media/4bottom.png)
 
 ---
 
-4.4 ThDetection
+### 4.4 ThDetection
 
 Thunder is the atmospheric sound produced by lightning. When thunder is detected, it sends an alert that rain may be coming.
 
 In this experiment, we integrate a sound sensor and a white LED module to construct a thunder detector. When the thunder volume exceeds a set threshold, the white LED will lights up.
 
-Flow
+#### Flow
 
-![图片不存在](media/926d61ac26eb6307c74266bc20b53f4e.png)
+![4401](media/4401.png)
 
-Assembly
+#### Assembly
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Required Parts**
 
-![图片不存在](media/0da61e437d1f482051c6d7998a3f2c4e.png)
+![44_00](media/44_00.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 1**
 
-![图片不存在](media/fe786304d8f096dd119a6ba6901bb21a.png)
+![44_01](media/44_01.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 2**
 
-![图片不存在](media/db20f1b299a2b67a8a35f60816e71e43.png)
+![44_02](media/44_02.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 3**
 
-![图片不存在](media/09958a8f58a27dc300bd59c29678f7b8.png)
+![44_03](media/44_03.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 4**
 
-![图片不存在](media/e9531dd1d9bb6b3f378bdf1fd45f5410.png)
+![44_04](media/44_04.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 5**
 
-![图片不存在](media/9ca55af68b595d65870a37f3ff56d845.png)
+![44_05](media/44_05.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 6**
 
-![图片不存在](media/1c779230910422b86a80f8279d9395e8.png)
+![44_06](media/44_06.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 7**
 
-![图片不存在](media/fc6adb99c821d9e3378a6c46b50e2543.png)
+![44_07](media/44_07.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Completed**
 
-![图片不存在](media/924d8ade589d186ae8637f11c2fc15b9.png)
+![44_08](media/44_08.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
-Wiring Diagram
+#### Wiring Diagram
 
-![图片不存在](media/39d17591577a9107339b17d0c4709c23.png)
+![4402](media/4402.png)
 
-Test Code
+#### Test Code
 
-Open **4.4Sound detection.py** and click ![图片不存在](media/bb8bff3c77c2988be0eb31c62ebefa75.png).
+Open **4.4Sound detection.py** and click ![1407](media/1407.png).
 
 ```python
 '''
@@ -2700,15 +2700,15 @@ while True:
         led.off()
 ```
 
-Code Explanation
+#### Code Explanation
 
-![图片不存在](media/8b7f0ae11532396b3d55b3d9e58143ad.png)
+![5top](media/5top.png)
 
 **Conceive:**
 
 Set a threshold of analog value to determine the thunder volume. When thunder is detected, the analog value exceeds the threshold, and the white LED lights up as an alarm. The LED will go off when the value is lower than the threshold.
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 **Code structure:**
 
@@ -2723,91 +2723,91 @@ Set a threshold of analog value to determine the thunder volume. When thunder is
    - analog value > 10000, the white LED lights up.
    - analog value ≤ 10000, the white LED goes off.
 
-![图片不存在](media/6efbaf3d2a2c7016395af93b825dea6b.png)
+![5bottom](media/5bottom.png)
 
-Test Result
+#### Test Result
 
-![图片不存在](media/7d7e42a04d79642c6d9f614a5e61a878.png)
+![4top](media/4top.png)
 
 After uploading the code, the sound sensor detects whether there is a thunder. When the analog value of the sound exceeds 10000, a thunder is detected and the white LED will light up.
 
 Here we stimulate thunder by playing music. When the value is greater than 10000, LED lights up.
 
-![图片不存在](media/0adbf9cc90f58d97990ea9b3cb5fe64a.gif)
+![4403](media/4403.gif)
 
-![图片不存在](media/ffabdd3c49f62391b087a8d7f7339a8c.png)
+![4bottom](media/4bottom.png)
 
 ---
 
-4.5 Temperature Detection
+### 4.5 Temperature Detection
 
 It is necessary to monitor the atmospheric temperature in the natural environment in real time. If the temperature is too high, disasters such as fire may occur. When the normal temperature is detected, the green LED lights up; the yellow LED is a reminder for raising temperature; if red LED is on, be very careful because it indicates a high temperature!
 
 In this experiment, the XHT11 temperature and humidity sensor and the traffic light module to measure temperature range. Three colors of LED indicate three ranges of ambient temperature. 
 
-Flow
+#### Flow
 
-![图片不存在](media/92f231d00b82599a16cd042f2c404b32.png)
+![4501](media/4501.png)
 
-Assembly
+#### Assembly
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Required Parts**
 
-![图片不存在](media/260e654ff76eef3862a782225fe43eb9.png)
+![45_00](media/45_00.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 1**
 
-![图片不存在](media/b27745a041067c2705eb90555b3671f4.png)
+![45_01](media/45_01.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 2**
 
-![图片不存在](media/dd1ff7fcce38303faeabbfef77ad8209.png)
+![45_02](media/45_02.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 3**
 
-![图片不存在](media/6968f988bf1b29a065a46eff399abd5b.png)
+![45_03](media/45_03.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 4**
 
-![图片不存在](media/fd17d839912b892766339eba04b6ca42.png)
+![45_04](media/45_04.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 5**
 
-![图片不存在](media/97edee6113a8e371c4ecbb65a7f5cfb8.png)
+![45_05](media/45_05.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 6**
 
-![图片不存在](media/38b47b800997b2a1d1e13ae7f16aeb6b.png)
+![45_06](media/45_06.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Completed**
 
-![图片不存在](media/63bf01c075cc0d4d854502e67ce157a4.png)
+![45_07](media/45_07.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
-Wiring Diagram
+#### Wiring Diagram
 
-![图片不存在](media/88fba009a2e032323fb7019d2b9d3a48.png)
+![4502](media/4502.png)
 
-Test Code
+#### Test Code
 
-Open **4.5Temperature and humidity detection.py** and click ![图片不存在](media/bb8bff3c77c2988be0eb31c62ebefa75.png).
+Open **4.5Temperature and humidity detection.py** and click ![1407](media/1407.png).
 
 ```python
 '''
@@ -2846,9 +2846,9 @@ while True:
         yellow.off() 
 ```
 
-Code Explanation
+#### Code Explanation
 
-![图片不存在](media/8b7f0ae11532396b3d55b3d9e58143ad.png)
+![5top](media/5top.png)
 
 **Conceive:**
 
@@ -2864,7 +2864,7 @@ Corresponding LED will light up when the ambient temperature is within the relat
 - Within warning temperature range: the yellow LED lights up.
 - Within high temperature range: the red LED lights up.
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 **Code structure:**
 
@@ -2880,11 +2880,11 @@ Corresponding LED will light up when the ambient temperature is within the relat
    - 29°C ≤ temperature < 35°C: the yellow LED lights up and other LEDs are off.
    - temperature > 35°C: the red LED lights up and other LEDs are off.
 
-![图片不存在](media/6efbaf3d2a2c7016395af93b825dea6b.png)
+![5bottom](media/5bottom.png)
 
-Test Result
+#### Test Result
 
-![图片不存在](media/7d7e42a04d79642c6d9f614a5e61a878.png)
+![4top](media/4top.png)
 
 After uploading the code, the XHT11 sensor detects the ambient temperature value.
 
@@ -2894,87 +2894,87 @@ When the value is within the warning temperature range, the yellow LED turns on;
 
 When the value exceeds the high temperature threshold, the red LED lights up.
 
-![图片不存在](media/525e9ee10b46ccf3dfd4a32cbfc24c53.gif)
+![4503](media/4503.gif)
 
-![图片不存在](media/ffabdd3c49f62391b087a8d7f7339a8c.png)
+![4bottom](media/4bottom.png)
 
 ---
 
-4.6 Ultraviolet Detection
+### 4.6 Ultraviolet Detection
 
 In daily life, when the UV index is greater than 3, you'd better do sunscreen measures when going out. This station will calculate the UV index in real time to make timely reminders.
 
 In this experiment, we detect the UV index with an ultraviolet sensor and a traffic light module. When the detected UV index is higher than a set threshold, the red LED will light up.
 
-Flow
+#### Flow
 
-![图片不存在](media/963f0500563a5475c7c7cca18957809e.png)
+![4601](media/4601.png)
 
-Assembly
+#### Assembly
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Required Parts**
 
-![图片不存在](media/9d66023baa1dcfb5162c864c3c96d7c4.png)
+![46_00](media/46_00.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 1**
 
-![图片不存在](media/5b833078a67b5a846d314acfec93b963.png)
+![46_01](media/46_01.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 2**
 
-![图片不存在](media/56d5597e4413006b525cdfb36af13326.png)
+![46_02](media/46_02.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 3**
 
-![图片不存在](media/f21fc29eb3436bbf49ac9a2d0488fcf1.png)
+![46_03](media/46_03.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 4**
 
-![图片不存在](media/ab78dd16a2499e31108b27c92d9b565e.png)
+![46_04](media/46_04.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 5**
 
-![图片不存在](media/269a148802b930ce2e89aa0d61bc7d31.png)
+![46_05](media/46_05.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 6**
 
-![图片不存在](media/749965e3af108da858a8a75d323b077d.png)
+![46_06](media/46_06.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 7**
 
-![图片不存在](media/5e6185623f7b33bed5ae1926e1fcea11.png)
+![46_07](media/46_07.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Completed**
 
-![图片不存在](media/e225b921268892cd261ff256d1bd55be.png)
+![46_08](media/46_08.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
-Wiring Diagram
+#### Wiring Diagram
 
-![图片不存在](media/96b761f3a8ca14e48cfc3acf436c4ede.png)
+![4602](media/4602.png)
 
-Test Code
+#### Test Code
 
-Open **4.6Ultraviolet detection.py** and click ![图片不存在](media/bb8bff3c77c2988be0eb31c62ebefa75.png).
+Open **4.6Ultraviolet detection.py** and click ![1407](media/1407.png).
 
 ```python
 '''
@@ -3040,9 +3040,9 @@ while True:
         red.off()
 ```
 
-Code Explanation
+#### Code Explanation
 
-![图片不存在](media/8b7f0ae11532396b3d55b3d9e58143ad.png)
+![5top](media/5top.png)
 
 **Conceive:**
 
@@ -3050,7 +3050,7 @@ When the UV index is within 0 ~ 2, the ultraviolet light is the weakest, and it 
 
 Herein, we set the threshold of the UV index to 3. If the value exceeds 3, the red LED will light up to remind you to wear sunscreen. If the value does not reach 3, the LED will go off.
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 **Code structure:**
 
@@ -3065,106 +3065,106 @@ Herein, we set the threshold of the UV index to 3. If the value exceeds 3, the r
    - UV index > 3: the red LED lights up as a reminder.
    - UV index ≤ 3: the red LED goes off.
 
-![图片不存在](media/6efbaf3d2a2c7016395af93b825dea6b.png)
+![5bottom](media/5bottom.png)
 
-Test Result
+#### Test Result
 
-![图片不存在](media/7d7e42a04d79642c6d9f614a5e61a878.png)
+![4top](media/4top.png)
 
 After uploading the code, when the UV index is greater than 3, the red LED will light up to remind you to take sun protection measures when going out.
 
-![图片不存在](media/bc1b7fb876c256f6d4f7127f91e93611.gif)
+![4603](media/4603.gif)
 
-![图片不存在](media/ffabdd3c49f62391b087a8d7f7339a8c.png)
+![4bottom](media/4bottom.png)
 
 ---
-4.7 Air Pressure Detection
+### 4.7 Air Pressure Detection
 
 The station monitors air pressure in real time. When the air pressure is in normal range, the green LED lights up; When it is in the low range, the yellow LED turns on; When it is high, the red LED is on.
 
 In this experiment, we use an LPS331APTR air pressure sensor and a traffic light module to reveal the air pressure. LED will light up in corresponding colors when the pressure value is in the related set range.
 
-Flow
+#### Flow
 
-![图片不存在](media/f508427f4d260c90191cf7162370eae3.png)
+![4701](media/4701.png)
 
-Assembly
+#### Assembly
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Required Parts**
 
-![图片不存在](media/ef4b52a495a1f34c52f16a1db9f7427a.png)
+![47_00](media/47_00.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 1**
 
-![图片不存在](media/9671348396f252ed46af2ed29b048250.png)
+![47_01](media/47_01.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 2**
 
-![图片不存在](media/f2269238892afb6150323e1decfe759e.png)
+![47_02](media/47_02.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 3**
 
-![图片不存在](media/22de8e93ff1e063b3c089fa7f694609d.png)
+![47_03](media/47_03.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 4**
 
-![图片不存在](media/e70ca9d932469fc42f2aaa0e6ac0361d.png)
+![47_04](media/47_04.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 5**
 
-![图片不存在](media/84ac495795ecf8b8c7a3312665f16626.png)
+![47_05](media/47_05.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 6**
 
-![图片不存在](media/2ca6903e9b9f010891777a7f565eb907.png)
+![47_06](media/47_06.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 7**
 
-![图片不存在](media/6929988fb26d0a1132ff4718adf880e3.png)
+![47_07](media/47_07.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 8**
 
-![图片不存在](media/6c4764786c83678c16a8a112e049a515.png)
+![47_08](media/47_08.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Step 9**
 
-![图片不存在](media/10efe116a687a3a59804cab69f7f3715.png)
+![47_09](media/47_09.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
 **Completed**
 
-![图片不存在](media/d078547f4346561b2924f1b5b1cd803a.png)
+![47_10](media/47_10.png)
 
-![图片不存在](media/588eda85b812e0bab54badc609a31636.png)
+![line1](media/line1.png)
 
-Wiring Diagram
+#### Wiring Diagram
 
-![图片不存在](media/7d2df85410abf73ad08c5ca8b1e30982.png)
+![4702](media/4702.png)
 
-Test Code
+#### Test Code
 
-Open **4.7Air pressure detection.py** and click ![图片不存在](media/bb8bff3c77c2988be0eb31c62ebefa75.png).
+Open **4.7Air pressure detection.py** and click ![1407](media/1407.png).
 
 ```python
 '''
@@ -3202,9 +3202,9 @@ while True:
         yellow.off()
 ```
 
-Code Explanation
+#### Code Explanation
 
-![图片不存在](media/8b7f0ae11532396b3d55b3d9e58143ad.png)
+![5top](media/5top.png)
 
 **Conceive:**
 
@@ -3222,7 +3222,7 @@ LED will light up in corresponding colors when the pressure value is in the rela
 - Within normal pressure range: the green LED lights up.
 - Within high pressure range: the red LED lights up.
 
-![图片不存在](media/2b30b20e16472c7960908a91f97928ea.png)
+![line2](media/line2.png)
 
 **Code structure:**
 
@@ -3238,11 +3238,11 @@ LED will light up in corresponding colors when the pressure value is in the rela
    - air pressure < 950hPa: the yellow LED lights up and other two LEDs goes off.
    - 950hPa < air pressure < 1050hPa: the green LED lights up and other two LEDs goes off.
 
-![图片不存在](media/6efbaf3d2a2c7016395af93b825dea6b.png)
+![5bottom](media/5bottom.png)
 
-Test Result
+#### Test Result
 
-![图片不存在](media/7d7e42a04d79642c6d9f614a5e61a878.png)
+![4top](media/4top.png)
 
 After uploading the code, the LPS331APTR sensor measures the air pressure.
 
@@ -3252,8 +3252,8 @@ When the air pressure is in the low range, the yellow LED lights up;
 
 When the air pressure is in the high range, the res LED turns on.
 
-![图片不存在](media/8ed5aa7ca790e59dcc52115d19338975.gif)
+![4703](media/4703.gif)
 
-![图片不存在](media/ffabdd3c49f62391b087a8d7f7339a8c.png)
+![4bottom](media/4bottom.png)
 
 ---
