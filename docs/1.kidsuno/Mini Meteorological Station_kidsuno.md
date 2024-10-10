@@ -939,7 +939,7 @@ Blow to the XHT11 sensor and you will see both temperature and humidity values r
 
 Unlike the previous modules, the steam sensor is an analog module rather than a digital one.
 
-What is the difference? For digital modules, they only output high(3.3V) or low(0V); while analog ones are able to output or input intermediate voltage values through ADC analog ports on the board.
+What is the difference? For digital modules, they only output high(5V) or low(0V); while analog ones are able to output or input intermediate voltage values through ADC analog ports on the board.
 
 ![1bottom](media/1bottom.png)
 
@@ -1346,6 +1346,12 @@ If no flame is detected, the serial monitor shows *Nothing*.
 
 ![1top](media/1top.png)
 
+Old:
+
+![KD2098](media/KD2098.png)
+
+New:
+
 ![KD2098BG](media/KD2098BG.png)
 
 The sound sensor acts as a microphone that can capture sound information in the environment.
@@ -1393,6 +1399,8 @@ In this experiment, we connect the module to port 7. According to the board port
 ![3bottom](media/3bottom.png)
 
 #### Wiring Diagram
+
+![3708](media/3708.png)
 
 ![3701](media/3701.png)
 

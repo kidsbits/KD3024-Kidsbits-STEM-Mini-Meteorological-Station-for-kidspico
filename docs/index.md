@@ -16,7 +16,13 @@ In this kit, multiple sensors and modules are included: white LED module, Hall s
 
 ## Kit List
 
-<span style="color: rgb(2550, 10, 50);">**The main boards are not included in this kit!**</span>
+<span style="color: rgb(2550, 10, 50);">**KD3024: Mainboards are NOT included in this kit.**</span>
+
+<span style="color: rgb(2550, 10, 50);">**KD3024-U kit includes kidsuno board.**</span>
+
+<span style="color: rgb(2550, 10, 50);">**KD3024-E kit includes kidsIOT board.**</span>
+
+<span style="color: rgb(2550, 10, 50);">**KD3024-P kit includes kidspico board.**</span>
 
 |  #   |                 NAME                  |               PIC               | QTY  |
 | :--: | :-----------------------------------: | :-----------------------------: | :--: |
@@ -61,8 +67,6 @@ In this kit, multiple sensors and modules are included: white LED module, Hall s
 ---
 
 ## Main Boards
-
-<span style="color: rgb(2550, 10, 50);">**The main boards are not included in this kit!**</span>
 
 <span style="color: rgb(2550, 10, 50);">**Before experiments, please have a good grasp of main boards:**</span>
 
